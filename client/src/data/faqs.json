@@ -1,0 +1,218 @@
+[
+  {
+    "category": "city-tours",
+    "categoryTitle": "City Tours",
+    "categoryTitleAr": "جولات المدينة",
+    "categorySubtitle": "Day tours across Dubai, Abu Dhabi and beyond.",
+    "categorySubtitleAr": "جولات سياحية يومية عبر دبي، أبوظبي والوجهات المجاورة.",
+    "items": [
+      {
+        "id": "city-1",
+        "question": "How many people are on the tour with us?",
+        "questionAr": "كم عدد الأشخاص الذين يشاركون معنا في الجولة؟",
+        "answer": "Our small-group city tours are capped at 15 to 18 guests in premium, air-conditioned mini-coaches to ensure personalized attention, generous legroom, and effortless pacing. Private tour options are also available for families and VIP groups.",
+        "answerAr": "تتميز جولات المدينة الجماعية بمجموعات صغيرة لا تتعدى 15 إلى 18 ضيفاً في حافلات سياحية مصغرة ومكيفة لضمان الراحة والاهتمام الشخصي. كما تتوفر خيارات الجولات الخاصة للعائلات والمجموعات."
+      },
+      {
+        "id": "city-2",
+        "question": "What time will we return to our hotel?",
+        "questionAr": "في أي وقت سنعود إلى الفندق؟",
+        "answer": "Morning half-day city tours return between 1:30 PM and 2:00 PM. Full-day tours (such as Abu Dhabi from Dubai) conclude with drop-off between 6:30 PM and 7:30 PM, depending on traffic conditions.",
+        "answerAr": "تنتهي جولات الصباح نصف اليوم بالعودة بين الساعة 1:30 و2:00 ظهراً. بينما تنتهي الجولات اليومية الكاملة (مثل جولة أبوظبي من دبي) بالتوصيل للفندق بين الساعة 6:30 و7:30 مساءً."
+      },
+      {
+        "id": "city-3",
+        "question": "Will an abaya be provided for the visit to the Palace?",
+        "questionAr": "هل يتم توفير عباءة لزيارة قصر الوطن أو المعالم الدينية؟",
+        "answer": "Yes, complimentary traditional clean abayas and scarves are provided for all female guests visiting Qasr Al Watan, Sheikh Zayed Grand Mosque, or other heritage venues requiring modest attire.",
+        "answerAr": "نعم، نوفر عباءات وشيلات تقليدية نظيفة ومجانية لجميع الزائرات عند زيارة قصر الوطن أو جامع الشيخ زايد الكبير والمواقع التراثية التي تتطلب زياً محتشماً."
+      },
+      {
+        "id": "city-4",
+        "question": "Where can I buy my own abaya?",
+        "questionAr": "أين يمكنني شراء عباءة خاصة بي؟",
+        "answer": "You can purchase authentic abayas in the historic souks of Old Dubai (Deira & Naif Souks), the Souk at Qaryat Al Beri in Abu Dhabi, or from the retail promenade inside the Sheikh Zayed Grand Mosque Visitor Centre.",
+        "answerAr": "يمكنك شراء عباءات تقليدية فاخرة من الأسواق التراثية في دبي القديمة (مثل سوق ديرة وسوق نايف)، أو سوق قرية البري في أبوظبي، أو من مركز زوار جامع الشيخ زايد."
+      },
+      {
+        "id": "city-5",
+        "question": "When is the pickup time and how will I receive confirmation of the location?",
+        "questionAr": "متى موعد الاستقبال وكيف أتلقى تأكيد موقع ونقطة التجمع؟",
+        "answer": "Pickups occur between 8:00 AM and 9:00 AM for morning departures. You will receive an automated WhatsApp confirmation and email the evening prior with your guide's contact, exact pickup window, and live tracking.",
+        "answerAr": "يكون موعد الاستقبال بين الساعة 8:00 و9:00 صباحاً. ستتلقى تأكيداً عبر الواتساب والبريد الإلكتروني في الليلة السابقة للرحلة متضمناً رقم هاتف المرشد والوقت المحدد ورابط التتبع المباشر."
+      },
+      {
+        "id": "city-6",
+        "question": "Is there a dress code for the Blue Mosque?",
+        "questionAr": "هل يوجد زي محدد لدخول المسجد الأزرق (الفاروق عمر بن الخطاب)؟",
+        "answer": "Yes. Modest clothing is required: shoulders and knees must be covered for men and women. Women must wear a headscarf, and loose-fitting, non-transparent attire is mandatory.",
+        "answerAr": "نعم، يشترط ارتداء ملابس محتشمة تغطي الكتفين والركبتين للرجال والنساء. كما يجب على السيدات تغطية الرأس بحجاب، وتجنب الملابس الشفافة أو الضيقة."
+      },
+      {
+        "id": "city-7",
+        "question": "Is there a dress code for children?",
+        "questionAr": "هل يوجد زي محدد للأطفال؟",
+        "answer": "Children under 10 years of age are not subject to strict dress codes and can wear normal comfortable summer clothing, though light sun-protective clothing and hats are recommended.",
+        "answerAr": "لا توجد قيود صارمة على ملابس الأطفال دون سن العاشرة، ويمكنهم ارتداء ملابس صيفية مريحة مع تفضيل قبعة شمسية وملابس خفيفة واقية من الشمس."
+      },
+      {
+        "id": "city-8",
+        "question": "Do I need to have a passport for this tour?",
+        "questionAr": "هل أحتاج إلى حمل جواز السفر خلال الجولة؟",
+        "answer": "For city tours traveling between Emirates (such as Dubai to Abu Dhabi), please carry your original passport or Emirates ID, as occasional inter-emirate security checkpoints require official identification.",
+        "answerAr": "للجولات التي تتنقل بين الإمارات (مثل رحلات أبوظبي من دبي)، يُرجى إحضار جواز السفر الأصلي أو بطاقة الهوية الإماراتية تحسباً لنقاط التفتيش الأمنية الرسمية."
+      },
+      {
+        "id": "city-9",
+        "question": "Is there a lunch break, and where can we have lunch?",
+        "questionAr": "هل تتوفر استراحة للغداء، وأين يمكننا تناول وجبة الغداء؟",
+        "answer": "Yes, full-day tours feature a 45-to-60-minute lunch stop. Depending on the itinerary, you may dine at a curated authentic Arabic restaurant or choose from options at Marina Mall or Souk Madinat.",
+        "answerAr": "نعم، تتضمن الجولات اليومية الكاملة استراحة غداء لمدة 45 إلى 60 دقيقة في مطاعم تراثية مختارة بعناية أو مجمعات سياحية مميزة مثل مارينا مول أو سوق مدينة جميرا."
+      },
+      {
+        "id": "city-10",
+        "question": "Can I use the tickets another time?",
+        "questionAr": "هل يمكنني استخدام التذاكر في وقت آخر؟",
+        "answer": "Attraction tickets included in our packages (e.g. Dubai Frame, Louvre Abu Dhabi) are tied to the specific group tour timeslot. If you need to reschedule, please contact us at least 24 hours prior to departure.",
+        "answerAr": "تذاكر المعالم المشمولة (مثل برواز دبي أو متحف اللوفر أبوظبي) مرتبطة بموعد وتاريخ الجولة. في حال الرغبة بتغيير الموعد، يرجى إخطارنا قبل 24 ساعة على الأقل لإعادة الجدولة."
+      },
+      {
+        "id": "city-11",
+        "question": "What is our Program?",
+        "questionAr": "ما هو برنامج وخطة الجولة؟",
+        "answer": "Each tour follows a carefully timed itinerary designed around lighting, crowd avoidance, and guest comfort. You can see the full hour-by-hour itinerary on each individual tour page.",
+        "answerAr": "تتبع كل جولة برنامجاً زمنياً مدروساً بعناية لتفادي الازدحام والاستمتاع بأجمل أوقات الإضاءة والتصوير. يمكنك مراجعة جدول الساعات الكامل في صفحة كل تجربة."
+      },
+      {
+        "id": "city-12",
+        "question": "Where can I share my Feedback?",
+        "questionAr": "أين يمكنني مشاركة رأيي وتقييمي للجولة؟",
+        "answer": "You will receive an automated post-tour review link via WhatsApp and email. You are also welcome to review us on TripAdvisor and Google, where we hold thousands of 5-star ratings.",
+        "answerAr": "ستصلك رسالة تقييم مباشرة عبر الواتساب والبريد الإلكتروني فور انتهاء الرحلة، كما نرحب بمشاركتكم آراءكم على تريب أدفايزر وجوجل."
+      },
+      {
+        "id": "city-13",
+        "question": "What type of car will be picking us up?",
+        "questionAr": "ما نوع السيارة التي ستقوم بنقلنا؟",
+        "answer": "We operate a modern, company-owned fleet: high-roof luxury Toyota HiAce mini-coaches, Mercedes Sprinters for small groups, or private GMC Yukons / Toyota Land Cruisers for private VIP bookings.",
+        "answerAr": "نستخدم أسطولاً حديثاً ومملوكاً للشركة: حافلات تويوتا هايس الفاخرة ذات السقف العالي، ومرسيدس سبرينتر للمجموعات الصغيرة، أو سيارات دفع رباعي فاخرة مثل لاندكروزر وجي إم سي يوكون للحجوزات الخاصة."
+      }
+    ]
+  },
+  {
+    "category": "safari-tours",
+    "categoryTitle": "Safari Tours",
+    "categoryTitleAr": "جولات السفاري",
+    "categorySubtitle": "Desert safaris and dune adventures.",
+    "categorySubtitleAr": "رحلات السفاري ومغامرات الكثبان الرملية الذهبية.",
+    "items": [
+      {
+        "id": "safari-1",
+        "question": "What will be the pickup time for our tour?",
+        "questionAr": "ما هو موعد الاستقبال لرحلة السفاري؟",
+        "answer": "For Evening Desert Safaris, pickup is scheduled between 2:30 PM and 3:30 PM, calibrated to reach the red dunes right for sunset. Morning safaris pick up between 7:00 AM and 8:00 AM.",
+        "answerAr": "لرحلات السفاري المسائية، يكون موعد الاستقبال بين الساعة 2:30 و3:30 عصراً للوصول إلى الكثبان الرملية الحمراء في الوقت المثالي للغروب. أما السفاري الصباحي فيبدأ بين 7:00 و8:00 صباحاً."
+      },
+      {
+        "id": "safari-2",
+        "question": "What will be the dropoff timings for our safari tour?",
+        "questionAr": "ما هو موعد العودة والتوصيل لرحلة السفاري؟",
+        "answer": "Evening Desert Safaris finish after the Bedouin camp shows and dinner, returning to your hotel between 9:00 PM and 10:00 PM. Overnight safaris return the next morning at approximately 9:00 AM.",
+        "answerAr": "تنتهي رحلات السفاري المسائية بعد عروض مخيم الخيمة التراثي والعشاء، وتصل إلى فندقك بين 9:00 و10:00 مساءً. أما رحلات السفاري مع المبيت فتعود في صباح اليوم التالي قرابة 9:00 صباحاً."
+      },
+      {
+        "id": "safari-3",
+        "question": "What vehicle will be coming for us for the pickup for the safari tour?",
+        "questionAr": "ما هي المركبة التي ستقلنا لرحلة السفاري؟",
+        "answer": "A certified 4x4 Toyota Land Cruiser or Nissan Patrol fitted with official roll cages, first-aid kits, GPS tracking, and safety harnesses, driven by a licensed desert safari marshal.",
+        "answerAr": "سيارة دفع رباعي معتمدة مثل تويوتا لاندكروزر أو نيسان باترول مجهزة بأقفاص حماية داخلية كاملة، وأحزمة أمان متطورة، وجهاز تتبع GPS، يقودها قائد سفاري مرخص ومحترف."
+      },
+      {
+        "id": "safari-4",
+        "question": "How many people will be joining us for the safari tour?",
+        "questionAr": "كم عدد الأشخاص الذين يشاركون معنا في سيارة السفاري؟",
+        "answer": "Sharing 4x4 vehicles seat a maximum of 6 passengers plus the driver for maximum comfort and space. You can also book an exclusive private vehicle for just your family or party during checkout.",
+        "answerAr": "تتسع سيارة السفاري المشتركة لـ 6 ركاب كحد أقصى بالإضافة إلى السائق لضمان الراحة التامة. كما يمكنك حجز سيارة خاصة بالكامل لعائلتك أثناء عملية الحجز."
+      }
+    ]
+  },
+  {
+    "category": "about-us",
+    "categoryTitle": "About OceanAir",
+    "categoryTitleAr": "عن جوّ قطر وأوشن إير",
+    "categorySubtitle": "Booking, payments, safety and policies.",
+    "categorySubtitleAr": "الحجوزات، المدفوعات، الأمان والسياسات العامة.",
+    "items": [
+      {
+        "id": "about-1",
+        "question": "Why choose OceanAir Travels?",
+        "questionAr": "لماذا تختار أوشن إير / جوّ قطر؟",
+        "answer": "Operating since 2010, we are a TripAdvisor 'Best of the Best' global winner and Michelin Bib Gourmand recognized operator. We run our own tours, maintain our own fleet, and don't resell random third-party inventory.",
+        "answerAr": "نعمل منذ عام 2010، وحائزون على جائزة 'الأفضل بين الأفضل' عالمياً من تريب أدفايزر وتصنيف ميشلان. ندير رحلاتنا بأنفسنا، ونمتلك أسطولنا الخاص، ولا نبيع تذاكر لشركات وسيطة مجهولة."
+      },
+      {
+        "id": "about-2",
+        "question": "How can I book an experience or a tour online?",
+        "questionAr": "كيف يمكنني حجز تجربة أو جولة سياحية عبر الإنترنت؟",
+        "answer": "Select your tour, choose your date and guest count, then click 'Reserve'. You will receive an instant booking voucher and payment confirmation immediately upon checkout.",
+        "answerAr": "اختر الجولة المطلوبة، وحدد التاريخ وعدد الضيوف، ثم اضغط 'احجز'. ستتلقى قسيمة الحجز الفورية وتأكيد الدفع مباشرة بعد إتمام العملية."
+      },
+      {
+        "id": "about-3",
+        "question": "What is included in the Dubai Evening Desert Safari?",
+        "questionAr": "ما الذي تشمله رحلة سفاري دبي المسائية؟",
+        "answer": "Hotel roundtrip 4x4 transfers, red dune bashing, camel rides, sandboarding, sunset photos, falconry display, henna painting, live cultural shows (Tanoura, fire show), and an open 5-star BBQ buffet dinner.",
+        "answerAr": "نقل ذهاباً وإياباً بسيارة دفع رباعي، قيادة الكثبان الرملية، ركوب الجمال، التزلج على الرمال، صور الغروب، الصقارة، رسم الحناء، عروض التنورة والنار الحية، وبوفيه عشاء شواء 5 نجوم فاخر ومفتوح."
+      },
+      {
+        "id": "about-4",
+        "question": "Is there any surcharge on Debit/Credit card transactions?",
+        "questionAr": "هل توجد أي رسوم إضافية على بطاقات الخصم والائتمان؟",
+        "answer": "No. There are zero card processing fees or hidden charges. The price displayed in your preferred currency (AED, EUR, USD) is the exact total you pay.",
+        "answerAr": "لا، لا توجد أي رسوم معالجة بنكية أو مصاريف خفية إطلاقاً. السعر المعروض بعملتك المختارة هو السعر النهائي الصافي."
+      },
+      {
+        "id": "about-5",
+        "question": "Can I customize a package/tour?",
+        "questionAr": "هل يمكنني تخصيص باقة أو جولة سياحية خاصة؟",
+        "answer": "Yes! Our concierge team customizes private excursions, VIP corporate tours, helicopter transfers, and multi-day bespoke trips across the UAE, Qatar, Egypt, and Oman.",
+        "answerAr": "نعم! يصمم فريق الكونسيرج لدينا جولات خاصة بالكامل، وفعاليات شركات VIP، ورحلات هليكوبتر، وبرامج متعددة الأيام مخصصة عبر الإمارات، قطر، مصر وعُمان."
+      },
+      {
+        "id": "about-6",
+        "question": "What safety measures are in place?",
+        "questionAr": "ما هي معايير وإجراءات السلامة المتبعة؟",
+        "answer": "Every vehicle is inspected weekly, certified by transport authorities, equipped with roll cages and first-aid kits, and operated by licensed, first-aid trained professional marshals.",
+        "answerAr": "تخضع جميع مركباتنا لفحص أسبوعي دوري، ومعتمدة من هيئات النقل، ومجهزة بأقفاص حماية وحقائب إسعاف أولية، ويقودها محترفون معتمدون ومدربون على الإسعافات."
+      },
+      {
+        "id": "about-7",
+        "question": "What is the cancellation policy?",
+        "questionAr": "ما هي سياسة الإلغاء؟",
+        "answer": "We offer free cancellation up to 24 hours before the experience starts for a 100% full refund with no cancellation penalties on almost all standard tours.",
+        "answerAr": "نقدم ميزة الإلغاء المجاني حتى 24 ساعة قبل موعد بدء التجربة مع استرداد كامل بنسبة 100% ودون أي غرامات إلغاء على معظم الرحلات."
+      },
+      {
+        "id": "about-8",
+        "question": "Do you offer transfer services?",
+        "questionAr": "هل تقدمون خدمات النقل والتوصيل؟",
+        "answer": "Yes, hotel and residence pickup and drop-off is included for almost all single-day and multi-day tours across Dubai, Abu Dhabi, Doha, and Cairo.",
+        "answerAr": "نعم، خدمة الاستقبال والتوصيل من وإلى باب الفندق أو مقر الإقامة مشمولة في كافة الجولات اليومية والرحلات متعددة الأيام تقريباً."
+      },
+      {
+        "id": "about-9",
+        "question": "Are there any special discounts or promotions available?",
+        "questionAr": "هل تتوفر خصومات أو عروض ترويجية خاصة؟",
+        "answer": "Yes, look for tours with 'Save 10%' or 'Save 20%' badges. We also offer discounted child pricing and custom rates for large group bookings.",
+        "answerAr": "نعم، ابحث عن الجولات التي تحمل شارات خصم مثل 'Save 10%' أو 'Save 20%'. كما نوفر أسعاراً مخفضة للأطفال وخصومات خاصة للمجموعات الكبيرة."
+      },
+      {
+        "id": "about-10",
+        "question": "How do I know my online payment was successful?",
+        "questionAr": "كيف أتأكد من نجاح عملية الدفع الإلكتروني؟",
+        "answer": "An on-screen confirmation with your booking reference appears immediately, accompanied by an instant email voucher and WhatsApp message with full driver and itinerary details.",
+        "answerAr": "تظهر شاشة تأكيد فورية برقم الحجز المرجعي، ويصلك إشعار فوري عبر البريد الإلكتروني والواتساب متضمناً قسيمة الحجز وتفاصيل السائق والبرنامج."
+      }
+    ]
+  }
+]

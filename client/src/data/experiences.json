@@ -1,0 +1,601 @@
+[
+  {
+    "id": "doha-desert-safari-inland-sea",
+    "slug": "doha-desert-safari-inland-sea",
+    "title": "Doha: Half-Day Desert Safari, Dune Bashing & Khor Al Adaid Inland Sea",
+    "titleAr": "الدوحة: سفاري صحراوي نصف يوم، ركوب الكثبان وبحر خور العديد الداخلي",
+    "shortDescription": "Discover Qatar's unique natural wonder where towering golden desert dunes meet the azure waters of the Arabian Gulf at Khor Al Adaid with sandboarding and camel ride.",
+    "shortDescriptionAr": "اكتشف معجزة قطر الطبيعية الخلابة حيث تلتقي الكثبان الرملية الذهبية بمياه البحر الفيروزية في خور العديد مع التزلج على الرمال وركوب الجمال.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "desert",
+    "categoryName": "Desert Safaris",
+    "categoryNameAr": "رحلات سفاري صحراوية",
+    "price": 320,
+    "originalPrice": 390,
+    "currency": "QAR",
+    "rating": 4.96,
+    "reviewCount": 1840,
+    "duration": "5h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Qatar Flagship",
+    "badgeAr": "التجربة الأولى في قطر",
+    "images": [
+      "/images/dest_doha.jpg",
+      "/images/exp_safari_alkhayma.jpg"
+    ],
+    "highlights": [
+      "Exciting roller-coaster dune bashing over colossal sea-facing dunes in 4x4 Land Cruisers",
+      "Visit UNESCO-recognized Khor Al Adaid (The Inland Sea)",
+      "Traditional Bedouin camel ride along the desert edge with panoramic gulf views",
+      "Sandboarding down giant steep sand slopes with expert instructors",
+      "Complimentary Arabic Karak tea, mineral water, and sunset photo opportunities"
+    ],
+    "itinerary": [
+      {"time": "14:00", "title": "Doha Hotel / Airport Pickup", "desc": "Convenient pickup from any hotel, residence, or Hamad International Airport in Doha in a luxury 4x4."},
+      {"time": "15:00", "title": "Sealine Beach & Camel Encounter", "desc": "Tire deflation, camel ride photo stop, and falcons greeting."},
+      {"time": "15:45", "title": "Thrilling Dune Bashing & Sandboarding", "desc": "Adrenaline-fueled 45-minute dune riding across the singing sand dunes of Qatar."},
+      {"time": "17:00", "title": "Khor Al Adaid Inland Sea Sunset", "desc": "Gaze across the gulf waters towards Saudi Arabia while watching the golden sunset over the tide."},
+      {"time": "18:30", "title": "Return Drop-Off in Doha", "desc": "Comfortable drop-off back to your starting point."}
+    ],
+    "inclusions": [
+      "Roundtrip transfers in air-conditioned 4x4 Land Cruiser",
+      "Experienced certified Qatari desert marshal guide",
+      "Thrilling dune bashing & sandboarding equipment",
+      "Scenic camel ride experience",
+      "Chilled bottled water, sodas, and authentic Karak tea"
+    ],
+    "exclusions": [
+      "Personal quad bike rental (optional add-on at base camp)",
+      "Gratuities for the safari marshal"
+    ]
+  },
+  {
+    "id": "dubai-evening-desert-safari-alkhayma",
+    "slug": "dubai-evening-desert-safari-bbq-dinner-falcon",
+    "title": "Dubai: Premium Safari, Camel Ride & Al Khayma Camp 3 Buffets",
+    "titleAr": "دبي: سفاري فاخر، ركوب الجمال ومخيم الخيمة التراثي مع 3 بوفيهات",
+    "shortDescription": "Award-winning desert safari with 4x4 dune bashing, camel caravan, falconry greeting, and dining at Al Khayma Heritage Camp.",
+    "shortDescriptionAr": "سفاري صحراوي حائز على جوائز عالمية مع ركوب الكثبان، وقافلة الجمال، واستقبال الصقور وعشاء فاخر في مخيم الخيمة التراثي.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "desert",
+    "categoryName": "Desert Safaris",
+    "categoryNameAr": "رحلات سفاري صحراوية",
+    "price": 353,
+    "originalPrice": 393,
+    "currency": "AED",
+    "rating": 4.9,
+    "reviewCount": 30565,
+    "duration": "7h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Save 10%",
+    "badgeAr": "خصم 10%",
+    "images": [
+      "/images/exp_safari_alkhayma.jpg",
+      "/images/exp_alkhayma_bbq.jpg"
+    ],
+    "highlights": [
+      "Thrilling 4x4 red dune bashing in Lahbab desert",
+      "Traditional Bedouin coffee, dates, and falcon encounter",
+      "Scenic sunset camel caravan walk",
+      "Lavish 3-cuisine buffets (Emirati, Moroccan, BBQ)",
+      "Tanoura, Fire show, and Khaleeji cultural performances"
+    ],
+    "itinerary": [
+      {"time": "14:30", "title": "Hotel Pickup", "desc": "Executive pickup in air-conditioned 4x4."},
+      {"time": "16:00", "title": "Red Dune Bashing & Sandboarding", "desc": "Thrilling 45-min dune drive."},
+      {"time": "18:00", "title": "Al Khayma Camp Heritage Program", "desc": "Sunset greeting, henna, and camel ride."},
+      {"time": "19:30", "title": "3 Buffets Feast & Live Shows", "desc": "Gourmet dining and entertainment."}
+    ],
+    "inclusions": [
+      "Hotel pickup and drop-off in Dubai",
+      "Dune bashing & sandboarding",
+      "3-buffet dinner feast",
+      "Camel ride and falcon photography"
+    ],
+    "exclusions": [
+      "Quad bike / dune buggy rental",
+      "Alcoholic drinks"
+    ]
+  },
+  {
+    "id": "red-dunes-dubai-desert-safari",
+    "slug": "red-dunes-dubai-desert-safari",
+    "title": "Dubai: Red Dune Quad Biking, Camel Ride, Al Khayma Camp & BBQ",
+    "titleAr": "دبي: سفاري الكثبان الحمراء، دراجات الدفع الرباعي، مخيم الخيمة وبوفيه شواء",
+    "shortDescription": "A thrilling Lahbab red dunes desert safari with quad biking, sandboarding, falconry, camel caravan, and 3-buffet feast at Al Khayma Camp.",
+    "shortDescriptionAr": "سفاري صحراوي مثير في كثبان لهباب الحمراء مع دراجات كواد بايك وتزلج على الرمال ومخيم الخيمة التراثي الفاخر مع 3 بوفيهات عشاء متنوعة.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "desert",
+    "categoryName": "Desert Safaris",
+    "categoryNameAr": "رحلات سفاري صحراوية",
+    "price": 375,
+    "originalPrice": 417,
+    "currency": "AED",
+    "rating": 4.9,
+    "reviewCount": 1939,
+    "duration": "6h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Save 10%",
+    "badgeAr": "خصم 10%",
+    "images": [
+      "/images/exp_red_dune_quad.jpg",
+      "/images/exp_half_day_quad.jpg"
+    ],
+    "highlights": [
+      "Self-drive high performance quad bike across high desert ridges",
+      "Roller-coaster dune bashing in luxury 4x4",
+      "Desert sandboarding and camel riding",
+      "Delicious BBQ feast at Al Khayma Camp"
+    ],
+    "itinerary": [
+      {"time": "14:30", "title": "Pickup", "desc": "Convenient hotel pickup."},
+      {"time": "15:45", "title": "Quad Biking", "desc": "35 minutes adrenaline-fueled riding."},
+      {"time": "17:15", "title": "Dune Bashing & Sandboarding", "desc": "Sunset desert ride."},
+      {"time": "18:30", "title": "Al Khayma Camp Dinner", "desc": "Live shows and BBQ."}
+    ],
+    "inclusions": [
+      "Transfers in 4WD",
+      "Quad bike with helmet & goggles",
+      "Full buffet dinner & soft beverages",
+      "Live cultural entertainment"
+    ],
+    "exclusions": [
+      "Gratuities"
+    ]
+  },
+  {
+    "id": "dubai-half-day-city-tour-blue-mosque",
+    "slug": "04-hours-short-dubai-city-tour",
+    "title": "Dubai: Half-Day City Tour with Blue Mosque, Creek & Souks",
+    "titleAr": "دبي: جولة نصف يوم بالمدينة تشمل المسجد الأزرق، خور دبي والأسواق التراثية",
+    "shortDescription": "Discover the contrasts of Dubai: the majestic Blue Mosque, scenic Abra boat ride across Dubai Creek, and aromatic Gold & Spice Souks.",
+    "shortDescriptionAr": "اكتشف سحر دبي: المسجد الأزرق الرائع، ورحلة عبر خور دبي بقارب العبرة التقليدي، وأسواق الذهب والتوابل التاريخية.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "city-tours",
+    "categoryName": "City Sightseeing",
+    "categoryNameAr": "جولات المدينة",
+    "price": 153,
+    "originalPrice": 170,
+    "currency": "AED",
+    "rating": 4.8,
+    "reviewCount": 3133,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Save 10%",
+    "badgeAr": "خصم 10%",
+    "images": [
+      "/images/exp_dubai_city_tour.jpg",
+      "/images/exp_alfahidi_walking.jpg"
+    ],
+    "highlights": [
+      "Guided tour of the architectural masterpiece Blue Mosque (Al Farooq)",
+      "Traditional wooden Abra water taxi ride across Dubai Creek",
+      "Guided exploration of Gold and Spice Souks in Deira",
+      "Photo stop at Burj Al Arab waterfront"
+    ],
+    "itinerary": [
+      {"time": "09:00", "title": "Hotel Pickup", "desc": "Morning pickup in Dubai."},
+      {"time": "09:45", "title": "Blue Mosque Tour", "desc": "Ottoman and Andalusian architecture."},
+      {"time": "11:00", "title": "Abra Boat Ride & Creek", "desc": "Historic waterway crossing."},
+      {"time": "12:00", "title": "Spice & Gold Souks", "desc": "Shopping and tasting."}
+    ],
+    "inclusions": [
+      "Transportation in luxury air-conditioned coach",
+      "Licensed English/Arabic tour guide",
+      "Abra boat ride tickets",
+      "Mosque entry and dress cover"
+    ],
+    "exclusions": [
+      "Personal shopping expenses"
+    ]
+  },
+  {
+    "id": "dubai-city-tour-frame-ticket",
+    "slug": "half-day-city-tour-dubai-frame-ticket",
+    "title": "Dubai City Tour with Frame Ticket, Creek, Souks & Blue Mosque",
+    "titleAr": "جولة مدينة دبي مع تذكرة برواز دبي، الخور، الأسواق والمسجد الأزرق",
+    "shortDescription": "All-in-one Dubai city highlights including Dubai Frame sky bridge ticket, historic Al Fahidi quarter, Creek Abra ride, and Gold Souk.",
+    "shortDescriptionAr": "أفضل معالم دبي في جولة واحدة مع تذكرة برواز دبي وجسر الزجاج المعلق، وحي الفهيدي التاريخي، وقارب العبرة وسوق الذهب.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "city-tours",
+    "categoryName": "City Sightseeing",
+    "categoryNameAr": "جولات المدينة",
+    "price": 220,
+    "originalPrice": 260,
+    "currency": "AED",
+    "rating": 4.8,
+    "reviewCount": 6295,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Top Rated",
+    "badgeAr": "الأعلى تقييماً",
+    "images": [
+      "/images/exp_dubai_frame.jpg",
+      "/images/exp_dubai_city_tour.jpg"
+    ],
+    "highlights": [
+      "Dubai Frame admission ticket included with 150m-high glass bridge walk",
+      "Traditional Abra ride on Dubai Creek",
+      "Explore old merchant houses at Al Fahidi Heritage district",
+      "Blue Mosque interior visit"
+    ],
+    "itinerary": [
+      {"time": "08:30", "title": "Pickup", "desc": "Convenient hotel transfer."},
+      {"time": "09:30", "title": "Dubai Frame", "desc": "Panoramic views of old and new Dubai."},
+      {"time": "11:00", "title": "Historic Old Dubai", "desc": "Creek crossing and souks."}
+    ],
+    "inclusions": [
+      "Dubai Frame admission ticket",
+      "Transport with certified guide",
+      "Abra water taxi fee",
+      "Bottled water"
+    ],
+    "exclusions": [
+      "Meals"
+    ]
+  },
+  {
+    "id": "dubai-al-marmoom-oasis-horse-riding",
+    "slug": "dubai-horse-riding-at-al-marmoom-oasis",
+    "title": "Dubai: Al Marmoom Oasis Horse Riding Experience",
+    "titleAr": "دبي: تجربة ركوب الخيل الأصيل في واحة المرموم الصحراوية",
+    "shortDescription": "Ride noble Arabian horses through the protected dunes and serene lakes of Al Marmoom Desert Conservation Reserve.",
+    "shortDescriptionAr": "امتطِ صهوة الخيول العربية الأصيلة بين الكثبان الذهبية والبحيرات الهادئة في محمية المرموم الصحراوية الطبيعية.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "adventure",
+    "categoryName": "Adventure",
+    "categoryNameAr": "المغامرات والأنشطة",
+    "price": 110,
+    "originalPrice": 140,
+    "currency": "AED",
+    "rating": 4.8,
+    "reviewCount": 272,
+    "duration": "1h",
+    "pickupIncluded": false,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Eco Heritage",
+    "badgeAr": "تراث بيئي",
+    "images": [
+      "/images/exp_horse_riding.jpg",
+      "/images/exp_marmoom_bedouin.jpg"
+    ],
+    "highlights": [
+      "Trained Arabian horses suitable for beginners and experienced riders",
+      "Guided trek across the tranquil Al Marmoom Desert Reserve",
+      "Spot native wildlife including Arabian Oryx and gazelles",
+      "Sunset photo opportunity against oasis water reflections"
+    ],
+    "itinerary": [
+      {"time": "16:30", "title": "Arrival & Safety Briefing", "desc": "Meet your equestrian trainer and mount your horse."},
+      {"time": "17:00", "title": "Scenic Oasis Horse Trek", "desc": "Relaxing desert ride as the sunset colors the sky."}
+    ],
+    "inclusions": [
+      "Equestrian helmet and riding equipment",
+      "Professional horse trainer guide",
+      "Bottled water"
+    ],
+    "exclusions": [
+      "Hotel transfers (available upon request)"
+    ]
+  },
+  {
+    "id": "al-marmoom-dome-luxury-stay",
+    "slug": "al-marmoom-dome-luxury-desert-experiential-stay",
+    "title": "Al Marmoom Dome Luxury Desert Experiential Stay",
+    "titleAr": "إقامة القبة الفاخرة والاستثنائية في صحراء المرموم",
+    "shortDescription": "Spend an unforgettable night inside a climate-controlled luxury glamping geodesic dome with private terrace, stargazing telescope, and Bedouin dinner.",
+    "shortDescriptionAr": "عِش ليلة لا تُنسى في قبة جيوديسية فاخرة ومكيفة مع تراس خاص وتلسكوب لرصد النجوم وعشاء بدوي أصيل.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "desert",
+    "categoryName": "Desert Safaris",
+    "categoryNameAr": "رحلات سفاري صحراوية",
+    "price": 2999,
+    "originalPrice": 3500,
+    "currency": "AED",
+    "rating": 4.8,
+    "reviewCount": 191,
+    "duration": "22h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 48 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 48 ساعة قبل موعد الإقامة",
+    "badge": "Ultra Luxury",
+    "badgeAr": "فخامة استثنائية",
+    "images": [
+      "/images/exp_marmoom_dome.jpg",
+      "/images/exp_overnight_safari.jpg"
+    ],
+    "highlights": [
+      "Private geodesic luxury dome with king-size bed and ensuite bathroom",
+      "Private outdoor terrace with fire pit and stargazing telescope",
+      "Sunset camel ride and traditional cooking demonstration",
+      "Full gourmet BBQ dinner and freshly prepared sunrise breakfast"
+    ],
+    "itinerary": [
+      {"time": "15:00", "title": "Check-in & Welcome Gahwa", "desc": "Settle into your private luxury desert dome."},
+      {"time": "17:00", "title": "Sunset Activities", "desc": "Camel ride and falcon greeting."},
+      {"time": "19:30", "title": "Private Bedouin Dinner", "desc": "Dining under the starlit sky."},
+      {"time": "08:00", "title": "Sunrise Breakfast & Check-out", "desc": "Artisan breakfast over desert views."}
+    ],
+    "inclusions": [
+      "Luxury dome accommodation for 2 guests",
+      "Gourmet dinner & hearty breakfast",
+      "Private transfers from Dubai",
+      "All cultural experiences and astronomy session"
+    ],
+    "exclusions": [
+      "Personal items"
+    ]
+  },
+  {
+    "id": "dubai-overnight-safari-alkhayma",
+    "slug": "overnight-desert-safari-dubai",
+    "title": "Dubai: Overnight Safari, Dinner, Stargazing & Al Khayma Camp",
+    "titleAr": "دبي: سفاري صحراوي مبيت، عشاء، رصد النجوم ومخيم الخيمة التراثي",
+    "shortDescription": "Sleep under the Arabian desert stars in a traditional Bedouin tent after dune bashing, camel trek, 3 buffets, and morning sunrise falconry.",
+    "shortDescriptionAr": "نم تحت نجوم الصحراء العربية في خيمة بدوية تراثية بعد جولة الكثبان، وقافلة الجمال، و3 بوفيهات عشاء وشروق الشمس الخلاب.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "desert",
+    "categoryName": "Desert Safaris",
+    "categoryNameAr": "رحلات سفاري صحراوية",
+    "price": 594,
+    "originalPrice": 660,
+    "currency": "AED",
+    "rating": 4.8,
+    "reviewCount": 2632,
+    "duration": "16h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Save 10%",
+    "badgeAr": "خصم 10%",
+    "images": [
+      "/images/exp_overnight_safari.jpg",
+      "/images/exp_alkhayma_bbq.jpg"
+    ],
+    "highlights": [
+      "Full evening safari with dune bashing, quad option, and sandboarding",
+      "Overnight stay in comfortable Bedouin tents with bedding provided",
+      "Nighttime astronomy session with high-power telescopes",
+      "Freshly prepared hot Arabic breakfast at sunrise"
+    ],
+    "itinerary": [
+      {"time": "14:30", "title": "Pickup", "desc": "Afternoon pickup from your Dubai hotel."},
+      {"time": "16:00", "title": "Dune Bashing & Sandboarding", "desc": "Action in the red dunes."},
+      {"time": "18:00", "title": "Al Khayma Camp Dinner & Shows", "desc": "Feast and live entertainment."},
+      {"time": "22:00", "title": "Stargazing & Campfire", "desc": "Quiet desert night."},
+      {"time": "06:30", "title": "Sunrise & Arabian Breakfast", "desc": "Camel walk and return."}
+    ],
+    "inclusions": [
+      "Roundtrip transfers",
+      "Overnight tent accommodation and bedding",
+      "Dinner and breakfast",
+      "All activities and shows"
+    ],
+    "exclusions": [
+      "Quad bike rental"
+    ]
+  },
+  {
+    "id": "dubai-vintage-gclass-heritage-safari",
+    "slug": "dubai-evening-heritage-safari-in-vintage-g-class-at-al-marmoom",
+    "title": "Dubai: Evening Heritage Safari in Vintage G-Class at Al Marmoom",
+    "titleAr": "دبي: سفاري تراثي مسائي بسيارات مرسيدس جي كلاس الكلاسيكية في المرموم",
+    "shortDescription": "Step back in time riding vintage 1980s Mercedes G-Wagons through the Dubai Desert Conservation Reserve followed by authentic Bedouin hospitality.",
+    "shortDescriptionAr": "عُد بالزمن إلى الوراء في سيارات مرسيدس جي كلاس الكلاسيكية عبر محمية المرموم تليها ضيافة بدوية فاخرة وعشاء تقليدي.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "cultural",
+    "categoryName": "Cultural",
+    "categoryNameAr": "الثقافة والتراث",
+    "price": 690,
+    "originalPrice": 750,
+    "currency": "AED",
+    "rating": 4.8,
+    "reviewCount": 489,
+    "duration": "5h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Vintage Classic",
+    "badgeAr": "كلاسيكي أصيل",
+    "images": [
+      "/images/exp_heritage_vintage_gclass.jpg",
+      "/images/exp_marmoom_bedouin.jpg"
+    ],
+    "highlights": [
+      "Drive across pristine reserve tracks in restored vintage Mercedes G-Class vehicles",
+      "Spot rare desert wildlife like Arabian oryx, gazelles, and desert foxes",
+      "Witness an authentic Bedouin falconry hunting demonstration",
+      "Enjoy traditional 6-course Emirati feast prepared live at camp"
+    ],
+    "itinerary": [
+      {"time": "15:00", "title": "Pickup", "desc": "Pickup in Dubai."},
+      {"time": "16:15", "title": "Vintage G-Class Desert Drive", "desc": "Nature exploration drive."},
+      {"time": "18:00", "title": "Bedouin Camp & Live Cooking", "desc": "Authentic feast and storytelling."}
+    ],
+    "inclusions": [
+      "Vintage G-Class safari drive",
+      "Multi-course traditional Emirati dinner",
+      "Cultural workshops & falconry",
+      "Hotel transfers"
+    ],
+    "exclusions": [
+      "Personal souvenirs"
+    ]
+  },
+  {
+    "id": "dubai-desert-dune-buggy-adventure",
+    "slug": "red-dunes-buggies-drive-tickets",
+    "title": "Dubai Desert Adventure: Dune Buggy, Camel Ride & BBQ at Al Khayma",
+    "titleAr": "مغامرة صحراء دبي: عربات الدون باجي السريعة، ركوب الجمال وبوفيه الخيمة",
+    "shortDescription": "Take the wheel of a high-powered 1000cc desert dune buggy with full roll cage, followed by camel trekking and dinner at Al Khayma Camp.",
+    "shortDescriptionAr": "قُد بنفسك عربة دون باجي جبلية قوية 1000 سي سي فوق أعلى الكثبان مع أحدث وسائل الأمان، يليها ركوب الجمال وعشاء الخيمة.",
+    "destinationId": "dubai",
+    "destinationName": "Dubai",
+    "destinationNameAr": "دبي",
+    "categoryId": "adventure",
+    "categoryName": "Adventure",
+    "categoryNameAr": "المغامرات والأنشطة",
+    "price": 892,
+    "originalPrice": 990,
+    "currency": "AED",
+    "rating": 4.9,
+    "reviewCount": 1420,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Adrenaline",
+    "badgeAr": "قمة الإثارة",
+    "images": [
+      "/images/exp_dune_buggy.jpg",
+      "/images/exp_red_dune_quad.jpg"
+    ],
+    "highlights": [
+      "Drive an automatic 1000cc Polaris / Can-Am dune buggy with 4-point harnesses",
+      "Led by professional desert marshals over scenic high dunes",
+      "Camel ride and sandboarding session",
+      "Delicious BBQ feast at Al Khayma Camp"
+    ],
+    "itinerary": [
+      {"time": "14:30", "title": "Pickup", "desc": "Hotel pickup in Dubai."},
+      {"time": "15:45", "title": "Buggy Briefing & Drive", "desc": "45-60 min exhilarating drive."},
+      {"time": "18:00", "title": "Al Khayma Camp Evening", "desc": "Dinner and shows."}
+    ],
+    "inclusions": [
+      "Buggy rental with helmet, goggles, and fuel",
+      "Instructor lead guide",
+      "Full dinner buffet",
+      "Roundtrip transfers"
+    ],
+    "exclusions": [
+      "Driver minimum age 16+"
+    ]
+  },
+  {
+    "id": "abu-dhabi-desert-safari-sandboarding-bbq",
+    "slug": "evening-desert-safari-abu-dhabi",
+    "title": "Abu Dhabi: Desert Safari with Camel Ride, Sandboarding & BBQ",
+    "titleAr": "أبوظبي: سفاري صحراوي مع ركوب الجمال، التزلج على الرمال وبوفيه شواء",
+    "shortDescription": "Experience Abu Dhabi's majestic Al Khatim desert dunes with thrilling 4x4 dune bashing, camel farm visit, and Bedouin camp entertainment.",
+    "shortDescriptionAr": "استمتع بكثبان صحراء الختم في أبوظبي مع قيادة دفع رباعي ممتعة، وزيارة مزرعة الجمال، وعشاء شواء شهي في المخيم البدوي.",
+    "destinationId": "abu-dhabi",
+    "destinationName": "Abu Dhabi",
+    "destinationNameAr": "أبوظبي",
+    "categoryId": "desert",
+    "categoryName": "Desert Safaris",
+    "categoryNameAr": "رحلات سفاري صحراوية",
+    "price": 314,
+    "originalPrice": 360,
+    "currency": "AED",
+    "rating": 4.9,
+    "reviewCount": 1850,
+    "duration": "6h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Top Rated",
+    "badgeAr": "الأعلى تقييماً",
+    "images": [
+      "/images/exp_abu_dhabi_safari.jpg",
+      "/images/dest_abu_dhabi.jpg"
+    ],
+    "highlights": [
+      "4x4 dune bashing in Al Khatim desert dunes",
+      "Visit a working desert camel breeding farm",
+      "Sandboarding from tall sand dunes",
+      "Gourmet BBQ buffet dinner under the desert stars"
+    ],
+    "itinerary": [
+      {"time": "15:00", "title": "Abu Dhabi Hotel Pickup", "desc": "Comfortable 4x4 pickup."},
+      {"time": "16:15", "title": "Dune Bashing & Camel Farm", "desc": "Excitement and photos."},
+      {"time": "18:00", "title": "Camp Hospitality & Dinner", "desc": "Buffet and belly dance show."}
+    ],
+    "inclusions": [
+      "Pickup and drop-off in Abu Dhabi",
+      "Dune drive & sandboarding",
+      "BBQ dinner & soft beverages",
+      "Henna painting & Arabic dress photos"
+    ],
+    "exclusions": [
+      "Shisha and quad bike extras"
+    ]
+  },
+  {
+    "id": "abu-dhabi-morning-desert-safari",
+    "slug": "morning-abu-dhabi-desert-safari",
+    "title": "Abu Dhabi: Morning Desert Safari, Camel Ride & Sandboarding",
+    "titleAr": "أبوظبي: سفاري صحراوي صباحي، ركوب الجمال والتزلج على الرمال",
+    "shortDescription": "Beat the heat with an invigorating morning desert safari featuring sunrise dune bashing, sandboarding, and traditional camel ride.",
+    "shortDescriptionAr": "ابدأ يومك بنشاط مع سفاري صباحي منعش يشمل ركوب الكثبان وقت الشروق، والتزلج على الرمال وركوب الجمال.",
+    "destinationId": "abu-dhabi",
+    "destinationName": "Abu Dhabi",
+    "destinationNameAr": "أبوظبي",
+    "categoryId": "desert",
+    "categoryName": "Desert Safaris",
+    "categoryNameAr": "رحلات سفاري صحراوية",
+    "price": 181,
+    "originalPrice": 210,
+    "currency": "AED",
+    "rating": 4.9,
+    "reviewCount": 940,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Morning Escape",
+    "badgeAr": "رحلة صباحية",
+    "images": [
+      "/images/exp_abu_dhabi_morning.jpg",
+      "/images/exp_abu_dhabi_safari.jpg"
+    ],
+    "highlights": [
+      "Morning dune bashing in golden sunlight",
+      "Camel ride along tranquil desert curves",
+      "Sandboarding down pristine slopes",
+      "Arabic coffee, dates, and refreshments"
+    ],
+    "itinerary": [
+      {"time": "07:30", "title": "Morning Pickup", "desc": "Pickup from Abu Dhabi hotel."},
+      {"time": "08:45", "title": "Desert Adventures", "desc": "Dune bashing, camel ride, sandboarding."},
+      {"time": "11:30", "title": "Return Drop-off", "desc": "Back to city before afternoon heat."}
+    ],
+    "inclusions": [
+      "Transfers in 4WD Land Cruiser",
+      "Sandboarding gear",
+      "Camel ride",
+      "Mineral water and sodas"
+    ],
+    "exclusions": [
+      "Meals"
+    ]
+  }
+]

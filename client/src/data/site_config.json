@@ -1,0 +1,22 @@
+{
+  "brandName": "GottQatar",
+  "legalName": "GottQatar Tourism & Curated Experiences",
+  "founded": "2010",
+  "rating": 4.95,
+  "reviewCount": 50000,
+  "tagline": "Operating since 2010. Curated experiences across Qatar, UAE, and the Arabian Gulf.",
+  "phone": "+974 4457 4140",
+  "email": "support@gottqatar.com",
+  "whatsapp": "+974 50 123 4567",
+  "currencies": [
+    { "code": "EUR", "symbol": "€", "rate": 1.0 },
+    { "code": "AED", "symbol": "AED", "rate": 3.96 },
+    { "code": "USD", "symbol": "$", "rate": 1.08 },
+    { "code": "QAR", "symbol": "QAR", "rate": 3.92 },
+    { "code": "GBP", "symbol": "£", "rate": 0.85 }
+  ],
+  "languages": [
+    { "code": "en", "label": "English" },
+    { "code": "ar", "label": "العربية", "dir": "rtl" }
+  ]
+}

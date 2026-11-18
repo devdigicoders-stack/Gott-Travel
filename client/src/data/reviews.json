@@ -1,0 +1,35 @@
+[
+  {
+    "id": "rev-1",
+    "author": "Sarah Jenkins",
+    "country": "United Kingdom",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80",
+    "rating": 5,
+    "date": "November 2026",
+    "title": "Unforgettable red dunes experience at Al Khayma Camp!",
+    "comment": "From our driver Tariq picking us up right on time in a pristine Land Cruiser, to the breathtaking sunset dunes and the food at Al Khayma - everything was world-class. The three buffets catered to all tastes and the stargazing atmosphere was pure magic.",
+    "experienceTitle": "Dubai: Red Dune Quad Biking, Camel Ride, Al Khayma Camp & BBQ"
+  },
+  {
+    "id": "rev-2",
+    "author": "Maximilian Müller",
+    "country": "Germany",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80",
+    "rating": 5,
+    "date": "October 2026",
+    "title": "Grand Mosque and Louvre Abu Dhabi was seamless",
+    "comment": "The tour guide was knowledgeable and provided deep historical context for the Grand Mosque. Having the skip-the-line ticket to Louvre Abu Dhabi saved us an hour. Outstanding service from OceanAir.",
+    "experienceTitle": "Abu Dhabi: Full-Day Tour with Sheikh Zayed Mosque & Louvre"
+  },
+  {
+    "id": "rev-3",
+    "author": "Elena Rossi",
+    "country": "Italy",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80",
+    "rating": 5,
+    "date": "November 2026",
+    "title": "Incredible desert confluence in Doha",
+    "comment": "Where the sand dunes meet the sea is a sight you must see once in your lifetime. Highly recommended operator with friendly drivers and top safety standards.",
+    "experienceTitle": "Doha: Half-Day Desert Safari, Dune Bashing & Inland Sea Khor Al Adaid"
+  }
+]
