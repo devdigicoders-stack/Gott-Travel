@@ -191,14 +191,14 @@ export function Navbar() {
       <header
         className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
           isHeroMode
-            ? "bg-white/[0.07] backdrop-blur-xl border-b border-white/10 shadow-[0_4px_24px_0_rgba(0,0,0,0.1)] py-4 lg:py-5 text-white"
-            : "bg-white/85 backdrop-blur-2xl border-b border-[#E5E9EE] shadow-[0_4px_20px_rgba(0,0,0,0.06)] py-3 text-black"
+            ? "bg-white/[0.07] backdrop-blur-xl border-b border-white/10 shadow-[0_4px_24px_0_rgba(0,0,0,0.1)] py-3 sm:py-4 lg:py-5 text-white"
+            : "bg-white/85 backdrop-blur-2xl border-b border-[#E5E9EE] shadow-[0_4px_20px_rgba(0,0,0,0.06)] py-2.5 sm:py-3 text-black"
         }`}
       >
-        <div className="max-w-[1280px] mx-auto px-4 md:px-6 lg:px-10 flex items-center justify-between">
+        <div className="max-w-[1280px] mx-auto px-3 sm:px-6 lg:px-10 flex items-center justify-between gap-2">
           {/* 1. LEFT: Brand Logo */}
           <Link href="/" className="shrink-0 flex items-center gap-2 group">
-            <div className="relative h-9 sm:h-11 w-36 sm:w-44">
+            <div className="relative h-8 sm:h-9 md:h-11 w-28 sm:w-36 md:w-44">
               <Image
                 src="/brand/logo-blue.png"
                 alt="GottQatar"
@@ -215,7 +215,7 @@ export function Navbar() {
 
           {/* 2. CENTER: Menu Items (Home, Experiences, Destinations, About) */}
           <nav
-            className="hidden md:flex items-center gap-7 lg:gap-9"
+            className="hidden md:flex items-center gap-4 lg:gap-7 xl:gap-9 text-xs lg:text-[13.5px] xl:text-[14.5px]"
             aria-label="Primary"
           >
             {/* Menu 0: Home */}
@@ -264,7 +264,7 @@ export function Navbar() {
                   className="absolute top-full left-0 rtl:left-auto rtl:right-0 pt-3 z-50 animate-in fade-in slide-in-from-top-2 duration-150"
                   style={{ width: "min(780px, 92vw)" }}
                 >
-                  <div className="bg-white/95 backdrop-blur-2xl rounded-2xl shadow-[0_24px_60px_rgba(0,0,0,0.16)] border border-gray-200/80 p-5 text-black">
+                  <div className="bg-white/95 backdrop-blur-2xl rounded-2xl shadow-[0_24px_60px_rgba(0,0,0,0.16)] border border-gray-200/80 p-4 sm:p-5 text-black max-h-[82vh] overflow-y-auto">
                     {/* 4 Column Layout: Dubai, Abu Dhabi, Doha, Categories */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                       {EXPERIENCES_DROPDOWN_SECTIONS.map((sec) => (
@@ -404,13 +404,13 @@ export function Navbar() {
           </nav>
 
           {/* 3. RIGHT: Language / Currency Toggle & Cart Button */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-2.5 md:gap-3 shrink-0">
             {/* Language & Currency Glass Pill Switcher */}
             <div ref={langRef} className="relative">
               <button
                 type="button"
                 onClick={() => setLangMenuOpen(!langMenuOpen)}
-                className={`inline-flex items-center gap-1.5 text-[12px] font-bold rounded-full px-3.5 py-2 transition-all cursor-pointer backdrop-blur-xl ${
+                className={`inline-flex items-center gap-1 sm:gap-1.5 text-[11px] sm:text-[12px] font-bold rounded-full px-2.5 sm:px-3.5 py-1.5 sm:py-2 transition-all cursor-pointer backdrop-blur-xl whitespace-nowrap ${
                   isHeroMode
                     ? "bg-white/12 hover:bg-white/20 text-white border border-white/25 shadow-[0_4px_16px_rgba(0,0,0,0.2),inset_0_1px_0_rgba(255,255,255,0.25)]"
                     : "bg-black/[0.06] hover:bg-black/[0.1] text-black border border-black/15 shadow-xs"
@@ -419,14 +419,14 @@ export function Navbar() {
               >
                 <Globe className={`w-3.5 h-3.5 ${isHeroMode ? "text-cyan-300" : "text-[#0097CA]"}`} />
                 <span className="uppercase tracking-wider font-bold">
-                  {language.toUpperCase()} · {currentCurrency.code}
+                  {language.toUpperCase()} <span className="hidden sm:inline">· {currentCurrency.code}</span>
                 </span>
                 <ChevronDown className="w-3 h-3 opacity-70" />
               </button>
 
               {/* Glassmorphic Language / Currency Popup Dropdown */}
               {langMenuOpen && (
-                <div className="absolute right-0 rtl:right-auto rtl:left-0 top-full mt-2 w-[320px] sm:w-[380px] max-h-[85vh] overflow-y-auto bg-white/95 backdrop-blur-2xl rounded-2xl shadow-[0_24px_60px_rgba(0,0,0,0.15)] border border-gray-200/80 p-4 sm:p-5 z-50 space-y-4 text-black animate-in fade-in slide-in-from-top-2">
+                <div className="absolute right-0 rtl:right-auto rtl:left-0 top-full mt-2 w-[300px] sm:w-[380px] max-w-[92vw] max-h-[80vh] overflow-y-auto bg-white/95 backdrop-blur-2xl rounded-2xl shadow-[0_24px_60px_rgba(0,0,0,0.15)] border border-gray-200/80 p-4 sm:p-5 z-50 space-y-4 text-black animate-in fade-in slide-in-from-top-2">
                   {/* Header */}
                   <div className="flex items-center justify-between pb-3 border-b border-gray-200/80">
                     <div>
@@ -451,20 +451,10 @@ export function Navbar() {
                     <label className="block text-[10px] font-bold uppercase tracking-wider text-[#0097CA] mb-2">
                       {language === "ar" ? "اللغة" : "Language"}
                     </label>
-                    <div className="grid grid-cols-2 gap-1.5 max-h-[220px] overflow-y-auto pr-1">
+                    <div className="grid grid-cols-2 gap-2">
                       {[
                         { code: "en", name: "English", english: "English", flag: "🇬🇧" },
-                        { code: "ar", name: "العربية", english: "Arabic", flag: "🇦🇪" },
-                        { code: "fr", name: "Français", english: "French", flag: "🇫🇷" },
-                        { code: "de", name: "Deutsch", english: "German", flag: "🇩🇪" },
-                        { code: "es", name: "Español", english: "Spanish", flag: "🇪🇸" },
-                        { code: "it", name: "Italiano", english: "Italian", flag: "🇮🇹" },
-                        { code: "ja", name: "日本語", english: "Japanese", flag: "🇯🇵" },
-                        { code: "ko", name: "한국어", english: "Korean", flag: "🇰🇷" },
-                        { code: "tr", name: "Türkçe", english: "Turkish", flag: "🇹🇷" },
-                        { code: "zh", name: "中文", english: "Chinese", flag: "🇨🇳" },
-                        { code: "pt", name: "Português", english: "Portuguese", flag: "🇵🇹" },
-                        { code: "ru", name: "Русский", english: "Russian", flag: "🇷🇺" }
+                        { code: "ar", name: "العربية", english: "Arabic", flag: "🇶🇦" }
                       ].map((langItem) => {
                         const isSelected = language === langItem.code;
                         return (
@@ -475,13 +465,13 @@ export function Navbar() {
                               setLanguage(langItem.code as Language);
                               setLangMenuOpen(false);
                             }}
-                            className={`flex items-center gap-2 p-2 rounded-xl text-left rtl:text-right border transition-all cursor-pointer ${
+                            className={`flex items-center gap-2 p-2.5 rounded-xl text-left rtl:text-right border transition-all cursor-pointer ${
                               isSelected
-                                ? "bg-[#0097CA] text-white border-[#0097CA] shadow-xs"
+                                ? "bg-[#0097CA] text-white border-[#0097CA] shadow-sm"
                                 : "bg-gray-50/80 hover:bg-gray-100 text-black border-gray-200/60"
                             }`}
                           >
-                            <span className="text-base leading-none">{langItem.flag}</span>
+                            <span className="text-xl leading-none">{langItem.flag}</span>
                             <div className="flex-1 min-w-0">
                               <span className={`block text-xs font-bold leading-tight ${isSelected ? "text-white" : "text-black"}`}>
                                 {langItem.name}
@@ -548,7 +538,7 @@ export function Navbar() {
             {/* Cart Button with Count Badge */}
             <button
               onClick={() => setIsCartOpen(true)}
-              className={`relative p-2.5 rounded-full transition-all cursor-pointer backdrop-blur-xl ${
+              className={`relative p-2 sm:p-2.5 rounded-full transition-all cursor-pointer backdrop-blur-xl shrink-0 ${
                 isHeroMode
                   ? "bg-white/12 hover:bg-white/20 text-white border border-white/25 shadow-[0_4px_16px_rgba(0,0,0,0.2),inset_0_1px_0_rgba(255,255,255,0.25)]"
                   : "bg-black/[0.06] hover:bg-black/[0.1] text-black border border-black/15 shadow-xs"
@@ -557,7 +547,7 @@ export function Navbar() {
             >
               <ShoppingBag className="w-4 h-4" />
               {totalCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-[#0097CA] text-white text-[10px] font-extrabold w-4 h-4 rounded-full flex items-center justify-center animate-pulse shadow-sm">
+                <span className="absolute -top-1 -right-1 bg-[#0097CA] text-white text-[9px] sm:text-[10px] font-extrabold w-4 h-4 rounded-full flex items-center justify-center animate-pulse shadow-sm">
                   {totalCount}
                 </span>
               )}
@@ -566,7 +556,7 @@ export function Navbar() {
             {/* Mobile Hamburger Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className={`md:hidden p-2 rounded-xl transition-all cursor-pointer ${
+              className={`md:hidden p-2 rounded-xl transition-all cursor-pointer shrink-0 ${
                 isHeroMode
                   ? "text-white bg-white/10 hover:bg-white/20 border border-white/20"
                   : "text-black bg-black/[0.06] hover:bg-black/[0.1] border border-black/15"

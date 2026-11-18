@@ -201,12 +201,12 @@ function MultidayCatalogContent() {
             </span>
 
             {/* H1 Title */}
-            <h1 className="text-3xl sm:text-5xl lg:text-[54px] font-semibold text-white tracking-tight leading-[1.08] mb-3">
+            <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-semibold text-white tracking-tight leading-[1.12] sm:leading-[1.08] mb-2 sm:mb-3">
               {language === "ar" ? "رحلات متعددة الأيام" : "Multi-day journeys"}
             </h1>
 
             {/* Subtitle */}
-            <p className="text-sm sm:text-base text-white/90 max-w-2xl font-normal leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base text-white/90 max-w-2xl font-normal leading-relaxed">
               {language === "ar"
                 ? "رحلات أطول، مع تنظيم الإقامة الفندقية والمواصلات كاملة عبر جميع وجهاتنا."
                 : "Longer trips, hotels and transfers handled, across our destinations."}

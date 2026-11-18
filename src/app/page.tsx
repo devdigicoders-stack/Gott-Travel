@@ -305,7 +305,7 @@ export default function HomePage() {
         {/* ==============================================================
             SECTION 1: HERO HEADER WITH SEARCH CAPSULE & TRUST PILLS
             ============================================================== */}
-        <section className="relative min-h-[640px] md:min-h-[720px] lg:min-h-[760px] flex flex-col justify-center bg-[#0A2234] text-white overflow-hidden pt-32 sm:pt-36 lg:pt-40 pb-16">
+        <section className="relative min-h-[620px] sm:min-h-[680px] md:min-h-[720px] lg:min-h-[780px] flex flex-col justify-center bg-[#0A2234] text-white overflow-hidden pt-28 sm:pt-32 md:pt-36 lg:pt-40 pb-24 sm:pb-24 md:pb-20">
           {/* Pristine Clean Desert Hero Background */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <Image
@@ -320,41 +320,41 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-[#0A2234]/85 via-transparent to-transparent" />
           </div>
 
-          <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-6 lg:px-10 w-full space-y-5">
+          <div className="relative z-10 max-w-[1280px] mx-auto px-4 md:px-6 lg:px-10 w-full space-y-4 sm:space-y-5">
             {/* Kicker / Eyebrow */}
-            <p className="t-eyebrow text-white/85 tracking-[0.2em]">
+            <p className="t-eyebrow text-white/85 tracking-[0.16em] sm:tracking-[0.2em] text-[9.5px] sm:text-xs">
               {language === "ar"
                 ? "دبي وقطر · خبرة منذ عام 2010"
                 : "DUBAI BASED · SINCE 2010"}
             </p>
 
             {/* Main H1 Headline */}
-            <h1 className="t-hero-title text-3xl sm:text-5xl lg:text-[56px] font-semibold tracking-tight text-white leading-[1.08] max-w-3xl">
+            <h1 className="t-hero-title text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold sm:font-semibold tracking-tight text-white leading-[1.14] sm:leading-[1.08] max-w-3xl">
               {language === "ar"
                 ? "تجارب تستحق أن تخطط يومك حولها."
                 : "Experiences worth planning the day around."}
             </h1>
 
             {/* Subtitle */}
-            <p className="text-sm sm:text-base text-white/90 max-w-2xl font-normal leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base text-white/90 max-w-2xl font-normal leading-relaxed">
               {language === "ar"
                 ? "رحلات السفاري الصحراوية، الجولات البحرية، والرحلات متعددة الأيام عبر قطر، الإمارات، مصر، والمزيد."
                 : "Desert safaris, sea cruises, and multi-day journeys across the UAE, Egypt, Croatia, Morocco, and Oman."}
             </p>
 
             {/* WHAT CAN WE PLAN FOR YOU? Search Glass Capsule */}
-            <div className="pt-2 max-w-2xl">
+            <div className="pt-1 sm:pt-2 max-w-2xl w-full">
               <form
                 onSubmit={handleSearchSubmit}
-                className="bg-white/[0.14] hover:bg-white/[0.18] backdrop-blur-xl border border-white/25 rounded-2xl p-4 sm:p-5 shadow-[0_16px_40px_rgba(0,0,0,0.3)] transition-all"
+                className="bg-white/[0.14] hover:bg-white/[0.18] backdrop-blur-xl border border-white/25 rounded-xl sm:rounded-2xl p-3.5 sm:p-5 shadow-[0_16px_40px_rgba(0,0,0,0.3)] transition-all"
               >
-                <label className="block text-[10.5px] font-bold uppercase tracking-wider text-white/75 mb-2.5">
+                <label className="block text-[10px] sm:text-[10.5px] font-bold uppercase tracking-wider text-white/75 mb-2 sm:mb-2.5">
                   {language === "ar" ? "ماذا يمكننا أن نخطط لك؟" : "WHAT CAN WE PLAN FOR YOU?"}
                 </label>
 
                 {/* Search Input Bar */}
                 <div className="relative flex items-center">
-                  <Search className="absolute left-3.5 rtl:left-auto rtl:right-3.5 w-4 h-4 text-white/70 pointer-events-none" />
+                  <Search className="absolute left-3 rtl:left-auto rtl:right-3 sm:left-3.5 sm:rtl:left-auto sm:rtl:right-3.5 w-4 h-4 text-white/70 pointer-events-none" />
                   <input
                     type="text"
                     value={searchQuery}
@@ -364,24 +364,25 @@ export default function HomePage() {
                         ? "ابحث عن الجولات، التجارب، والوجهات..."
                         : "Search for tours, experiences, locations"
                     }
-                    className="w-full pl-10 pr-24 rtl:pl-24 rtl:pr-10 py-3 rounded-xl bg-black/35 hover:bg-black/45 focus:bg-black/55 text-white placeholder-white/60 text-xs sm:text-sm border border-white/20 focus:outline-hidden focus:border-cyan-300 transition-all font-medium"
+                    suppressHydrationWarning
+                    className="w-full pl-9 pr-20 rtl:pl-20 rtl:pr-9 sm:pl-10 sm:pr-24 rtl:sm:pl-24 rtl:sm:pr-10 py-2.5 sm:py-3 rounded-lg sm:rounded-xl bg-black/35 hover:bg-black/45 focus:bg-black/55 text-white placeholder-white/60 text-xs sm:text-sm border border-white/20 focus:outline-hidden focus:border-cyan-300 transition-all font-medium"
                   />
                   <button
                     type="submit"
-                    className="absolute right-1.5 rtl:right-auto rtl:left-1.5 px-4 py-2 rounded-lg bg-[#0097CA] hover:bg-[#0083B0] text-white text-xs font-bold transition-all shadow-sm cursor-pointer"
+                    className="absolute right-1.5 rtl:right-auto rtl:left-1.5 px-3 sm:px-4 py-1.5 sm:py-2 rounded-md sm:rounded-lg bg-[#0097CA] hover:bg-[#0083B0] text-white text-[11px] sm:text-xs font-bold transition-all shadow-sm cursor-pointer whitespace-nowrap"
                   >
                     {language === "ar" ? "بحث" : "Search"}
                   </button>
                 </div>
 
                 {/* Quick Search Chips */}
-                <div className="mt-3.5 flex flex-wrap items-center gap-1.5 sm:gap-2">
+                <div className="mt-2.5 sm:mt-3.5 flex flex-wrap items-center gap-1.5 sm:gap-2">
                   {SEARCH_CHIPS.map((chip) => (
                     <button
                       key={chip.label}
                       type="button"
                       onClick={() => handleChipClick(chip.term)}
-                      className="text-[11px] font-semibold text-white/90 bg-white/10 hover:bg-white/20 border border-white/20 px-3 py-1.5 rounded-full transition-all cursor-pointer backdrop-blur-xs"
+                      className="text-[10.5px] sm:text-[11px] font-semibold text-white/90 bg-white/10 hover:bg-white/20 border border-white/20 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full transition-all cursor-pointer backdrop-blur-xs"
                     >
                       {language === "ar" ? chip.labelAr : chip.label}
                     </button>
@@ -392,21 +393,21 @@ export default function HomePage() {
           </div>
 
           {/* Bottom Trust Strip */}
-          <div className="absolute bottom-0 inset-x-0 bg-black/45 backdrop-blur-md border-t border-white/15 py-3">
-            <div className="max-w-[1280px] mx-auto px-4 md:px-6 lg:px-10 flex flex-wrap items-center justify-start gap-6 sm:gap-10 text-xs font-semibold text-white/90">
-              <div className="flex items-center gap-2">
-                <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-                <span>
+          <div className="absolute bottom-0 inset-x-0 bg-black/50 backdrop-blur-md border-t border-white/15 py-2.5 sm:py-3 z-10">
+            <div className="max-w-[1280px] mx-auto px-4 md:px-6 lg:px-10 flex items-center justify-between sm:justify-start gap-3 sm:gap-8 md:gap-10 text-[11px] sm:text-xs font-semibold text-white/90 overflow-x-auto no-scrollbar">
+              <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+                <Star className="w-3.5 sm:w-4 h-3.5 sm:h-4 fill-amber-400 text-amber-400 shrink-0" />
+                <span className="whitespace-nowrap">
                   {language === "ar" ? "★ 4.9 أكثر من 244 ألف تقييم" : "★ 4.9 244K reviews"}
                 </span>
               </div>
-              <div className="flex items-center gap-2">
-                <Check className="w-4 h-4 text-emerald-400" />
-                <span>{language === "ar" ? "إلغاء مجاني" : "Free cancellation"}</span>
+              <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+                <Check className="w-3.5 sm:w-4 h-3.5 sm:h-4 text-emerald-400 shrink-0" />
+                <span className="whitespace-nowrap">{language === "ar" ? "إلغاء مجاني" : "Free cancellation"}</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Check className="w-4 h-4 text-cyan-400" />
-                <span>{language === "ar" ? "تأكيد فوري" : "Instant confirm"}</span>
+              <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+                <Check className="w-3.5 sm:w-4 h-3.5 sm:h-4 text-cyan-400 shrink-0" />
+                <span className="whitespace-nowrap">{language === "ar" ? "تأكيد فوري" : "Instant confirm"}</span>
               </div>
             </div>
           </div>
@@ -500,9 +501,10 @@ export default function HomePage() {
             {/* 4 Cards Responsive Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-2">
               {whereToTours.map((tour) => (
-                <div
+                <Link
                   key={tour.id}
-                  className="group bg-white rounded-2xl overflow-hidden border border-[#E5E9EE] shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+                  href={`/experiences/${tour.slug}`}
+                  className="group bg-white rounded-2xl overflow-hidden border border-[#E5E9EE] shadow-xs hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between cursor-pointer"
                 >
                   <div>
                     {/* Image with badges */}
@@ -533,14 +535,9 @@ export default function HomePage() {
                         </span>
                       </div>
 
-                      <Link
-                        href={`/experiences/${tour.slug}`}
-                        className="block group-hover:text-[#0097CA] transition-colors"
-                      >
-                        <h3 className="text-[13.5px] font-semibold text-black leading-snug line-clamp-2 min-h-[38px]">
-                          {language === "ar" && tour.titleAr ? tour.titleAr : tour.title}
-                        </h3>
-                      </Link>
+                      <h3 className="text-[13.5px] font-semibold text-black group-hover:text-[#0097CA] transition-colors leading-snug line-clamp-2 min-h-[38px]">
+                        {language === "ar" && tour.titleAr ? tour.titleAr : tour.title}
+                      </h3>
 
                       {/* Rating */}
                       <div className="flex items-center gap-1 text-[11px] pt-0.5">
@@ -571,15 +568,12 @@ export default function HomePage() {
                       </div>
                     </div>
 
-                    <Link
-                      href={`/experiences/${tour.slug}`}
-                      className="text-xs font-bold text-[#0097CA] hover:text-[#007EA8] flex items-center gap-0.5 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform"
-                    >
+                    <span className="text-xs font-bold text-[#0097CA] group-hover:text-[#007EA8] flex items-center gap-0.5 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform">
                       <span>{language === "ar" ? "عرض" : "View"}</span>
                       <span>→</span>
-                    </Link>
+                    </span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -604,9 +598,10 @@ export default function HomePage() {
             {/* 5 Vertical Story Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-5">
               {VIDEO_REELS.map((reel) => (
-                <div
+                <Link
                   key={reel.id}
-                  className="group relative rounded-2xl overflow-hidden aspect-[9/15] bg-[#0E283C] shadow-2xl border border-white/10 flex flex-col justify-end p-4 transition-transform duration-300 hover:-translate-y-1"
+                  href={reel.href}
+                  className="group relative rounded-2xl overflow-hidden aspect-[9/15] bg-[#0E283C] shadow-2xl border border-white/10 flex flex-col justify-end p-4 transition-transform duration-300 hover:-translate-y-1 cursor-pointer block"
                 >
                   {/* Poster Image */}
                   <Image
@@ -632,14 +627,11 @@ export default function HomePage() {
                     <p className="text-xs font-semibold text-white/95 line-clamp-1 drop-shadow-sm">
                       {language === "ar" ? reel.titleAr : reel.title}
                     </p>
-                    <Link
-                      href={reel.href}
-                      className="block text-center w-full py-2.5 rounded-full bg-white hover:bg-gray-100 text-[#071622] text-xs font-bold transition-all shadow-md cursor-pointer"
-                    >
+                    <span className="block text-center w-full py-2.5 rounded-full bg-white group-hover:bg-cyan-50 text-[#071622] text-xs font-bold transition-all shadow-md">
                       {language === "ar" ? "احجز هذه التجربة" : "Book this experience"}
-                    </Link>
+                    </span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -931,9 +923,10 @@ export default function HomePage() {
             {/* 8 Tour Cards (2 Rows of 4 Columns) */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-2">
               {moodTours.map((tour) => (
-                <div
+                <Link
                   key={tour.id}
-                  className="group bg-white rounded-2xl overflow-hidden border border-[#E5E9EE] shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+                  href={`/experiences/${tour.slug}`}
+                  className="group bg-white rounded-2xl overflow-hidden border border-[#E5E9EE] shadow-xs hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between cursor-pointer"
                 >
                   <div>
                     {/* Image with badges */}
@@ -964,14 +957,9 @@ export default function HomePage() {
                         </span>
                       </div>
 
-                      <Link
-                        href={`/experiences/${tour.slug}`}
-                        className="block group-hover:text-[#0097CA] transition-colors"
-                      >
-                        <h3 className="text-[13.5px] font-semibold text-black leading-snug line-clamp-2 min-h-[38px]">
-                          {language === "ar" && tour.titleAr ? tour.titleAr : tour.title}
-                        </h3>
-                      </Link>
+                      <h3 className="text-[13.5px] font-semibold text-black group-hover:text-[#0097CA] transition-colors leading-snug line-clamp-2 min-h-[38px]">
+                        {language === "ar" && tour.titleAr ? tour.titleAr : tour.title}
+                      </h3>
 
                       {/* Rating */}
                       <div className="flex items-center gap-1 text-[11px] pt-0.5">
@@ -1002,15 +990,12 @@ export default function HomePage() {
                       </div>
                     </div>
 
-                    <Link
-                      href={`/experiences/${tour.slug}`}
-                      className="text-xs font-bold text-[#0097CA] hover:text-[#007EA8] flex items-center gap-0.5 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform"
-                    >
+                    <span className="text-xs font-bold text-[#0097CA] group-hover:text-[#007EA8] flex items-center gap-0.5 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform">
                       <span>{language === "ar" ? "عرض" : "View"}</span>
                       <span>→</span>
-                    </Link>
+                    </span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -1044,9 +1029,10 @@ export default function HomePage() {
             {/* 3 Multi-day Cards Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {MULTIDAY_JOURNEYS.map((item) => (
-                <div
+                <Link
                   key={item.id}
-                  className="group bg-white rounded-2xl overflow-hidden border border-[#E5E9EE] shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+                  href={`/experiences/${item.slug}`}
+                  className="group bg-white rounded-2xl overflow-hidden border border-[#E5E9EE] shadow-xs hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex flex-col justify-between cursor-pointer"
                 >
                   <div>
                     {/* Image with MULTI-DAY & Date Pill */}
@@ -1078,14 +1064,9 @@ export default function HomePage() {
                         {language === "ar" ? item.destinationAr : item.destination}
                       </div>
 
-                      <Link
-                        href={`/experiences/${item.slug}`}
-                        className="block group-hover:text-[#0097CA] transition-colors"
-                      >
-                        <h3 className="text-sm sm:text-base font-semibold text-black leading-snug line-clamp-2 min-h-[44px]">
-                          {language === "ar" ? item.titleAr : item.title}
-                        </h3>
-                      </Link>
+                      <h3 className="text-sm sm:text-base font-semibold text-black group-hover:text-[#0097CA] transition-colors leading-snug line-clamp-2 min-h-[44px]">
+                        {language === "ar" ? item.titleAr : item.title}
+                      </h3>
 
                       <div className="flex items-center gap-1 text-[11px] pt-0.5">
                         <Star className="w-3.5 h-3.5 fill-[#0097CA] text-[#0097CA]" />
@@ -1110,15 +1091,12 @@ export default function HomePage() {
                       </div>
                     </div>
 
-                    <Link
-                      href={`/experiences/${item.slug}`}
-                      className="text-xs font-bold text-[#0097CA] hover:text-[#007EA8] flex items-center gap-0.5 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform"
-                    >
+                    <span className="text-xs font-bold text-[#0097CA] group-hover:text-[#007EA8] flex items-center gap-0.5 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform">
                       <span>{language === "ar" ? "عرض التجربة" : "View experience"}</span>
                       <span>→</span>
-                    </Link>
+                    </span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

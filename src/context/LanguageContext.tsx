@@ -24,8 +24,8 @@ function subscribe(callback: () => void) {
 
 function getSnapshot(): Language {
   if (typeof window === "undefined") return "en";
-  const saved = localStorage.getItem("gottqatar_lang") as Language | null;
-  return saved || "en";
+  const saved = localStorage.getItem("gottqatar_lang");
+  return saved === "ar" || saved === "en" ? saved : "en";
 }
 
 function getServerSnapshot(): Language {
@@ -62,6 +62,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     >
       <div
         dir={direction}
+        suppressHydrationWarning
         className={`min-h-full flex flex-col flex-1 w-full ${language === "ar" ? "font-arabic" : "font-montserrat font-sans"}`}
       >
         {children}

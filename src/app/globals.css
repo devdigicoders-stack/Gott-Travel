@@ -60,6 +60,17 @@ button, input, optgroup, select, textarea {
   font-family: var(--font-arabic);
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .t-eyebrow {
   font-family: var(--font-montserrat);
   font-size: 9.5px;

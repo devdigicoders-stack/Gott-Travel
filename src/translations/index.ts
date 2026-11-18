@@ -1,16 +1,4 @@
-export type Language =
-  | "en"
-  | "ar"
-  | "fr"
-  | "de"
-  | "es"
-  | "it"
-  | "ja"
-  | "ko"
-  | "tr"
-  | "zh"
-  | "pt"
-  | "ru";
+export type Language = "en" | "ar";
 
 export interface Translations {
   brandName: string;
@@ -318,14 +306,4 @@ const arTranslations: Translations = {
 export const translations: Record<Language, Translations> = {
   en: enTranslations,
   ar: arTranslations,
-  fr: enTranslations,
-  de: enTranslations,
-  es: enTranslations,
-  it: enTranslations,
-  ja: enTranslations,
-  ko: enTranslations,
-  tr: enTranslations,
-  zh: enTranslations,
-  pt: enTranslations,
-  ru: enTranslations,
 };
