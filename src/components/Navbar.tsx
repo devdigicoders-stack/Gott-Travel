@@ -198,13 +198,13 @@ export function Navbar() {
         <div className="max-w-[1280px] mx-auto px-3 sm:px-6 lg:px-10 flex items-center justify-between gap-2">
           {/* 1. LEFT: Brand Logo */}
           <Link href="/" className="shrink-0 flex items-center gap-2 group">
-            <div className="relative h-8 sm:h-9 md:h-11 w-28 sm:w-36 md:w-44">
+            <div className="relative h-8 sm:h-12 md:h-12 lg:h-14 w-36 sm:w-44 md:w-56 lg:w-64">
               <Image
                 src="/brand/logo-blue.png"
                 alt="GottQatar"
                 fill
                 priority
-                className={`object-contain object-left rtl:object-right transition-all group-hover:scale-102 ${
+                className={`object-contain object-left rtl:object-right transition-transform duration-300 scale-[1.3] sm:scale-[1.4] md:scale-[1.5] origin-left rtl:origin-right group-hover:scale-[1.55] ${
                   isHeroMode
                     ? "brightness-0 invert drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]"
                     : ""

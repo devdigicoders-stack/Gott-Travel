@@ -59,13 +59,13 @@ export function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr_1fr] gap-10 lg:gap-14">
           {/* Left Column: Brand & Newsletter Subscription */}
           <div className="space-y-5">
-            <Link href="/" className="inline-block">
-              <div className="relative h-10 w-40">
+            <Link href="/" className="inline-block group">
+              <div className="relative h-12 sm:h-14 md:h-16 w-48 sm:w-56 md:w-64">
                 <Image
                   src="/brand/logo-blue.png"
                   alt="GottQatar"
                   fill
-                  className="object-contain object-left rtl:object-right brightness-0 invert"
+                  className="object-contain object-left rtl:object-right brightness-0 invert transition-transform duration-300 scale-[1.3] sm:scale-[1.4] md:scale-[1.5] origin-left rtl:origin-right group-hover:scale-[1.55]"
                 />
               </div>
             </Link>
