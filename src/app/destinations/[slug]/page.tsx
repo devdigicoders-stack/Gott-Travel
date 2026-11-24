@@ -7,6 +7,12 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ExperienceCard } from "@/components/ExperienceCard";
+import { QatarCityCatalogSection } from "@/components/QatarCityCatalogSection";
+import { MuseumCulturalCatalogSection } from "@/components/MuseumCulturalCatalogSection";
+import { ComboToursCatalogSection } from "@/components/ComboToursCatalogSection";
+import { BeyondDohaCatalogSection } from "@/components/BeyondDohaCatalogSection";
+import { AdventureWaterparkCatalogSection } from "@/components/AdventureWaterparkCatalogSection";
+import { DesertSafariCatalogSection } from "@/components/DesertSafariCatalogSection";
 import destinationsData from "@/data/destinations.json";
 import experiencesData from "@/data/experiences.json";
 import { useLanguage } from "@/context/LanguageContext";
@@ -93,6 +99,18 @@ export default function DestinationPage({
           </div>
         </div>
 
+        {/* Featured Qatar Catalog when viewing Doha */}
+        {resolvedParams.slug === "doha" && (
+          <>
+            <QatarCityCatalogSection className="pt-8 pb-2" />
+            <MuseumCulturalCatalogSection className="pt-2 pb-2" />
+            <ComboToursCatalogSection className="pt-2 pb-2" />
+            <BeyondDohaCatalogSection className="pt-2 pb-2" />
+            <AdventureWaterparkCatalogSection className="pt-2 pb-2" />
+            <DesertSafariCatalogSection className="pt-2 pb-4" />
+          </>
+        )}
+
         {/* Filter Bar & Tour Catalog */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-gray-200/80 pb-4">
@@ -138,6 +156,16 @@ export default function DestinationPage({
                 }`}
               >
                 {language === "ar" ? "جولات المدينة" : "City Sightseeing"}
+              </button>
+              <button
+                onClick={() => setActiveCategory("cultural")}
+                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all ${
+                  activeCategory === "cultural"
+                    ? "bg-[#0A1E3F] text-white"
+                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                }`}
+              >
+                {language === "ar" ? "المتاحف والتراث" : "Museums & Culture"}
               </button>
             </div>
           </div>

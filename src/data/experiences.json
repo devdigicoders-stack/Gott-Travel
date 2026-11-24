@@ -1,5 +1,1984 @@
 [
   {
+    "id": "overnight-desert-safari-qatar",
+    "slug": "overnight-desert-safari-qatar",
+    "title": "Overnight Desert Safari Experience",
+    "titleAr": "تجربة سفاري المبيت في صحراء قطر",
+    "shortDescription": "Experience the magic of the Qatar desert under the stars with traditional camp stay, BBQ dinner, stargazing, and sunrise breakfast over the Inland Sea.",
+    "shortDescriptionAr": "عش سحر صحراء قطر تحت النجوم مع إقامة في مخيم تقليدي، وعشاء مشاوي فاخر، ورصد النجوم، وإفطار مع شروق الشمس على خور العديد.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "desert",
+    "categoryName": "Desert Safari Tours",
+    "categoryNameAr": "جولات سفاري الصحراء",
+    "price": 459.1837,
+    "currency": "QAR",
+    "rating": 4.99,
+    "reviewCount": 640,
+    "duration": "18h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "DST-04",
+    "badgeAr": "مبيت صحراوي فاخر",
+    "images": [
+      "/images/desert_safari_overnight.jpg",
+      "/images/desert_safari_overnight_thumb.jpg",
+      "/images/cat_desert.jpg"
+    ],
+    "highlights": [
+      "Overnight stay in comfortable Bedouin-style private desert camp tents",
+      "Sunset and sunrise viewing over Khor Al Adaid (Inland Sea)",
+      "Thrilling 4x4 Land Cruiser dune bashing and sandboarding",
+      "Authentic freshly grilled Arabic BBQ buffet dinner and breakfast included",
+      "Stargazing around an evening desert campfire with Shisha and Karak tea",
+      "Roundtrip transfers from Doha in private executive 4WD vehicles"
+    ],
+    "itinerary": [
+      {
+        "time": "14:00 PM",
+        "title": "Hotel Pickup & Transfer",
+        "desc": "Private pickup in 4x4 Land Cruiser towards the southern Sealine desert."
+      },
+      {
+        "time": "15:30 PM",
+        "title": "Dune Bashing & Inland Sea Stop",
+        "desc": "Adrenaline-fueled dune ride followed by panoramic photo stop at Inland Sea."
+      },
+      {
+        "time": "17:30 PM",
+        "title": "Sunset & Camp Check-in",
+        "desc": "Watch sunset from dunes and check into your authentic desert camp."
+      },
+      {
+        "time": "19:30 PM",
+        "title": "BBQ Dinner & Campfire",
+        "desc": "Savor a delicious open-air BBQ buffet, music, and stargazing."
+      },
+      {
+        "time": "06:00 AM",
+        "title": "Sunrise & Morning Breakfast",
+        "desc": "Wake up to desert sunrise followed by fresh Arabic and continental breakfast."
+      },
+      {
+        "time": "08:30 AM",
+        "title": "Return Transfer to Doha",
+        "desc": "Scenic drive back to Doha with hotel drop-off."
+      }
+    ],
+    "inclusions": [
+      "Overnight stay in traditional Bedouin camp tent with bedding",
+      "Full dune bashing session with certified desert safari driver",
+      "Lavish Arabic BBQ dinner and sunrise breakfast",
+      "Unlimited beverages, tea, coffee, and mineral water",
+      "Sandboarding equipment and camel ride",
+      "Roundtrip transfers from Doha"
+    ],
+    "exclusions": [
+      "Personal toiletries",
+      "Quad biking rental"
+    ]
+  },
+  {
+    "id": "half-day-desert-safari-inland-sea-qatar",
+    "slug": "half-day-desert-safari-inland-sea-qatar",
+    "title": "Half Day Desert Safari with Inland Sea",
+    "titleAr": "سفاري صحراوي نصف يوم مع خور العديد",
+    "shortDescription": "Experience the ultimate desert safari adventure with thrilling 4x4 dune bashing, camel ride, sandboarding, and visit to the spectacular Inland Sea (Khor Al Adaid).",
+    "shortDescriptionAr": "اختبر قمة المغامرة الصحراوية مع التطعيس المثير بسيارات الدفع الرباعي وركوب الجمال والتزلج على الرمال وزيارة خور العديد الساحر.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "desert",
+    "categoryName": "Desert Safari Tours",
+    "categoryNameAr": "جولات سفاري الصحراء",
+    "price": 153.0612,
+    "currency": "QAR",
+    "rating": 4.96,
+    "reviewCount": 1120,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "DST-05",
+    "badgeAr": "مغامرة الكثبان وخور العديد",
+    "images": [
+      "/images/desert_safari_halfday.jpg",
+      "/images/desert_safari_halfday_thumb.jpg",
+      "/images/cat_desert.jpg"
+    ],
+    "highlights": [
+      "Exciting 4-hour desert expedition to Qatar's premier natural landmark",
+      "High-speed 4x4 dune bashing across golden singing sand dunes",
+      "Visit Khor Al Adaid (Inland Sea) where the sea meets desert dunes",
+      "Sandboarding experience down steep pristine dunes",
+      "Traditional camel riding stop with Arabic Gahwa & dates",
+      "Door-to-door hotel pickup and drop-off in air-conditioned Land Cruiser"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM / 14:00 PM",
+        "title": "Pickup from Hotel",
+        "desc": "Pickup in a 4WD Land Cruiser and drive to Sealine desert entrance."
+      },
+      {
+        "time": "09:45 AM / 14:45 PM",
+        "title": "Camel Camp & Tire Deflation",
+        "desc": "Prepare vehicle for sand dunes; enjoy optional camel ride."
+      },
+      {
+        "time": "10:15 AM / 15:15 PM",
+        "title": "Dune Bashing & Sandboarding",
+        "desc": "Thrilling dune driving by licensed expert with sandboard slides."
+      },
+      {
+        "time": "11:30 AM / 16:30 PM",
+        "title": "Inland Sea Photo Stop",
+        "desc": "Reach Khor Al Adaid water edge with view across to Saudi border."
+      },
+      {
+        "time": "13:00 PM / 18:00 PM",
+        "title": "Return Transfer",
+        "desc": "Return journey back to your Doha accommodation."
+      }
+    ],
+    "inclusions": [
+      "Roundtrip transfers in air-conditioned 4x4 Land Cruiser",
+      "Licensed experienced desert safari driver",
+      "Dune bashing session and sandboarding",
+      "Visit to Khor Al Adaid (Inland Sea)",
+      "Complimentary bottled water and soft drinks"
+    ],
+    "exclusions": [
+      "Quad bike rental",
+      "Meals"
+    ]
+  },
+  {
+    "id": "parasailing-experience-in-doha",
+    "slug": "parasailing-experience-in-doha",
+    "title": "Parasailing Experience in Doha",
+    "titleAr": "تجربة الباراشوت المائي في الدوحة",
+    "shortDescription": "Experience the thrill of flying above the sparkling waters of Doha and take in breathtaking panoramic views of the skyline and Arabian Gulf.",
+    "shortDescriptionAr": "عش متعة التحليق فوق مياه الدوحة المتلألئة واستمتع بإطلالات بانورامية خلابة على أفق الأبراج والخليج العربي.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Adventure & Water Park Tours",
+    "categoryNameAr": "مغامرات وحدائق مائية",
+    "price": 63.7755,
+    "currency": "QAR",
+    "rating": 4.93,
+    "reviewCount": 580,
+    "duration": "1h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "ART-07",
+    "badgeAr": "تحليق باراشوت مميز",
+    "images": [
+      "/images/water_parasailing_doha.jpg",
+      "/images/water_parasailing_thumb.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "Soar up to 500 feet above the Arabian Gulf on a thrilling parasail flight",
+      "Spectacular 360-degree aerial views of Doha Corniche and West Bay skyscrapers",
+      "Take off and land directly from the back of a state-of-the-art parasail winch boat",
+      "Single or tandem flight options available for couples and friends",
+      "Complete safety gear and professional guidance from certified instructors"
+    ],
+    "itinerary": [
+      {
+        "time": "Scheduled Time",
+        "title": "Marina Arrival & Briefing",
+        "desc": "Meet crew at the marina dock and receive safety instructions."
+      },
+      {
+        "time": "+20 mins",
+        "title": "Speedboat Cruise",
+        "desc": "Boat journey out into the open waters of Doha Bay."
+      },
+      {
+        "time": "+35 mins",
+        "title": "Parasail Flight",
+        "desc": "Smooth ascent into the sky for an unforgettable 12-15 minute flight."
+      },
+      {
+        "time": "+1 hour",
+        "title": "Return to Marina",
+        "desc": "Boat cruise back to marina with photo opportunities."
+      }
+    ],
+    "inclusions": [
+      "Parasailing flight (single or tandem)",
+      "High-speed winch boat cruise",
+      "Life jacket and safety harness",
+      "Certified captain and flight crew"
+    ],
+    "exclusions": [
+      "Photo/video package (available on board)"
+    ]
+  },
+  {
+    "id": "desert-falls-water-adventure-park",
+    "slug": "desert-falls-water-adventure-park",
+    "title": "Desert Falls Water & Adventure Park",
+    "titleAr": "حديقة شلالات الصحراء للمغامرات والألعاب المائية",
+    "shortDescription": "Experience an exciting combination of 56 rides and slides, canyon rafting, go-karting, and surf dunes at Hilton Salwa Beach Resort.",
+    "shortDescriptionAr": "استمتع بتجربة مائية فريدة تضم 56 لعبة ومنزلقاً مائياً، وتجديف الوديان، وسباق الكارتينج، وركوب الأمواج في منتجع هيلتون شاطئ سلوى.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Adventure & Water Park Tours",
+    "categoryNameAr": "مغامرات وحدائق مائية",
+    "price": 102.0408,
+    "currency": "QAR",
+    "rating": 4.97,
+    "reviewCount": 1450,
+    "duration": "8h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "ART-02",
+    "badgeAr": "شلالات ومنزلقات عملاقة",
+    "images": [
+      "/images/park_desert_falls.jpg",
+      "/images/park_desert_falls_thumb.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "All-day access to one of the largest water and adventure parks in the Middle East",
+      "56 exhilarating rides, 18 attractions, including King Cobra and the Sea Caves",
+      "Whitewater canyon rafting, surf pool dunes, and lazy river relaxation",
+      "Nimr laser tag and Desert Falls Go-Karting arena (optional on-site)",
+      "Private transfers from Doha directly to Hilton Salwa Beach Resort"
+    ],
+    "itinerary": [
+      {
+        "time": "09:30 AM",
+        "title": "Hotel Pickup",
+        "desc": "Comfortable private transfer towards the southwest coast of Qatar."
+      },
+      {
+        "time": "10:45 AM",
+        "title": "Park Entry & Lockers",
+        "desc": "Enter Desert Falls and get set up with wristbands and lockers."
+      },
+      {
+        "time": "11:15 AM - 17:00 PM",
+        "title": "Unlimited Waterpark Fun",
+        "desc": "Enjoy full access to canyon slides, wave pools, rafting, and kids zones."
+      },
+      {
+        "time": "17:30 PM",
+        "title": "Return Transfer",
+        "desc": "Comfortable drive back to Doha hotel."
+      }
+    ],
+    "inclusions": [
+      "Full-day general admission ticket to Desert Falls Water & Adventure Park",
+      "Unlimited access to all 56 rides and water attractions",
+      "Roundtrip transfers from Doha"
+    ],
+    "exclusions": [
+      "Food and beverage",
+      "Go-karting & Laser tag tokens"
+    ]
+  },
+  {
+    "id": "snow-theme-park-qatar-snow-dunes",
+    "slug": "snow-theme-park-qatar-snow-dunes",
+    "title": "Snow Theme Park Qatar – Snow Dunes",
+    "titleAr": "مدينة الثلj في قطر – سنودونز",
+    "shortDescription": "Experience a winter wonderland in the Arabian desert at Snow Dunes, featuring real sub-zero snow, thrilling slides, and icy attractions for the whole family.",
+    "shortDescriptionAr": "عش أجواء الشتاء الساحرة في قلب صحراء قطر في سنودونز، مع ثلوج حقيقية ومنزلقات جليدية مثيرة تناسب جميع أفراد العائلة.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Adventure & Water Park Tours",
+    "categoryNameAr": "مغامرات وحدائق مائية",
+    "price": 51.0204,
+    "currency": "QAR",
+    "rating": 4.92,
+    "reviewCount": 890,
+    "duration": "3h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "ART-03",
+    "badgeAr": "عالم الجليد والثلوج",
+    "images": [
+      "/images/park_snow_dunes.jpg",
+      "/images/park_snow_dunes_thumb.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "Sub-zero indoor winter theme park in Doha Festival City with real snow at -4°C",
+      "Ride the Dune Dash, a 50-meter-tall indoor snow slide reaching speeds over 50 km/h",
+      "Snow storm simulation, snow carousel, and ice slides for kids and families",
+      "Full winter gear provided: thermal jacket, pants, boots, gloves, and socks"
+    ],
+    "itinerary": [
+      {
+        "time": "Flexible Time",
+        "title": "Hotel Transfer to Festival City",
+        "desc": "Private transfer to Doha Festival City."
+      },
+      {
+        "time": "+30 mins",
+        "title": "Winter Gear Fitting",
+        "desc": "Get fitted with warm jackets, waterproof trousers, and boots."
+      },
+      {
+        "time": "+45 mins",
+        "title": "Snow Dunes Fun",
+        "desc": "Enjoy 2 hours of snow sliding, sledding, and winter games."
+      },
+      {
+        "time": "Return",
+        "title": "Return Hotel Drop-off",
+        "desc": "Transfer back to your Doha accommodation."
+      }
+    ],
+    "inclusions": [
+      "Silver/Gold entry pass with 2 hours of access",
+      "Complete winter clothing package (jacket, pants, boots, gloves)",
+      "Roundtrip hotel transfers"
+    ],
+    "exclusions": [
+      "Personal food & hot chocolate drinks"
+    ]
+  },
+  {
+    "id": "fifa-stadiums-tour-4-hours",
+    "slug": "fifa-stadiums-tour-4-hours",
+    "title": "FIFA Stadiums Tour – 4 Hours",
+    "titleAr": "جولة ملاعب كأس العالم فيفا – 4 ساعات",
+    "shortDescription": "Explore Qatar's iconic FIFA World Cup stadiums, architectural masterpieces, and modern sporting legacy with a knowledgeable local guide.",
+    "shortDescriptionAr": "استكشف ملاعب كأس العالم الأيقونية في قطر، وتحفها المعمارية المبهرة، وإرثها الرياضي العالمي مع مرشد سياحي خبير.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "city",
+    "categoryName": "Qatar City Tours & Experiences",
+    "categoryNameAr": "جولات وتجارب مدينة قطر",
+    "price": 89.2857,
+    "currency": "QAR",
+    "rating": 4.95,
+    "reviewCount": 730,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "QCT-04",
+    "badgeAr": "ملاعب مونديال قطر",
+    "images": [
+      "/images/tour_fifa_stadiums.jpg",
+      "/images/tour_fifa_stadiums_thumb.jpg",
+      "/images/dest_doha.jpg"
+    ],
+    "highlights": [
+      "Guided exterior tour of Qatar's most iconic 2022 FIFA World Cup stadiums",
+      "Marvel at the majestic 80,000-seat Lusail Iconic Stadium where the final was played",
+      "Visit Al Bayt Stadium in Al Khor designed as a gigantic traditional nomad tent",
+      "See Education City Stadium and Stadium 974 constructed with shipping containers",
+      "Insightful commentary on stadium architecture, sustainability, and legacy"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM / 14:00 PM",
+        "title": "Hotel Pickup",
+        "desc": "Pickup in air-conditioned vehicle with sports culture tour guide."
+      },
+      {
+        "time": "09:45 AM / 14:45 PM",
+        "title": "Lusail Iconic Stadium",
+        "desc": "Photo stops and architectural walkthrough of the golden bowl stadium."
+      },
+      {
+        "time": "11:00 AM / 16:00 PM",
+        "title": "Education City & Al Thumama",
+        "desc": "Discover stadiums shaped like diamond facets and the traditional Gahfiya."
+      },
+      {
+        "time": "12:15 PM / 17:15 PM",
+        "title": "Stadium 974 Waterfront",
+        "desc": "Explore the waterfront container stadium with views of Doha skyline."
+      },
+      {
+        "time": "13:00 PM / 18:00 PM",
+        "title": "Hotel Return",
+        "desc": "Drop-off back at your hotel."
+      }
+    ],
+    "inclusions": [
+      "Guided stadium tour in luxury air-conditioned vehicle",
+      "Professional licensed local tour guide",
+      "Bottled water and soft drinks"
+    ],
+    "exclusions": [
+      "Interior VIP locker room access",
+      "Meals"
+    ]
+  },
+  {
+    "id": "exclusive-shopping-tour-4-hours",
+    "slug": "exclusive-shopping-tour-4-hours",
+    "title": "Exclusive Shopping Tour – 4 Hours",
+    "titleAr": "جولة التسوق الحصرية في الدوحة – 4 ساعات",
+    "shortDescription": "Experience Qatar's finest shopping destinations with luxury boutiques, Venetian indoor canals at Place Vendôme, Villaggio, and traditional Souq Waqif.",
+    "shortDescriptionAr": "استمتع بأفخم وجهات التسوق في قطر مع البوتيكات العالمية وقنوات فينيسيا المائية في بلاس فاندوم وفيلاجيو وسوق واقف التراثي.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "city",
+    "categoryName": "Qatar City Tours & Experiences",
+    "categoryNameAr": "جولات وتجارب مدينة قطر",
+    "price": 51.0204,
+    "currency": "QAR",
+    "rating": 4.91,
+    "reviewCount": 490,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "QCT-05",
+    "badgeAr": "تسوق فاخر ومولات",
+    "images": [
+      "/images/tour_shopping_luxury.jpg",
+      "/images/tour_shopping_luxury_thumb.jpg",
+      "/images/dest_doha.jpg"
+    ],
+    "highlights": [
+      "Chauffeured shopping tour visiting Qatar's top premier luxury retail destinations",
+      "Explore Place Vendôme Lusail with its French architecture, dancing fountains, and canals",
+      "Visit Villaggio Mall featuring indoor Venetian gondola rides and high-end fashion avenue",
+      "Browse traditional Arabian perfumes, gold jewelry, and spices at Souq Waqif",
+      "Dedicated air-conditioned vehicle with trunk space for shopping bags"
+    ],
+    "itinerary": [
+      {
+        "time": "14:00 PM",
+        "title": "Hotel Pickup",
+        "desc": "Pickup in a comfortable vehicle dedicated to your shopping party."
+      },
+      {
+        "time": "14:30 PM",
+        "title": "Place Vendôme Lusail",
+        "desc": "Shop top luxury fashion labels and enjoy the European canal promenade."
+      },
+      {
+        "time": "16:00 PM",
+        "title": "Villaggio Mall & Aspire Zone",
+        "desc": "Experience the indoor Venetian canals and luxury department stores."
+      },
+      {
+        "time": "17:30 PM",
+        "title": "Souq Waqif Gold & Oud Souq",
+        "desc": "Explore local boutique scents, perfumes, textiles, and handicrafts."
+      },
+      {
+        "time": "18:00 PM",
+        "title": "Hotel Return",
+        "desc": "Drop-off with all your shopping packages safely loaded."
+      }
+    ],
+    "inclusions": [
+      "Private air-conditioned vehicle with driver for 4 hours",
+      "Hotel pickup and drop-off in Doha",
+      "Chilled bottled water"
+    ],
+    "exclusions": [
+      "Personal shopping expenses",
+      "Gondola ride tickets"
+    ]
+  },
+  {
+    "id": "banana-island-day-tour-doha",
+    "slug": "banana-island-day-tour-doha",
+    "title": "Banana Island Day Tour",
+    "titleAr": "رحلة يوم كامل إلى جزيرة البنانا بالدوحة",
+    "shortDescription": "Escape to a luxurious island paradise aboard a luxury catamaran cruise, with golden sandy beaches, swimming lagoon, and world-class resort hospitality.",
+    "shortDescriptionAr": "اهرب إلى جزيرة استوائية ساحرة على متن قارب كاتاماران فاخر، مع شواطئ رملية ذهبية ومسابح ومنتجعات عالمية راقية.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "city",
+    "categoryName": "Qatar City Tours & Experiences",
+    "categoryNameAr": "جولات وتجارب مدينة قطر",
+    "price": 76.5306,
+    "currency": "QAR",
+    "rating": 4.98,
+    "reviewCount": 1650,
+    "duration": "6h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "QCT-06",
+    "badgeAr": "منتجع جزيرة فاخر",
+    "images": [
+      "/images/tour_banana_island.jpg",
+      "/images/tour_banana_island_thumb.jpg",
+      "/images/dest_doha.jpg"
+    ],
+    "highlights": [
+      "Scenic 25-minute luxury catamaran cruise from Al Shyoukh Terminal to Banana Island",
+      "Full day pass to private sandy beach and resort lagoon swimming pool",
+      "Dine with credit at luxury oceanfront restaurants (QAR 200 dining voucher included)",
+      "Complimentary beach towels, sun loungers, and shower changing facilities",
+      "Option to enjoy bowling, mini-golf, and non-motorized water sports"
+    ],
+    "itinerary": [
+      {
+        "time": "09:30 AM",
+        "title": "Terminal Check-in",
+        "desc": "Arrive at Al Shyoukh Terminal on Doha Corniche and board luxury ferry."
+      },
+      {
+        "time": "10:00 AM",
+        "title": "Catamaran Cruise",
+        "desc": "Enjoy Gulf sea breeze as you cruise toward Banana Island Resort."
+      },
+      {
+        "time": "10:30 AM - 15:30 PM",
+        "title": "Island Beach & Dining",
+        "desc": "Relax on sun loungers, swim in lagoon pool, and enjoy gourmet seaside lunch."
+      },
+      {
+        "time": "16:00 PM",
+        "title": "Return Ferry to Doha",
+        "desc": "Catamaran return to Doha Corniche."
+      }
+    ],
+    "inclusions": [
+      "Roundtrip luxury catamaran ferry tickets",
+      "Day-pass access to pool and private beach",
+      "QAR 200 food & beverage dining voucher per person",
+      "Beach towels and sun lounger access"
+    ],
+    "exclusions": [
+      "Motorized water sports (jet ski/banana boat)",
+      "Spa treatments"
+    ]
+  },
+  {
+    "id": "katara-cultural-tour-2-hours",
+    "slug": "katara-cultural-tour-2-hours",
+    "title": "Katara Cultural Tour – 2 Hours",
+    "titleAr": "جولة قرية كتارا الثقافية – ساعتان",
+    "shortDescription": "Explore the artistic and cultural heart of Qatar, including the majestic Roman amphitheater, Blue Mosque, Golden Masjid, Pigeon Towers, and beach promenade.",
+    "shortDescriptionAr": "استكشف قلب قطر الثقافي والفني بزيارة المدرج الروماني المهيب، والمسجد الأزرق، والمسجد الذهبي، وأبراج الحمام، وممشى الشاطئ.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "city",
+    "categoryName": "Qatar City Tours & Experiences",
+    "categoryNameAr": "جولات وتجارب مدينة قطر",
+    "price": 51.0204,
+    "currency": "QAR",
+    "rating": 4.94,
+    "reviewCount": 820,
+    "duration": "2h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "QCT-07",
+    "badgeAr": "كتارا للفنون والتراث",
+    "images": [
+      "/images/tour_katara_cultural.jpg",
+      "/images/tour_katara_cultural_thumb.jpg",
+      "/images/dest_doha.jpg"
+    ],
+    "highlights": [
+      "Guided walking tour of the world-famous Katara Cultural Village",
+      "Admire the grand open-air Greco-Roman classical amphitheater overlooking the sea",
+      "Visit the intricate Turkish ceramic tilework of the Katara Blue Mosque & Golden Masjid",
+      "Photograph the traditional clay Pigeon Towers and contemporary art installations",
+      "Stroll the seaside promenade and luxury 21 High St outdoor air-conditioned boulevard"
+    ],
+    "itinerary": [
+      {
+        "time": "16:00 PM",
+        "title": "Pickup & Katara Arrival",
+        "desc": "Pickup from hotel and arrival at Katara main gate."
+      },
+      {
+        "time": "16:15 PM",
+        "title": "Katara Amphitheater & Art Murals",
+        "desc": "Guided exploration of the amphitheater and vibrant cultural sculptures."
+      },
+      {
+        "time": "17:00 PM",
+        "title": "The Mosques & Pigeon Towers",
+        "desc": "Visit the Blue Mosque, Golden Masjid, and iconic falcon/pigeon towers."
+      },
+      {
+        "time": "17:45 PM",
+        "title": "21 High St & Beachfront",
+        "desc": "Experience the chilled outdoor shopping avenue and beachfront."
+      },
+      {
+        "time": "18:00 PM",
+        "title": "Hotel Return",
+        "desc": "Return transfer to your hotel."
+      }
+    ],
+    "inclusions": [
+      "Professional English/Arabic licensed cultural guide",
+      "Roundtrip transfers from Doha hotel",
+      "Bottled mineral water"
+    ],
+    "exclusions": [
+      "Personal cafe/restaurant expenses"
+    ]
+  },
+  {
+    "id": "sunrise-desert-safari",
+    "slug": "sunrise-desert-safari",
+    "title": "Sunrise Desert Safari",
+    "titleAr": "سفاري شروق الشمس في صحراء قطر",
+    "shortDescription": "Start your day with a magical sunrise desert safari across Qatar's golden dunes and the tranquil Inland Sea (Khor Al Adaid).",
+    "shortDescriptionAr": "ابدأ يومك بمغامرة ساحرة لشروق الشمس فوق الكثبان الرملية الذهبية في قطر وشاطئ البحر الداخلي الهادئ (خور العديد).",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "desert",
+    "categoryName": "Desert Safari Tours",
+    "categoryNameAr": "جولات سفاري الصحراء",
+    "price": 178.5714,
+    "currency": "QAR",
+    "rating": 4.97,
+    "reviewCount": 840,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "DST-01",
+    "badgeAr": "شروق صحراوي ساحر",
+    "images": [
+      "/images/desert_safari_sunrise.jpg",
+      "/images/desert_safari_sunrise_thumb.jpg",
+      "/images/cat_desert.jpg"
+    ],
+    "highlights": [
+      "Early morning dawn drive into the tranquil Qatar desert to witness a golden sunrise",
+      "Thrilling dune bashing experience in a 4x4 Land Cruiser driven by a professional desert driver",
+      "Visit the UNESCO-recognized Inland Sea (Khor Al Adaid) where blue waters meet towering golden dunes",
+      "Complimentary traditional camel ride and Arabic coffee (Gahwa) with dates at desert camp",
+      "Sandboarding down giant steep sand dunes with panoramic desert and ocean views",
+      "Roundtrip hotel transfers in Doha in comfortable air-conditioned 4WD vehicle"
+    ],
+    "itinerary": [
+      {
+        "time": "05:00 AM",
+        "title": "Early Morning Hotel Pickup",
+        "desc": "Private pickup from your hotel in Doha in a luxury air-conditioned 4x4 Land Cruiser."
+      },
+      {
+        "time": "05:45 AM",
+        "title": "Dune Deflation & Camel Camp",
+        "desc": "Tire deflation stop at Sealine; enjoy an optional short camel ride and morning tea/Gahwa."
+      },
+      {
+        "time": "06:15 AM",
+        "title": "Sunrise Viewing & Dune Bashing",
+        "desc": "Watch the sun crest over majestic golden dunes followed by an adrenaline-packed dune drive."
+      },
+      {
+        "time": "07:30 AM",
+        "title": "Khor Al Adaid (Inland Sea)",
+        "desc": "Reach the pristine shoreline of the Inland Sea overlooking the Saudi Arabian border."
+      },
+      {
+        "time": "09:00 AM",
+        "title": "Return to Doha",
+        "desc": "Scenic highway transfer back to your Doha hotel or accommodation."
+      }
+    ],
+    "inclusions": [
+      "Roundtrip transfers in air-conditioned 4x4 Land Cruiser with licensed desert safari driver",
+      "Thrilling roller-coaster dune bashing over high desert dunes",
+      "Stop at Inland Sea (Khor Al Adaid) with photo opportunities",
+      "Sandboarding experience with high-quality sandboards",
+      "Traditional short camel ride experience",
+      "Chilled bottled water, Arabic coffee, and Karak tea"
+    ],
+    "exclusions": [
+      "Quad bike / buggy rental (optional add-on at camp)",
+      "Gratuities for the driver"
+    ]
+  },
+  {
+    "id": "sunset-desert-safari",
+    "slug": "sunset-desert-safari",
+    "title": "Sunset Desert Safari",
+    "titleAr": "سفاري غروب الشمس في صحراء قطر",
+    "shortDescription": "Witness the breathtaking beauty of Qatar's desert sunset, thrilling dune bashing, camel ride, and serene twilight views over Khor Al Adaid.",
+    "shortDescriptionAr": "شاهد الجمال الأخاذ لغروب الشمس في صحراء قطر مع متعة التطعيس فوق الكثبان وركوب الجمال وإطلالات الشفق الساحرة فوق خور العديد.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "desert",
+    "categoryName": "Desert Safari Tours",
+    "categoryNameAr": "جولات سفاري الصحراء",
+    "price": 178.5714,
+    "currency": "QAR",
+    "rating": 4.98,
+    "reviewCount": 1420,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "DST-02",
+    "badgeAr": "غروب رومانسي مميز",
+    "images": [
+      "/images/desert_safari_sunset.jpg",
+      "/images/desert_safari_sunset_thumb.jpg",
+      "/images/cat_desert.jpg"
+    ],
+    "highlights": [
+      "Golden hour afternoon departure perfectly timed to catch the crimson desert sunset",
+      "Exhilarating 4x4 dune bashing across towering dunes of southern Qatar",
+      "Panoramic stop atop a high sand dune for sunset photography and sandboarding",
+      "Drive to the edge of Khor Al Adaid (Inland Sea) during twilight glow",
+      "Camel ride experience, falcon photo opportunity, and Bedouin camp hospitality",
+      "Private or shared roundtrip transfers from all hotels across Doha"
+    ],
+    "itinerary": [
+      {
+        "time": "14:30 PM",
+        "title": "Afternoon Hotel Pickup",
+        "desc": "Pickup from your hotel or residence in Doha and drive south towards Sealine Desert."
+      },
+      {
+        "time": "15:15 PM",
+        "title": "Camel Camp & Falcon Encounter",
+        "desc": "Experience a camel ride, pose with a hunting falcon, and taste authentic Arabic Gahwa."
+      },
+      {
+        "time": "15:45 PM",
+        "title": "Rollercoaster Dune Bashing & Sandboarding",
+        "desc": "Thrilling dune driving by licensed desert driver with sandboarding stops on high dunes."
+      },
+      {
+        "time": "17:15 PM",
+        "title": "Inland Sea Sunset Spectacle",
+        "desc": "Watch the sun sink below the desert horizon at Khor Al Adaid with brilliant twilight hues."
+      },
+      {
+        "time": "18:30 PM",
+        "title": "Return Transfer to Doha",
+        "desc": "Comfortable drive back to your hotel in Doha."
+      }
+    ],
+    "inclusions": [
+      "Hotel pickup and drop-off in air-conditioned 4x4 Land Cruiser",
+      "Professional certified English/Arabic speaking desert safari driver",
+      "Thrilling 45-minute dune bashing experience",
+      "Sandboarding down giant desert dunes",
+      "Inland Sea (Khor Al Adaid) sunset stop",
+      "Traditional camel ride & Arabic hospitality refreshments (tea, coffee, water)"
+    ],
+    "exclusions": [
+      "Dinner (available on evening/full day tours)",
+      "Quad bike rental"
+    ]
+  },
+  {
+    "id": "full-day-desert-safari-with-quad-bike-inland-sea",
+    "slug": "full-day-desert-safari-with-quad-bike-inland-sea",
+    "title": "Full Day Desert Safari with Quad Biking & Inland Sea",
+    "titleAr": "سفاري صحراوي يوم كامل مع الدبابات الرباعية وخور العديد",
+    "shortDescription": "Enjoy an extended desert adventure with thrilling 4x4 dune bashing, quad biking across high dunes, sandboarding, inland sea visit, and desert camp relaxation.",
+    "shortDescriptionAr": "استمتع بمغامرة صحراوية شاملة ليوم كامل تتضمن التطعيس بسيارات الدفع الرباعي، وركوب الدبابات (ATV)، والتزلج على الرمال، وزيارة خور العديد، والاسترخاء في المخيم.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "desert",
+    "categoryName": "Desert Safari Tours",
+    "categoryNameAr": "جولات سفاري الصحراء",
+    "price": 255.102,
+    "currency": "QAR",
+    "rating": 4.99,
+    "reviewCount": 980,
+    "duration": "8h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "DST-03",
+    "badgeAr": "مغامرة يوم كامل شاملة",
+    "images": [
+      "/images/desert_safari_fullday_atv.jpg",
+      "/images/desert_safari_fullday_atv_thumb.jpg",
+      "/images/cat_desert.jpg"
+    ],
+    "highlights": [
+      "Ultimate 8-hour comprehensive Qatar desert safari combining all premier adventures",
+      "Dedicated 45-minute Quad Bike (ATV) off-road ride over golden desert sand dunes",
+      "High-octane 4x4 dune bashing session led by master desert safari drivers",
+      "Journey deep into the Inland Sea (Khor Al Adaid) with beach swim and relaxation",
+      "Delicious traditional Arabic BBQ lunch or dinner served at a beachfront Bedouin camp",
+      "Unlimited refreshments, sandboarding, camel riding, and beach volleyball"
+    ],
+    "itinerary": [
+      {
+        "time": "08:30 AM",
+        "title": "Morning Hotel Pickup",
+        "desc": "Executive 4x4 pickup from your hotel or residence anywhere in Doha."
+      },
+      {
+        "time": "09:30 AM",
+        "title": "Quad Bike (ATV) Adventure",
+        "desc": "Gear up with helmet & goggles for an adrenaline-pumping 45-minute quad bike dune ride."
+      },
+      {
+        "time": "10:45 AM",
+        "title": "Deep Desert Dune Bashing",
+        "desc": "Off-road desert roller-coaster ride traversing the largest sand dunes in southern Qatar."
+      },
+      {
+        "time": "12:15 PM",
+        "title": "Inland Sea Exploration",
+        "desc": "Marvel at Khor Al Adaid's natural marvel where the sea enters the heart of the desert."
+      },
+      {
+        "time": "13:30 PM",
+        "title": "Beachfront Camp & Arabic BBQ Lunch",
+        "desc": "Relax at a private desert camp; enjoy an authentic Arabic BBQ buffet, beach swim, and sandboarding."
+      },
+      {
+        "time": "16:30 PM",
+        "title": "Return Drive to Doha",
+        "desc": "Comfortable drive back to Doha with drop-off at your hotel."
+      }
+    ],
+    "inclusions": [
+      "Private or shared roundtrip transportation in 4x4 Toyota Land Cruiser",
+      "45-minute Quad Biking (ATV) rental with helmet and safety briefing",
+      "Full dune bashing session by licensed desert guide",
+      "Beachfront desert camp access with swimming & volleyball facilities",
+      "Full authentic Arabic BBQ buffet meal",
+      "Unlimited chilled water, soft drinks, Karak tea, and Arabic coffee",
+      "Sandboarding equipment and camel ride"
+    ],
+    "exclusions": [
+      "Personal swimwear / towels",
+      "Gratuities for the guide & camp staff"
+    ]
+  },
+  {
+    "id": "doha-fishing-tour-10-hours",
+    "slug": "doha-fishing-tour-10-hours",
+    "title": "Doha Fishing Tour – 10Hours",
+    "titleAr": "رحلة صيد الأسماك في الدوحة – 10 ساعات",
+    "shortDescription": "Enjoy an exciting fishing adventure in the Arabian Gulf with a speedboat journey to prime fishing locations with all gear, bait, and refreshments included.",
+    "shortDescriptionAr": "استمتع بمغامرة صيد مثيرة في مياه الخليج العربي على متن قارب سريع نحو أفضل مواقع الصيد مع توفير كافة معدات الصيد ومشروبات الضيافة.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Adventure & Water Park Tours",
+    "categoryNameAr": "مغامرات وحدائق مائية",
+    "price": 510.2041,
+    "currency": "QAR",
+    "rating": 4.96,
+    "reviewCount": 520,
+    "duration": "10h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "ART-04",
+    "badgeAr": "صيد بحري مميز",
+    "images": [
+      "/images/adventure_doha_fishing.jpg",
+      "/images/combo_dhow_cruise.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "Full-day 10-hour deep-sea fishing expedition in the bountiful waters of the Arabian Gulf",
+      "Travel aboard a modern, equipped speedboat with an experienced professional fishing captain",
+      "Target popular local species including Kingfish, Hammour, Queenfish, Barracuda, and Snapper",
+      "High-quality fishing rods, reels, tackle, live/fresh bait, and safety life jackets all provided",
+      "Keep your catch fresh in onboard chilled coolers; water, soft drinks, and snacks provided"
+    ],
+    "itinerary": [
+      {
+        "time": "06:00 AM",
+        "title": "Hotel Pickup & Marina Transfer",
+        "desc": "Convenient pickup from your Doha hotel or accommodation in an air-conditioned vehicle to the marina dock."
+      },
+      {
+        "time": "06:45 AM",
+        "title": "Safety Briefing & Offshore Cruise",
+        "desc": "Speedboat departs into Arabian Gulf to designated deep-sea fishing grounds."
+      },
+      {
+        "time": "07:30 AM - 14:00 PM",
+        "title": "Prime Angling & Bottom/Trolling Fishing",
+        "desc": "Cast lines under captain guidance, switch fishing spots, and enjoy snacks & cold drinks onboard."
+      },
+      {
+        "time": "15:00 PM",
+        "title": "Return Cruise to Marina",
+        "desc": "Scenic speedboat cruise back to Doha harbor with your fresh catch packed in ice."
+      },
+      {
+        "time": "16:00 PM",
+        "title": "Hotel Drop-off",
+        "desc": "Smooth transfer back to your Doha hotel or starting location."
+      }
+    ],
+    "inclusions": [
+      "Chartered private modern speedboat with licensed captain and crew for 10 hours",
+      "All high-grade fishing gear, rods, reels, tackle, and fresh bait",
+      "Chilled coolers and ice to store your catch safely",
+      "Bottled mineral water, soft drinks, and light snacks",
+      "Full safety equipment and life jackets",
+      "Roundtrip private hotel pickup and drop-off in Doha"
+    ],
+    "exclusions": [
+      "Specialized personal lunch meals (guests may bring food onboard)",
+      "Gratuities for the boat crew"
+    ]
+  },
+  {
+    "id": "meryal-waterpark-ultimate-water-adventure",
+    "slug": "meryal-waterpark-ultimate-water-adventure",
+    "title": "Meryal Waterpark – Ultimate Water Adventure",
+    "titleAr": "حديقة مريال المائية – مغامرة مائية لا تُنسى",
+    "shortDescription": "Get ready for an unforgettable day of water adventures, exciting rides, record-breaking slides, and family entertainment at Meryal Waterpark, Qetaifan Island North.",
+    "shortDescriptionAr": "استعد ليوم لا يُنسى من المغامرات المائية والمنزلقات القياسية والترفيه العائلي في حديقة مريال المائية بجزيرة قطيفان الشمالية.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Adventure & Water Park Tours",
+    "categoryNameAr": "مغامرات وحدائق مائية",
+    "price": 76.5306,
+    "currency": "QAR",
+    "rating": 4.98,
+    "reviewCount": 1850,
+    "duration": "Full Day",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "ART-01",
+    "badgeAr": "أكبر حديقة مائية",
+    "images": [
+      "/images/adventure_meryal_waterpark.jpg",
+      "/images/dest_doha.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "Full day unlimited access to Qatar's premier waterpark on Qetaifan Island North, Lusail",
+      "Ride the iconic Icon Tower, holding the world record for the tallest waterslide tower (85m)",
+      "Over 36 heart-pounding water attractions, racing tubes, wave pools, and lazy rivers",
+      "Exciting themed zones paying tribute to Qatar's oil and gas heritage with state-of-the-art engineering",
+      "Private beach access, dining promenades, luxury cabanas, and children's splash zones"
+    ],
+    "itinerary": [
+      {
+        "time": "10:00 AM",
+        "title": "Hotel Pickup & Transfer",
+        "desc": "Comfortable pickup from your Doha hotel to Qetaifan Island North in Lusail."
+      },
+      {
+        "time": "10:45 AM",
+        "title": "Entry & Waterpark Access",
+        "desc": "Receive admission wristbands and enter the world-class water theme park."
+      },
+      {
+        "time": "11:15 AM - 16:30 PM",
+        "title": "Slides & Wave Pool Adventures",
+        "desc": "Enjoy the world-record Icon Tower, thrilling slides, lazy river, and interactive splash zones."
+      },
+      {
+        "time": "17:30 PM",
+        "title": "Beach & Lagoon Relaxation",
+        "desc": "Unwind on the private shoreline and soak in scenic Gulf views."
+      },
+      {
+        "time": "18:30 PM",
+        "title": "Return Transfer",
+        "desc": "Relaxing evening drive back to your hotel in Doha."
+      }
+    ],
+    "inclusions": [
+      "Full-day all-access general admission ticket to Meryal Waterpark",
+      "Access to Icon Tower and over 36 rides and attractions",
+      "Access to private sandy beach and wave pools",
+      "Roundtrip private hotel transfer from Doha",
+      "Chilled bottled water in vehicle"
+    ],
+    "exclusions": [
+      "Food and beverages inside the waterpark",
+      "Locker and towel rentals (available inside park)",
+      "Private luxury cabana rental"
+    ]
+  },
+  {
+    "id": "jet-ski-adventure-in-doha",
+    "slug": "jet-ski-adventure-in-doha",
+    "title": "Jet Ski Adventure in Doha",
+    "titleAr": "مغامرة الدبابات البحرية (جيت سكي) في الدوحة",
+    "shortDescription": "Enjoy an exciting jet ski ride across the beautiful waters of Doha and experience the perfect combination of speed, splash, and scenic skyline views.",
+    "shortDescriptionAr": "استمتع بجولة مثيرة بالدباب البحري النفاث (جيت سكي) في مياه الدوحة الرائعة واختبر أروع مزيج من السرعة ورذاذ البحر والإطلالات البانورامية.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Adventure & Water Park Tours",
+    "categoryNameAr": "مغامرات وحدائق مائية",
+    "price": 76.5306,
+    "currency": "QAR",
+    "rating": 4.94,
+    "reviewCount": 980,
+    "duration": "1h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "ART-06",
+    "badgeAr": "مغامرة بحرية شيقة",
+    "images": [
+      "/images/adventure_jet_ski.jpg",
+      "/images/dest_doha.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "High-speed jet ski ride across the azure waters of Doha Bay and The Pearl-Qatar",
+      "Take in breathtaking panoramic views of Doha's West Bay skyscrapers and Corniche skyline",
+      "Latest model Yamaha/Sea-Doo personal watercraft with top safety certifications",
+      "Comprehensive safety briefing and guidance from certified marine instructors",
+      "Life jackets, safety lanyard, and secure lockers included"
+    ],
+    "itinerary": [
+      {
+        "time": "Scheduled Time",
+        "title": "Hotel Pickup",
+        "desc": "Comfortable private ride to the water sports marina in Doha."
+      },
+      {
+        "time": "+30 mins",
+        "title": "Arrival & Safety Briefing",
+        "desc": "Meet your instructor, fit life jacket, and learn throttle and steering controls."
+      },
+      {
+        "time": "+45 mins",
+        "title": "High-Speed Jet Ski Session",
+        "desc": "Speed across open designated waters, ride the waves, and photograph the iconic skyline."
+      },
+      {
+        "time": "+1h 45m",
+        "title": "Debrief & Refreshment",
+        "desc": "Shower facilities, complimentary cold beverages, and photo review."
+      },
+      {
+        "time": "Return",
+        "title": "Hotel Drop-off",
+        "desc": "Transfer back to your Doha hotel or preferred location."
+      }
+    ],
+    "inclusions": [
+      "Jet Ski rental (single or double rider Yamaha/Sea-Doo)",
+      "USCG-approved life jackets and safety gear",
+      "Safety briefing and instruction by certified marine staff",
+      "Fuel and equipment maintenance included",
+      "Roundtrip private hotel transfers in Doha"
+    ],
+    "exclusions": [
+      "Wetsuit hire (optional during cooler months)",
+      "Personal locker deposit (refundable)",
+      "Photo and video package (optional purchase on site)"
+    ]
+  },
+  {
+    "id": "panda-house-al-khor-with-zoo-tour-4-hours",
+    "slug": "panda-house-al-khor-with-zoo-tour-4-hours",
+    "title": "Panda House Al Khor with Zoo Tour – 4 Hours",
+    "titleAr": "بيت الباندا في الخور مع جولة حديقة الحيوان – 4 ساعات",
+    "shortDescription": "Enjoy a fun-filled family adventure with adorable pandas, landscaped gardens and exciting attractions at Al Khor Park and the state-of-the-art Panda House.",
+    "shortDescriptionAr": "استمتع بمغامرة عائلية ممتعة مع حيوانات الباندا اللطيفة، والحدائق الطبيعية الرائعة، والمعالم الجذابة في منتزه الخور وبيت الباندا فائق التطور.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Family & Wildlife",
+    "categoryNameAr": "عائلية وحياة برية",
+    "price": 102.0408,
+    "currency": "QAR",
+    "rating": 4.95,
+    "reviewCount": 1340,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "BDT-04",
+    "badgeAr": "عائلية مميزة",
+    "images": [
+      "/images/beyond_panda_house.jpg",
+      "/images/dest_doha.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "Meet giant pandas Suhail and Thuraya in the first climate-controlled Panda House in the Middle East",
+      "Explore Al Khor Family Park with its extensive mini zoo featuring over 300 animal species",
+      "Stroll through tranquil landscaped botanical gardens, aviary, and artificial lake",
+      "Family-friendly experience with children's play areas, battery train rides, and shaded lawns",
+      "Includes hotel pickup and drop-off in private air-conditioned vehicle with entry tickets"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM / 14:00 PM",
+        "title": "Hotel Pickup",
+        "desc": "Convenient pickup from your Doha hotel or residence in a comfortable air-conditioned vehicle."
+      },
+      {
+        "time": "09:50 AM / 14:50 PM",
+        "title": "Al Khor Panda House Experience",
+        "desc": "Visit the world-class Panda House to observe the giant pandas playing, eating bamboo, and sleeping."
+      },
+      {
+        "time": "11:00 AM / 16:00 PM",
+        "title": "Al Khor Park & Mini Zoo Exploration",
+        "desc": "Walk through the zoo exhibits seeing Arabian oryx, exotic birds, big cats, and the aviary."
+      },
+      {
+        "time": "12:15 PM / 17:15 PM",
+        "title": "Return Transfer to Doha",
+        "desc": "Relax on the smooth return journey with drop-off back to your starting point."
+      }
+    ],
+    "inclusions": [
+      "Guaranteed admission tickets to Panda House and Al Khor Park",
+      "Roundtrip transfers in air-conditioned executive vehicle",
+      "Professional driver and guide assistance",
+      "Complimentary chilled bottled water"
+    ],
+    "exclusions": [
+      "Food and personal refreshments at park kiosks",
+      "Optional battery train ride tokens"
+    ]
+  },
+  {
+    "id": "dukhan-west-coast-tour-4-hours",
+    "slug": "dukhan-west-coast-tour-4-hours",
+    "title": "Dukhan West Coast Tour – 4 Hours",
+    "titleAr": "جولة ساحل دخان الغربي وزكريت – 4 ساعات",
+    "shortDescription": "Explore the beautiful western coastline of Qatar, featuring dramatic rock formations, iconic sculptures like Richard Serra's East-West/West-East, Zekreet Film City, and Dukhan beach.",
+    "shortDescriptionAr": "استكشف الساحل الغربي الساحر لقطر مع التكوينات الصخرية الفريدة، والمنحوتات العالمية لريتشارد سيرا في زكريت، ومدينة الأفلام، وشاطئ دخان الذهبي.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Nature & Desert Coast",
+    "categoryNameAr": "طبيعة ومغامرات الساحل",
+    "price": 153.0612,
+    "currency": "QAR",
+    "rating": 4.92,
+    "reviewCount": 760,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "BDT-03",
+    "badgeAr": "ساحل غربي ساحر",
+    "images": [
+      "/images/beyond_dukhan_west_coast.jpg",
+      "/images/dest_doha.jpg",
+      "/images/cat_historical.jpg"
+    ],
+    "highlights": [
+      "Marvel at the monolithic steel plates of Richard Serra's 'East-West/West-East' in the Brouq Nature Reserve",
+      "Discover the iconic mushroom-shaped limestone rock formations sculpted by coastal winds at Zekreet",
+      "Visit the mysterious Zekreet Film City, a traditional recreated Arabian desert village",
+      "Scenic coastal drive along the pristine shoreline of Dukhan and the Arabian Gulf",
+      "Private transfers in 4x4 off-road vehicle with expert knowledgeable guide"
+    ],
+    "itinerary": [
+      {
+        "time": "08:30 AM / 13:30 PM",
+        "title": "Hotel Pickup",
+        "desc": "Morning pickup in a luxury 4x4 vehicle and journey toward Qatar's west coast."
+      },
+      {
+        "time": "09:45 AM / 14:45 PM",
+        "title": "Zekreet Rock Formations & Brouq Reserve",
+        "desc": "Explore natural limestone sculptures, desert plateaus, and pristine coastal vistas."
+      },
+      {
+        "time": "10:30 AM / 15:30 PM",
+        "title": "Richard Serra East-West/West-East Sculpture",
+        "desc": "Visit the world-famous public art installation spanning over a kilometer of natural corridor."
+      },
+      {
+        "time": "11:15 AM / 16:15 PM",
+        "title": "Zekreet Film City & Dukhan Coastline",
+        "desc": "Explore the film set village followed by a scenic photo stop along Dukhan beach."
+      },
+      {
+        "time": "12:30 PM / 17:30 PM",
+        "title": "Return Transfer to Doha",
+        "desc": "Comfortable drive back to Doha with hotel drop-off."
+      }
+    ],
+    "inclusions": [
+      "Roundtrip transfers in air-conditioned 4x4 SUV",
+      "Certified desert & nature guide",
+      "Access to Brouq Nature Reserve & Zekreet sights",
+      "Chilled water, juices, and Karak tea"
+    ],
+    "exclusions": [
+      "Meals and personal purchases",
+      "Gratuities"
+    ]
+  },
+  {
+    "id": "purple-island-kayaking-tour-4-hours",
+    "slug": "purple-island-kayaking-tour-4-hours",
+    "title": "Purple Island Kayaking Tour – 4 Hours",
+    "titleAr": "جولة قوارب الكاياك في جزيرة بن غنام (الجزيرة الأرجوانية) – 4 ساعات",
+    "shortDescription": "Explore the natural beauty of Purple Island with an exciting guided kayaking adventure through Qatar's lush mangrove channels and tranquil coastal waterways.",
+    "shortDescriptionAr": "استكشف الجمال الطبيعي لجزيرة بن غنام (الجزيرة الأرجوانية) مع مغامرة التجديف بقوارب الكاياك عبر قنوات غابات القرم الطبيعية والمياه الساحلية الهادئة.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Eco-Adventure & Kayak",
+    "categoryNameAr": "مغامرات بيئية وكاياك",
+    "price": 127.551,
+    "currency": "QAR",
+    "rating": 4.97,
+    "reviewCount": 1680,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "BDT-02",
+    "badgeAr": "غروب ساحر",
+    "images": [
+      "/images/beyond_purple_island.jpg",
+      "/images/dest_doha.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "Glide through the tranquil mangrove waters of Jazirat bin Ghanim (Purple Island)",
+      "Learn about Qatar's ancient 2nd millennium BC purple dye manufacturing history",
+      "Spot migratory water birds, herons, flamingos, and marine life in the ecosystem",
+      "Enjoy breathtaking sunset and twilight reflections on calm open waters",
+      "Professional kayaking instructor, full safety orientation, and quality gear included"
+    ],
+    "itinerary": [
+      {
+        "time": "14:00 PM",
+        "title": "Hotel Pickup",
+        "desc": "Afternoon pickup in comfortable air-conditioned vehicle toward Al Khor."
+      },
+      {
+        "time": "14:50 PM",
+        "title": "Basecamp Briefing & Gear Setup",
+        "desc": "Safety briefing, life jacket fitting, and paddle technique demonstration."
+      },
+      {
+        "time": "15:15 PM",
+        "title": "Guided Kayaking through Mangroves",
+        "desc": "Paddle through serene mangrove estuaries and discover the archaeological island."
+      },
+      {
+        "time": "16:45 PM",
+        "title": "Sunset Beach Stop & Karak Tea",
+        "desc": "Watch the sunset glow over the water while enjoying authentic Karak tea and snacks."
+      },
+      {
+        "time": "17:45 PM",
+        "title": "Return Transfer to Doha",
+        "desc": "Smooth return transfer back to your hotel in Doha."
+      }
+    ],
+    "inclusions": [
+      "All kayaking equipment (sit-on-top kayaks, paddles, life vests)",
+      "Certified kayaking guide and safety marshal",
+      "Roundtrip transfers from Doha",
+      "Waterproof phone pouches, water, and sunset Karak tea"
+    ],
+    "exclusions": [
+      "Swimwear and change of clothes (bring own)",
+      "Gratuities"
+    ]
+  },
+  {
+    "id": "doha-city-tour-with-dhow-cruise-4-5-hours",
+    "slug": "doha-city-tour-with-dhow-cruise-4-5-hours",
+    "title": "Doha City Tour with Dhow Cruise – 4.5 Hours",
+    "titleAr": "جولة مدينة الدوحة مع رحلة بحرية بالمركب الخشبي – 4.5 ساعات",
+    "shortDescription": "Discover Doha's famous landmarks and enjoy a traditional dhow boat cruise along the beautiful Arabian Gulf waters with stunning West Bay skyline views.",
+    "shortDescriptionAr": "اكتشف معالم الدوحة الشهيرة واستمتع بجولة بحرية ساحرة على متن مركب خشبي تقليدي في مياه الخليج العربي مع إطلالات رائعة على أفق أبراج الدوحة.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "city-tours",
+    "categoryName": "City & Cruise",
+    "categoryNameAr": "جولات بحرية ومعالم",
+    "price": 51.0204,
+    "currency": "QAR",
+    "rating": 4.93,
+    "reviewCount": 1150,
+    "duration": "4.5h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "COMBO-01",
+    "badgeAr": "كومبو 01",
+    "images": [
+      "/images/combo_dhow_cruise.jpg",
+      "/images/dest_doha.jpg",
+      "/images/cat_city-tours.jpg"
+    ],
+    "highlights": [
+      "Traditional wooden dhow cruise across Doha Bay with panoramic West Bay skyscraper views",
+      "Guided walk through the vibrant alleys of Souq Waqif, spice shops, and falcon market",
+      "Explore Katara Cultural Village, Amphitheatre, and cultural mosques",
+      "Visit The Pearl-Qatar island, Mediterranean style marinas, and luxury yachts",
+      "Includes air-conditioned transfers with certified licensed guide and bottled refreshments"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM / 14:00 PM",
+        "title": "Hotel or Airport Pickup",
+        "desc": "Convenient pickup from your Doha hotel or Hamad International Airport in an air-conditioned vehicle."
+      },
+      {
+        "time": "09:30 AM / 14:30 PM",
+        "title": "Traditional Dhow Cruise Experience",
+        "desc": "Board an authentic Qatari wooden dhow at Doha Harbor for a scenic cruise across the azure waters."
+      },
+      {
+        "time": "10:30 AM / 15:30 PM",
+        "title": "Katara Cultural Village",
+        "desc": "Discover the art galleries, Blue Mosque, Greek amphitheatre, and scenic coastal promenade."
+      },
+      {
+        "time": "11:30 AM / 16:30 PM",
+        "title": "The Pearl-Qatar (Porto Arabia)",
+        "desc": "Tour through Qatar's iconic artificial island with luxury boutiques, Venetian canals, and marinas."
+      },
+      {
+        "time": "12:30 PM / 17:30 PM",
+        "title": "Souq Waqif & Return Transfer",
+        "desc": "Guided heritage stroll through Souq Waqif followed by return drop-off to your starting location."
+      }
+    ],
+    "inclusions": [
+      "Traditional Dhow boat cruise ticket and boarding fees",
+      "Roundtrip transfers in air-conditioned luxury vehicle",
+      "Licensed English & Arabic speaking professional guide",
+      "Complimentary cold mineral water and refreshments"
+    ],
+    "exclusions": [
+      "Meals and personal shopping purchases",
+      "Gratuities for guide and boat captain"
+    ]
+  },
+  {
+    "id": "zubara-north-coast-tour-with-kayaking-7-hours",
+    "slug": "zubara-north-coast-tour-with-kayaking-7-hours",
+    "title": "Zubara North Coast Tour with Kayaking – 7 Hours",
+    "titleAr": "جولة ساحل الشمال والزبارة مع قوارب الكاياك – 7 ساعات",
+    "shortDescription": "Discover Qatar's historical northern coast and enjoy an exciting kayaking experience surrounded by beautiful mangrove reserves at Al Thakira, plus a visit to UNESCO-listed Al Zubarah Fort.",
+    "shortDescriptionAr": "اكتشف الساحل الشمالي التاريخي لقطر واستمتع بمغامرة التجديف بقوارب الكاياك بين غابات القرم الساحرة في الذخيرة، مع زيارة قلعة الزبارة الأثرية المدرجة في اليونسكو.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "adventure",
+    "categoryName": "Adventure & Nature",
+    "categoryNameAr": "مغامرات وطبيعة",
+    "price": 89.2857,
+    "currency": "QAR",
+    "rating": 4.97,
+    "reviewCount": 890,
+    "duration": "7h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "COMBO-03",
+    "badgeAr": "كومبو 03",
+    "images": [
+      "/images/combo_zubara_kayaking.jpg",
+      "/images/dest_doha.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "Guided eco-kayaking expedition through the pristine mangrove forest channels at Al Thakira",
+      "Visit UNESCO World Heritage Site Al Zubarah Fort and ancient archaeological coastal settlement",
+      "Explore Al Khor harbor with traditional fishing dhows and historical pearl diving heritage",
+      "Observe native bird species, flamingos, and rare marine ecology with specialist naturalist",
+      "Full safety briefing, professional kayaking gear, life vests, and waterproof cases provided"
+    ],
+    "itinerary": [
+      {
+        "time": "08:30 AM",
+        "title": "Hotel Pickup & Northern Scenic Drive",
+        "desc": "Morning pickup in comfortable air-conditioned vehicle and scenic drive toward the northern tip of Qatar."
+      },
+      {
+        "time": "09:45 AM",
+        "title": "Al Thakira Mangrove Kayaking",
+        "desc": "Guided kayaking through serene turquoise channels, sandbars, and natural mangrove sanctuaries."
+      },
+      {
+        "time": "12:00 PM",
+        "title": "Al Khor Harbor & Lunch Break",
+        "desc": "Sightseeing at the historical fishing port with relaxing stop for snacks and refreshments."
+      },
+      {
+        "time": "13:15 PM",
+        "title": "UNESCO Al Zubarah Fort",
+        "desc": "Explore the 18th-century defensive fort, museum exhibitions, cannon towers, and ruined coastal town."
+      },
+      {
+        "time": "15:30 PM",
+        "title": "Return Transfer to Doha",
+        "desc": "Smooth return transfer back to your hotel or residence in Doha."
+      }
+    ],
+    "inclusions": [
+      "All kayaking equipment: single/double kayaks, paddles, and certified life jackets",
+      "Guided kayaking session led by certified water sports instructor",
+      "Admission to UNESCO Al Zubarah Fort",
+      "Private roundtrip air-conditioned transfers from Doha",
+      "Chilled bottled water, juices, and light snacks"
+    ],
+    "exclusions": [
+      "Full lunch meal",
+      "Gratuities"
+    ]
+  },
+  {
+    "id": "doha-city-tour-with-desert-safari-7-hours",
+    "slug": "doha-city-tour-with-desert-safari-7-hours",
+    "title": "Doha City Tour with Desert Safari – 7 Hours",
+    "titleAr": "جولة مدينة الدوحة وسفاري الصحراء – 7 ساعات",
+    "shortDescription": "Enjoy the perfect combination of city sightseeing and an exciting desert adventure in Qatar. Explore Souq Waqif, Katara, and The Pearl, followed by thrilling dune bashing and Khor Al Adaid Inland Sea visit.",
+    "shortDescriptionAr": "استمتع بالمزيج المثالي بين جولة معالم المدينة وسفاري الصحراء المثير في قطر. استكشف سوق واقف، كتارا، واللؤلؤة، يليها ركوب الكثبان الرملية وزيارة خور العديد (البحر الداخلي).",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "desert",
+    "categoryName": "City & Desert Combo",
+    "categoryNameAr": "كومبو المدينة والصحراء",
+    "price": 127.551,
+    "currency": "QAR",
+    "rating": 4.98,
+    "reviewCount": 2100,
+    "duration": "7h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Ultimate Combo",
+    "badgeAr": "الكومبو الشامل",
+    "images": [
+      "/images/combo_city_desert_safari.jpg",
+      "/images/dest_doha.jpg",
+      "/images/feat_sandboarding.jpg"
+    ],
+    "highlights": [
+      "The ultimate all-in-one full-day Qatar experience covering top city highlights and the desert",
+      "City sightseeing: Souq Waqif, Katara Cultural Village, and The Pearl-Qatar marina",
+      "Adrenaline-pumping 4x4 Land Cruiser dune bashing across the singing sands of Sealine",
+      "Visit UNESCO-recognized Khor Al Adaid Inland Sea where desert dunes meet the Arabian Gulf",
+      "Sandboarding down golden sand slopes and traditional camel ride photo opportunity"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM",
+        "title": "Hotel Pickup & City Highlights Tour",
+        "desc": "Morning pickup in executive vehicle exploring Doha Corniche, Katara Cultural Village, and The Pearl."
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Souq Waqif Heritage Stroll",
+        "desc": "Explore falcon souq, spices, handicrafts, and cultural architecture."
+      },
+      {
+        "time": "12:30 PM",
+        "title": "Transfer to Sealine Desert Base",
+        "desc": "Transition to desert convoy with tire deflation stop, camel greetings, and Karak tea."
+      },
+      {
+        "time": "13:30 PM",
+        "title": "Roller-Coaster Dune Bashing & Sandboarding",
+        "desc": "45 minutes thrilling off-road dune drive and sandboarding down colossal desert ridges."
+      },
+      {
+        "time": "14:45 PM",
+        "title": "Khor Al Adaid Inland Sea & Sunset Views",
+        "desc": "Marvel at the spectacular natural phenomenon where the ocean tides enter deep into the desert."
+      },
+      {
+        "time": "16:00 PM",
+        "title": "Return Transfer to Doha",
+        "desc": "Smooth drop-off back at your hotel or preferred address in Doha."
+      }
+    ],
+    "inclusions": [
+      "Full-day transportation (luxury AC coach for city and 4x4 Land Cruiser for desert)",
+      "Certified desert marshal safari driver and licensed city guide",
+      "Thrilling dune bashing and sandboarding gear",
+      "Camel ride experience and photography stop",
+      "Unlimited chilled bottled water, soft drinks, and authentic Karak tea"
+    ],
+    "exclusions": [
+      "Quad bike / ATV self-drive rental (optional at desert camp)",
+      "Lunch meals",
+      "Gratuities"
+    ]
+  },
+  {
+    "id": "sheikh-faisal-museum-camel-track-tour",
+    "slug": "sheikh-faisal-museum-camel-track-tour",
+    "title": "Sheikh Faisal Museum & Camel Track Tour",
+    "titleAr": "جولة متحف الشيخ فيصل ومضمار سباق الهجن",
+    "shortDescription": "Experience Highlights: Explore the private museum of Sheikh Faisal, vintage cars, Islamic heritage artifacts, and the famous Al Shahaniya camel race track.",
+    "shortDescriptionAr": "أبرز معالم التجربة: استكشف المتحف الخاص للشيخ فيصل، ومجموعة السيارات الكلاسيكية، والتحف التراثية الإسلامية، ومضمار الشحانية الشهير لسباق الهجن.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "cultural",
+    "categoryName": "Cultural & Heritage",
+    "categoryNameAr": "الثقافة والتراث",
+    "price": 63.5204,
+    "currency": "QAR",
+    "rating": 4.9,
+    "reviewCount": 520,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Cultural Icon",
+    "badgeAr": "أيقونة ثقافية",
+    "images": [
+      "/brand/logo-blue.png",
+      "/images/dest_doha.jpg",
+      "/images/cat_cultural.jpg"
+    ],
+    "highlights": [
+      "Explore the private museum of Sheikh Faisal Bin Qassim Al Thani with 15,000+ artifacts",
+      "View rare vintage cars, classic steam engines, and aircraft in the automobile wing",
+      "Discover Islamic art, ancient weaponry, rare manuscripts, and traditional Qatari crafts",
+      "Visit Al Shahaniya Camel Racetrack to observe royal racing camels in training",
+      "Roundtrip air-conditioned transfers from Doha with certified cultural guide"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM / 14:00 PM",
+        "title": "Hotel Pickup",
+        "desc": "Pickup from your hotel or residence in Doha in an air-conditioned vehicle."
+      },
+      {
+        "time": "09:45 AM / 14:45 PM",
+        "title": "Al Shahaniya Camel Race Track",
+        "desc": "Visit Qatar's premier camel racing venue and observe racing camels and remote-control robot jockeys."
+      },
+      {
+        "time": "10:45 AM / 15:45 PM",
+        "title": "Sheikh Faisal Bin Qassim Al Thani Museum",
+        "desc": "Extensive guided walk through vintage cars, weaponry, coins, carpets, and heritage houses."
+      },
+      {
+        "time": "12:30 PM / 17:30 PM",
+        "title": "Return Drop-off",
+        "desc": "Comfortable return journey back to your starting point in Doha."
+      }
+    ],
+    "inclusions": [
+      "Roundtrip private air-conditioned transport",
+      "Certified English & Arabic speaking guide",
+      "Museum admission fees included",
+      "Chilled bottled water"
+    ],
+    "exclusions": [
+      "Personal meals and expenses",
+      "Gratuities for guide and driver"
+    ]
+  },
+  {
+    "id": "full-day-museum-tour-6-hours",
+    "slug": "full-day-museum-tour-6-hours",
+    "title": "Full Day Museum Tour – 6 Hours",
+    "titleAr": "جولة المتاحف الشاملة – 6 ساعات",
+    "shortDescription": "Discover Qatar's history, Islamic art, and culture at the National Museum of Qatar, Museum of Islamic Art, and Mathaf.",
+    "shortDescriptionAr": "اكتشف تاريخ قطر، وفنون الحضارة الإسلامية، والثقافة المعاصرة في متحف قطر الوطني، متحف الفن الإسلامي، ومتحف للفن الحديث.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "cultural",
+    "categoryName": "Cultural & Heritage",
+    "categoryNameAr": "الثقافة والتراث",
+    "price": 114.7959,
+    "currency": "QAR",
+    "rating": 4.95,
+    "reviewCount": 780,
+    "duration": "6h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Comprehensive Culture",
+    "badgeAr": "الجولة الثقافية الشاملة",
+    "images": [
+      "/brand/logo-blue.png",
+      "/images/dest_doha.jpg",
+      "/images/cat_historical.jpg"
+    ],
+    "highlights": [
+      "Visit the iconic National Museum of Qatar (NMoQ) designed by Jean Nouvel like a Desert Rose",
+      "Tour the world-renowned Museum of Islamic Art (MIA) designed by I.M. Pei",
+      "Explore Mathaf: Arab Museum of Modern Art showcasing leading Arab modernists",
+      "Stroll through MIA Park with panoramic views of West Bay skyline",
+      "Comprehensive commentary from a licensed art and history specialist guide"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM",
+        "title": "Hotel Pickup",
+        "desc": "Morning pickup in executive air-conditioned vehicle."
+      },
+      {
+        "time": "09:30 AM",
+        "title": "Museum of Islamic Art (MIA) & Waterfront Park",
+        "desc": "Guided exploration of 1,400 years of Islamic masterpieces, calligraphy, ceramics, and jewelry."
+      },
+      {
+        "time": "11:30 AM",
+        "title": "National Museum of Qatar",
+        "desc": "Walk through 11 experiential galleries telling Qatar's story from prehistoric times to the modern era."
+      },
+      {
+        "time": "13:30 PM",
+        "title": "Lunch Break in Souq Waqif / Katara",
+        "desc": "Time allocated for authentic Qatari dining (meals personal expense)."
+      },
+      {
+        "time": "14:30 PM",
+        "title": "Mathaf: Arab Museum of Modern Art",
+        "desc": "Explore modern and contemporary art from the Arab world and diaspora."
+      },
+      {
+        "time": "15:30 PM",
+        "title": "Return Transfer",
+        "desc": "Drop-off back at your hotel or preferred Doha destination."
+      }
+    ],
+    "inclusions": [
+      "Full-day 6-hour transport in executive AC vehicle",
+      "Licensed bilingual professional tour guide",
+      "Chilled water and authentic Karak tea",
+      "All parking and access fees"
+    ],
+    "exclusions": [
+      "Optional special gallery exhibition tickets",
+      "Lunch meals",
+      "Gratuities"
+    ]
+  },
+  {
+    "id": "museum-of-illusions-doha",
+    "slug": "museum-of-illusions-doha",
+    "title": "Museum of Illusions Doha",
+    "titleAr": "متحف الأوهام والخدع البصرية الدوحة",
+    "shortDescription": "Step into a world of fascinating illusions, mind-bending visual exhibits, and interactive optical rooms in Doha.",
+    "shortDescriptionAr": "ادخل إلى عالم مذهل من الخدع البصرية، والمعروضات التفاعلية، والغرف البصرية المدهشة في الدوحة لجميع أفراد العائلة.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "cultural",
+    "categoryName": "Family & Attractions",
+    "categoryNameAr": "عائلية ومعالم",
+    "price": 25.2551,
+    "currency": "QAR",
+    "rating": 4.85,
+    "reviewCount": 1420,
+    "duration": "2h",
+    "pickupIncluded": false,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Family Favorite",
+    "badgeAr": "المفضلة للعائلات",
+    "images": [
+      "/brand/logo-blue.png",
+      "/images/dest_doha.jpg",
+      "/images/cat_adventure.jpg"
+    ],
+    "highlights": [
+      "Over 80 mind-bending optical illusions, holograms, and interactive installations",
+      "Walk through the Vortex Tunnel, Ames Room, and Infinity Room for viral photos",
+      "Challenge your brain with wooden puzzles, optical brain teasers, and educational games",
+      "Located at The Gate Mall in West Bay Doha with easy metro and parking access",
+      "Fun, interactive experience ideal for kids, adults, and families"
+    ],
+    "itinerary": [
+      {
+        "time": "Flexible Entry",
+        "title": "Priority Check-In",
+        "desc": "Check in at Museum of Illusions, The Gate Mall, West Bay Doha with guaranteed admission."
+      },
+      {
+        "time": "+30 Mins",
+        "title": "Interactive Optical Rooms",
+        "desc": "Explore the Ames Room, Reversed Room, and Rotating Cylinder with photo assistance."
+      },
+      {
+        "time": "+60 Mins",
+        "title": "Vortex Tunnel & Hologram Gallery",
+        "desc": "Experience balance-defying walkways and 3D hologram projections."
+      },
+      {
+        "time": "+90 Mins",
+        "title": "Smart Playroom & Dilemma Games",
+        "desc": "Engage with mind-challenging wooden puzzles, brain riddles, and souvenir gallery."
+      }
+    ],
+    "inclusions": [
+      "Guaranteed admission ticket to Museum of Illusions Doha",
+      "Access to all 80+ optical illusion rooms and exhibits",
+      "Staff assistance for fun optical illusion photography"
+    ],
+    "exclusions": [
+      "Hotel transfers (can be added on request)",
+      "Gift shop purchases"
+    ]
+  },
+  {
+    "id": "lusail-city-tour-4-hours",
+    "slug": "lusail-city-tour-4-hours",
+    "title": "Lusail City Tour – 4 Hours",
+    "titleAr": "جولة مدينة لوسيل – 4 ساعات",
+    "shortDescription": "Discover Lusail, Qatar's futuristic city. Tour Highlights: Katara Towers, Lusail Marina Promenade, Place Vendôme Mall, Lusail Boulevard, and Lusail Iconic Stadium.",
+    "shortDescriptionAr": "اكتشف لوسيل، مدينة المستقبل القطرية فائقة التطور. أبرز المعالم: أبراج كتارا الأيقونية، ممشى مارينا لوسيل، مول بلاس فاندوم الفاخر، درب لوسيل، واستاد لوسيل الأيقوني.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "city-tours",
+    "categoryName": "City Sightseeing",
+    "categoryNameAr": "جولات المدينة",
+    "price": 123.7245,
+    "currency": "QAR",
+    "rating": 4.92,
+    "reviewCount": 840,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Qatar Essential",
+    "badgeAr": "معالم قطر الأساسية",
+    "images": [
+      "/brand/logo-blue.png",
+      "/images/dest_doha.jpg",
+      "/images/cat_city-tours.jpg"
+    ],
+    "highlights": [
+      "Marvel at the striking architecture of Katara Towers (Raffles & Fairmont Doha)",
+      "Scenic stroll along Lusail Marina Promenade overlooking luxury yachts",
+      "Visit Place Vendôme, Qatar's Parisian-inspired grand shopping & canal destination",
+      "Drive down Lusail Boulevard, the modern beating heart of Qatar",
+      "Photo stop at Lusail Iconic Stadium, venue of the 2022 World Cup Final",
+      "Roundtrip transfers in air-conditioned luxury vehicle with private guide"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM / 14:00 PM",
+        "title": "Hotel or Airport Pickup",
+        "desc": "Pickup from any Doha hotel, residence, or Hamad International Airport in a luxury air-conditioned vehicle."
+      },
+      {
+        "time": "09:45 AM / 14:45 PM",
+        "title": "Lusail Marina Promenade & Katara Towers",
+        "desc": "Walking tour along the marina with photo stops facing the magnificent Katara Towers and Arabian Gulf."
+      },
+      {
+        "time": "10:30 AM / 15:30 PM",
+        "title": "Lusail Boulevard & Modern Landmarks",
+        "desc": "Cruise through the bustling Lusail Boulevard, dynamic commercial towers, and smart city architecture."
+      },
+      {
+        "time": "11:15 AM / 16:15 PM",
+        "title": "Place Vendôme Mall & Dancing Fountains",
+        "desc": "Explore Qatar's luxury Parisian-style retail destination with open canal and architectural vistas."
+      },
+      {
+        "time": "12:15 PM / 17:15 PM",
+        "title": "Lusail Iconic Stadium & Drop-off",
+        "desc": "Photo stop at the world-famous 80,000-seat stadium followed by comfortable return transfer."
+      }
+    ],
+    "inclusions": [
+      "Hotel pickup and drop-off in air-conditioned vehicle",
+      "Licensed English & Arabic speaking professional guide",
+      "Chilled bottled mineral water and refreshments",
+      "All parking and toll charges"
+    ],
+    "exclusions": [
+      "Personal expenses and meals",
+      "Gratuities for guide and driver"
+    ]
+  },
+  {
+    "id": "full-day-doha-city-tour-6-hours",
+    "slug": "full-day-doha-city-tour-6-hours",
+    "title": "Full Day Doha City Tour – 6 Hours",
+    "titleAr": "جولة مدينة الدوحة الشاملة – 6 ساعات",
+    "shortDescription": "Tour Highlights: Katara Cultural Village, Souq Waqif, National Museum of Qatar, Museum of Islamic Art, Doha Corniche waterfront, and luxury Pearl-Qatar island.",
+    "shortDescriptionAr": "أبرز معالم الجولة: الحي الثقافي كتارا، سوق واقف التراثي، متحف قطر الوطني، متحف الفن الإسلامي، كورنيش الدوحة، واللؤلؤة قطر مع مرشد سياحي معتمد.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "city-tours",
+    "categoryName": "City Sightseeing",
+    "categoryNameAr": "جولات المدينة",
+    "price": 153.0612,
+    "currency": "QAR",
+    "rating": 4.96,
+    "reviewCount": 1250,
+    "duration": "6h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Qatar Flagship",
+    "badgeAr": "الجولة الأولى في قطر",
+    "images": [
+      "/brand/logo-blue.png",
+      "/images/dest_doha.jpg",
+      "/images/cat_city-tours.jpg"
+    ],
+    "highlights": [
+      "Immerse yourself in authentic Arabian heritage at Souq Waqif (Spices, Perfumes & Falcon Souq)",
+      "Explore Katara Cultural Village: Blue Mosque, Golden Mosque, and Greek Amphitheatre",
+      "Discover The Pearl-Qatar, featuring Porto Arabia Marina and Venice-style Qanat Quartier",
+      "Exterior photo stops at National Museum of Qatar (Desert Rose) and Museum of Islamic Art",
+      "Panoramic drive along the 7km Doha Corniche with skyline views of West Bay",
+      "Insightful cultural commentary from a certified licensed expert guide"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM",
+        "title": "Hotel Pickup & Doha Corniche Drive",
+        "desc": "Morning pickup in executive AC vehicle with scenic drive along the Doha Corniche and Dhow Harbour."
+      },
+      {
+        "time": "09:45 AM",
+        "title": "Museum of Islamic Art & National Museum",
+        "desc": "Admire Jean Nouvel's Desert Rose architecture and I.M. Pei's iconic Museum of Islamic Art waterfront park."
+      },
+      {
+        "time": "11:00 AM",
+        "title": "Souq Waqif Heritage Exploration",
+        "desc": "Guided walking tour through historic spice alleys, falcon souq, traditional handicrafts, and local cafes."
+      },
+      {
+        "time": "12:30 PM",
+        "title": "Katara Cultural Village",
+        "desc": "Visit the world-renowned cultural district, majestic amphitheatre, art galleries, and beach promenade."
+      },
+      {
+        "time": "13:45 PM",
+        "title": "The Pearl-Qatar & Qanat Quartier",
+        "desc": "Explore Qatar's premier man-made island, Venetian style canals, picturesque bridges, and yacht marinas."
+      },
+      {
+        "time": "15:00 PM",
+        "title": "Return Transfer",
+        "desc": "Comfortable drop-off back to your hotel, Hamad Airport, or preferred destination in Doha."
+      }
+    ],
+    "inclusions": [
+      "Full-day private transfers in luxury air-conditioned vehicle",
+      "Licensed bilingual professional tour guide",
+      "Chilled bottled water, soft drinks, and authentic Karak tea",
+      "All parking and access permits"
+    ],
+    "exclusions": [
+      "Internal museum gallery admission tickets (optional)",
+      "Lunch meals (free time provided in Souq Waqif or Katara)",
+      "Gratuities for guide and driver"
+    ]
+  },
+  {
+    "id": "doha-express-city-tour-4-hours",
+    "slug": "doha-express-city-tour-4-hours",
+    "title": "Doha Express City Tour – 4 Hours",
+    "titleAr": "جولة الدوحة السريعة – 4 ساعات",
+    "shortDescription": "Tour Highlights: Al Corniche Promenade, Souq Waqif, Katara Cultural Village, and The Pearl-Qatar. Perfect for layovers and short visits.",
+    "shortDescriptionAr": "أبرز معالم الجولة: ممشى الكورنيش، سوق واقف، الحي الثقافي كتارا، واللؤلؤة قطر. الخيار الأمثل للزيارات القصيرة وركاب الترانزيت.",
+    "destinationId": "doha",
+    "destinationName": "Doha & Qatar",
+    "destinationNameAr": "الدوحة وقطر",
+    "categoryId": "city-tours",
+    "categoryName": "City Sightseeing",
+    "categoryNameAr": "جولات المدينة",
+    "price": 113.7755,
+    "currency": "QAR",
+    "rating": 4.89,
+    "reviewCount": 960,
+    "duration": "4h",
+    "pickupIncluded": true,
+    "cancellationPolicy": "Free cancellation up to 24 hours in advance",
+    "cancellationPolicyAr": "إلغاء مجاني حتى 24 ساعة قبل موعد الرحلة",
+    "badge": "Layover Favorite",
+    "badgeAr": "المفضلة لركاب الترانزيت",
+    "images": [
+      "/brand/logo-blue.png",
+      "/images/dest_doha.jpg",
+      "/images/cat_city-tours.jpg"
+    ],
+    "highlights": [
+      "Photo stop at Doha Corniche with Dhow Harbor and the dramatic West Bay skyline",
+      "Guided walk through vibrant Souq Waqif visiting falcon shops, spices, and souvenirs",
+      "Explore the cultural wonders and architecture of Katara Cultural Village",
+      "Drive through The Pearl-Qatar luxury residential island and Porto Arabia marina",
+      "Flexible pickup and drop-off at Hamad International Airport (ideal for layovers)"
+    ],
+    "itinerary": [
+      {
+        "time": "09:00 AM / 14:00 PM",
+        "title": "Airport or Hotel Pickup",
+        "desc": "Convenient meeting with your guide and transfer in air-conditioned executive vehicle."
+      },
+      {
+        "time": "09:30 AM / 14:30 PM",
+        "title": "Doha Corniche & Dhow Harbor",
+        "desc": "Panoramic skyline views and traditional wooden dhow photography stop."
+      },
+      {
+        "time": "10:15 AM / 15:15 PM",
+        "title": "Katara Cultural Village",
+        "desc": "Sightseeing of the Golden Mosque, Greek Amphitheatre, and Pigeon Towers."
+      },
+      {
+        "time": "11:15 AM / 16:15 PM",
+        "title": "The Pearl-Qatar",
+        "desc": "Tour through the Mediterranean-style marina and Venice-inspired canals."
+      },
+      {
+        "time": "12:00 PM / 17:00 PM",
+        "title": "Souq Waqif & Return Transfer",
+        "desc": "Explore the historic market followed by return drop-off to your hotel or airport."
+      }
+    ],
+    "inclusions": [
+      "Air-conditioned private transport throughout tour",
+      "Professional English & Arabic speaking guide",
+      "Complimentary chilled bottled water",
+      "Airport pickup and drop-off included"
+    ],
+    "exclusions": [
+      "Meals and personal expenses",
+      "Gratuities"
+    ]
+  },
+  {
     "id": "doha-desert-safari-inland-sea",
     "slug": "doha-desert-safari-inland-sea",
     "title": "Doha: Half-Day Desert Safari, Dune Bashing & Khor Al Adaid Inland Sea",
@@ -35,11 +2014,31 @@
       "Complimentary Arabic Karak tea, mineral water, and sunset photo opportunities"
     ],
     "itinerary": [
-      {"time": "14:00", "title": "Doha Hotel / Airport Pickup", "desc": "Convenient pickup from any hotel, residence, or Hamad International Airport in Doha in a luxury 4x4."},
-      {"time": "15:00", "title": "Sealine Beach & Camel Encounter", "desc": "Tire deflation, camel ride photo stop, and falcons greeting."},
-      {"time": "15:45", "title": "Thrilling Dune Bashing & Sandboarding", "desc": "Adrenaline-fueled 45-minute dune riding across the singing sand dunes of Qatar."},
-      {"time": "17:00", "title": "Khor Al Adaid Inland Sea Sunset", "desc": "Gaze across the gulf waters towards Saudi Arabia while watching the golden sunset over the tide."},
-      {"time": "18:30", "title": "Return Drop-Off in Doha", "desc": "Comfortable drop-off back to your starting point."}
+      {
+        "time": "14:00",
+        "title": "Doha Hotel / Airport Pickup",
+        "desc": "Convenient pickup from any hotel, residence, or Hamad International Airport in Doha in a luxury 4x4."
+      },
+      {
+        "time": "15:00",
+        "title": "Sealine Beach & Camel Encounter",
+        "desc": "Tire deflation, camel ride photo stop, and falcons greeting."
+      },
+      {
+        "time": "15:45",
+        "title": "Thrilling Dune Bashing & Sandboarding",
+        "desc": "Adrenaline-fueled 45-minute dune riding across the singing sand dunes of Qatar."
+      },
+      {
+        "time": "17:00",
+        "title": "Khor Al Adaid Inland Sea Sunset",
+        "desc": "Gaze across the gulf waters towards Saudi Arabia while watching the golden sunset over the tide."
+      },
+      {
+        "time": "18:30",
+        "title": "Return Drop-Off in Doha",
+        "desc": "Comfortable drop-off back to your starting point."
+      }
     ],
     "inclusions": [
       "Roundtrip transfers in air-conditioned 4x4 Land Cruiser",
@@ -89,10 +2088,26 @@
       "Tanoura, Fire show, and Khaleeji cultural performances"
     ],
     "itinerary": [
-      {"time": "14:30", "title": "Hotel Pickup", "desc": "Executive pickup in air-conditioned 4x4."},
-      {"time": "16:00", "title": "Red Dune Bashing & Sandboarding", "desc": "Thrilling 45-min dune drive."},
-      {"time": "18:00", "title": "Al Khayma Camp Heritage Program", "desc": "Sunset greeting, henna, and camel ride."},
-      {"time": "19:30", "title": "3 Buffets Feast & Live Shows", "desc": "Gourmet dining and entertainment."}
+      {
+        "time": "14:30",
+        "title": "Hotel Pickup",
+        "desc": "Executive pickup in air-conditioned 4x4."
+      },
+      {
+        "time": "16:00",
+        "title": "Red Dune Bashing & Sandboarding",
+        "desc": "Thrilling 45-min dune drive."
+      },
+      {
+        "time": "18:00",
+        "title": "Al Khayma Camp Heritage Program",
+        "desc": "Sunset greeting, henna, and camel ride."
+      },
+      {
+        "time": "19:30",
+        "title": "3 Buffets Feast & Live Shows",
+        "desc": "Gourmet dining and entertainment."
+      }
     ],
     "inclusions": [
       "Hotel pickup and drop-off in Dubai",
@@ -140,10 +2155,26 @@
       "Delicious BBQ feast at Al Khayma Camp"
     ],
     "itinerary": [
-      {"time": "14:30", "title": "Pickup", "desc": "Convenient hotel pickup."},
-      {"time": "15:45", "title": "Quad Biking", "desc": "35 minutes adrenaline-fueled riding."},
-      {"time": "17:15", "title": "Dune Bashing & Sandboarding", "desc": "Sunset desert ride."},
-      {"time": "18:30", "title": "Al Khayma Camp Dinner", "desc": "Live shows and BBQ."}
+      {
+        "time": "14:30",
+        "title": "Pickup",
+        "desc": "Convenient hotel pickup."
+      },
+      {
+        "time": "15:45",
+        "title": "Quad Biking",
+        "desc": "35 minutes adrenaline-fueled riding."
+      },
+      {
+        "time": "17:15",
+        "title": "Dune Bashing & Sandboarding",
+        "desc": "Sunset desert ride."
+      },
+      {
+        "time": "18:30",
+        "title": "Al Khayma Camp Dinner",
+        "desc": "Live shows and BBQ."
+      }
     ],
     "inclusions": [
       "Transfers in 4WD",
@@ -190,10 +2221,26 @@
       "Photo stop at Burj Al Arab waterfront"
     ],
     "itinerary": [
-      {"time": "09:00", "title": "Hotel Pickup", "desc": "Morning pickup in Dubai."},
-      {"time": "09:45", "title": "Blue Mosque Tour", "desc": "Ottoman and Andalusian architecture."},
-      {"time": "11:00", "title": "Abra Boat Ride & Creek", "desc": "Historic waterway crossing."},
-      {"time": "12:00", "title": "Spice & Gold Souks", "desc": "Shopping and tasting."}
+      {
+        "time": "09:00",
+        "title": "Hotel Pickup",
+        "desc": "Morning pickup in Dubai."
+      },
+      {
+        "time": "09:45",
+        "title": "Blue Mosque Tour",
+        "desc": "Ottoman and Andalusian architecture."
+      },
+      {
+        "time": "11:00",
+        "title": "Abra Boat Ride & Creek",
+        "desc": "Historic waterway crossing."
+      },
+      {
+        "time": "12:00",
+        "title": "Spice & Gold Souks",
+        "desc": "Shopping and tasting."
+      }
     ],
     "inclusions": [
       "Transportation in luxury air-conditioned coach",
@@ -240,9 +2287,21 @@
       "Blue Mosque interior visit"
     ],
     "itinerary": [
-      {"time": "08:30", "title": "Pickup", "desc": "Convenient hotel transfer."},
-      {"time": "09:30", "title": "Dubai Frame", "desc": "Panoramic views of old and new Dubai."},
-      {"time": "11:00", "title": "Historic Old Dubai", "desc": "Creek crossing and souks."}
+      {
+        "time": "08:30",
+        "title": "Pickup",
+        "desc": "Convenient hotel transfer."
+      },
+      {
+        "time": "09:30",
+        "title": "Dubai Frame",
+        "desc": "Panoramic views of old and new Dubai."
+      },
+      {
+        "time": "11:00",
+        "title": "Historic Old Dubai",
+        "desc": "Creek crossing and souks."
+      }
     ],
     "inclusions": [
       "Dubai Frame admission ticket",
@@ -289,8 +2348,16 @@
       "Sunset photo opportunity against oasis water reflections"
     ],
     "itinerary": [
-      {"time": "16:30", "title": "Arrival & Safety Briefing", "desc": "Meet your equestrian trainer and mount your horse."},
-      {"time": "17:00", "title": "Scenic Oasis Horse Trek", "desc": "Relaxing desert ride as the sunset colors the sky."}
+      {
+        "time": "16:30",
+        "title": "Arrival & Safety Briefing",
+        "desc": "Meet your equestrian trainer and mount your horse."
+      },
+      {
+        "time": "17:00",
+        "title": "Scenic Oasis Horse Trek",
+        "desc": "Relaxing desert ride as the sunset colors the sky."
+      }
     ],
     "inclusions": [
       "Equestrian helmet and riding equipment",
@@ -336,10 +2403,26 @@
       "Full gourmet BBQ dinner and freshly prepared sunrise breakfast"
     ],
     "itinerary": [
-      {"time": "15:00", "title": "Check-in & Welcome Gahwa", "desc": "Settle into your private luxury desert dome."},
-      {"time": "17:00", "title": "Sunset Activities", "desc": "Camel ride and falcon greeting."},
-      {"time": "19:30", "title": "Private Bedouin Dinner", "desc": "Dining under the starlit sky."},
-      {"time": "08:00", "title": "Sunrise Breakfast & Check-out", "desc": "Artisan breakfast over desert views."}
+      {
+        "time": "15:00",
+        "title": "Check-in & Welcome Gahwa",
+        "desc": "Settle into your private luxury desert dome."
+      },
+      {
+        "time": "17:00",
+        "title": "Sunset Activities",
+        "desc": "Camel ride and falcon greeting."
+      },
+      {
+        "time": "19:30",
+        "title": "Private Bedouin Dinner",
+        "desc": "Dining under the starlit sky."
+      },
+      {
+        "time": "08:00",
+        "title": "Sunrise Breakfast & Check-out",
+        "desc": "Artisan breakfast over desert views."
+      }
     ],
     "inclusions": [
       "Luxury dome accommodation for 2 guests",
@@ -386,11 +2469,31 @@
       "Freshly prepared hot Arabic breakfast at sunrise"
     ],
     "itinerary": [
-      {"time": "14:30", "title": "Pickup", "desc": "Afternoon pickup from your Dubai hotel."},
-      {"time": "16:00", "title": "Dune Bashing & Sandboarding", "desc": "Action in the red dunes."},
-      {"time": "18:00", "title": "Al Khayma Camp Dinner & Shows", "desc": "Feast and live entertainment."},
-      {"time": "22:00", "title": "Stargazing & Campfire", "desc": "Quiet desert night."},
-      {"time": "06:30", "title": "Sunrise & Arabian Breakfast", "desc": "Camel walk and return."}
+      {
+        "time": "14:30",
+        "title": "Pickup",
+        "desc": "Afternoon pickup from your Dubai hotel."
+      },
+      {
+        "time": "16:00",
+        "title": "Dune Bashing & Sandboarding",
+        "desc": "Action in the red dunes."
+      },
+      {
+        "time": "18:00",
+        "title": "Al Khayma Camp Dinner & Shows",
+        "desc": "Feast and live entertainment."
+      },
+      {
+        "time": "22:00",
+        "title": "Stargazing & Campfire",
+        "desc": "Quiet desert night."
+      },
+      {
+        "time": "06:30",
+        "title": "Sunrise & Arabian Breakfast",
+        "desc": "Camel walk and return."
+      }
     ],
     "inclusions": [
       "Roundtrip transfers",
@@ -437,9 +2540,21 @@
       "Enjoy traditional 6-course Emirati feast prepared live at camp"
     ],
     "itinerary": [
-      {"time": "15:00", "title": "Pickup", "desc": "Pickup in Dubai."},
-      {"time": "16:15", "title": "Vintage G-Class Desert Drive", "desc": "Nature exploration drive."},
-      {"time": "18:00", "title": "Bedouin Camp & Live Cooking", "desc": "Authentic feast and storytelling."}
+      {
+        "time": "15:00",
+        "title": "Pickup",
+        "desc": "Pickup in Dubai."
+      },
+      {
+        "time": "16:15",
+        "title": "Vintage G-Class Desert Drive",
+        "desc": "Nature exploration drive."
+      },
+      {
+        "time": "18:00",
+        "title": "Bedouin Camp & Live Cooking",
+        "desc": "Authentic feast and storytelling."
+      }
     ],
     "inclusions": [
       "Vintage G-Class safari drive",
@@ -486,9 +2601,21 @@
       "Delicious BBQ feast at Al Khayma Camp"
     ],
     "itinerary": [
-      {"time": "14:30", "title": "Pickup", "desc": "Hotel pickup in Dubai."},
-      {"time": "15:45", "title": "Buggy Briefing & Drive", "desc": "45-60 min exhilarating drive."},
-      {"time": "18:00", "title": "Al Khayma Camp Evening", "desc": "Dinner and shows."}
+      {
+        "time": "14:30",
+        "title": "Pickup",
+        "desc": "Hotel pickup in Dubai."
+      },
+      {
+        "time": "15:45",
+        "title": "Buggy Briefing & Drive",
+        "desc": "45-60 min exhilarating drive."
+      },
+      {
+        "time": "18:00",
+        "title": "Al Khayma Camp Evening",
+        "desc": "Dinner and shows."
+      }
     ],
     "inclusions": [
       "Buggy rental with helmet, goggles, and fuel",
@@ -535,9 +2662,21 @@
       "Gourmet BBQ buffet dinner under the desert stars"
     ],
     "itinerary": [
-      {"time": "15:00", "title": "Abu Dhabi Hotel Pickup", "desc": "Comfortable 4x4 pickup."},
-      {"time": "16:15", "title": "Dune Bashing & Camel Farm", "desc": "Excitement and photos."},
-      {"time": "18:00", "title": "Camp Hospitality & Dinner", "desc": "Buffet and belly dance show."}
+      {
+        "time": "15:00",
+        "title": "Abu Dhabi Hotel Pickup",
+        "desc": "Comfortable 4x4 pickup."
+      },
+      {
+        "time": "16:15",
+        "title": "Dune Bashing & Camel Farm",
+        "desc": "Excitement and photos."
+      },
+      {
+        "time": "18:00",
+        "title": "Camp Hospitality & Dinner",
+        "desc": "Buffet and belly dance show."
+      }
     ],
     "inclusions": [
       "Pickup and drop-off in Abu Dhabi",
@@ -584,9 +2723,21 @@
       "Arabic coffee, dates, and refreshments"
     ],
     "itinerary": [
-      {"time": "07:30", "title": "Morning Pickup", "desc": "Pickup from Abu Dhabi hotel."},
-      {"time": "08:45", "title": "Desert Adventures", "desc": "Dune bashing, camel ride, sandboarding."},
-      {"time": "11:30", "title": "Return Drop-off", "desc": "Back to city before afternoon heat."}
+      {
+        "time": "07:30",
+        "title": "Morning Pickup",
+        "desc": "Pickup from Abu Dhabi hotel."
+      },
+      {
+        "time": "08:45",
+        "title": "Desert Adventures",
+        "desc": "Dune bashing, camel ride, sandboarding."
+      },
+      {
+        "time": "11:30",
+        "title": "Return Drop-off",
+        "desc": "Back to city before afternoon heat."
+      }
     ],
     "inclusions": [
       "Transfers in 4WD Land Cruiser",

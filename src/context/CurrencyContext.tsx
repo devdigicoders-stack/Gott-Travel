@@ -23,12 +23,12 @@ function subscribe(callback: () => void) {
 }
 
 function getSnapshot(): string {
-  if (typeof window === "undefined") return "EUR";
-  return localStorage.getItem("gottqatar_currency") || "EUR";
+  if (typeof window === "undefined") return "QAR";
+  return localStorage.getItem("gottqatar_currency") || "QAR";
 }
 
 function getServerSnapshot(): string {
-  return "EUR";
+  return "QAR";
 }
 
 export function CurrencyProvider({ children }: { children: React.ReactNode }) {
@@ -42,6 +42,10 @@ export function CurrencyProvider({ children }: { children: React.ReactNode }) {
   };
 
   const formatPrice = (priceInEur: number): string => {
+    if (currentCurrency.code === "QAR") {
+      const converted = Math.round(priceInEur * currentCurrency.rate);
+      return `QAR ${converted}.00`;
+    }
     if (currentCurrency.code === "EUR") {
       return `EUR ${priceInEur.toFixed(2)}`;
     }

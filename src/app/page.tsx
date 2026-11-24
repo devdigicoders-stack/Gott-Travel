@@ -6,6 +6,12 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { QatarCityCatalogSection } from "@/components/QatarCityCatalogSection";
+import { MuseumCulturalCatalogSection } from "@/components/MuseumCulturalCatalogSection";
+import { ComboToursCatalogSection } from "@/components/ComboToursCatalogSection";
+import { BeyondDohaCatalogSection } from "@/components/BeyondDohaCatalogSection";
+import { AdventureWaterparkCatalogSection } from "@/components/AdventureWaterparkCatalogSection";
+import { DesertSafariCatalogSection } from "@/components/DesertSafariCatalogSection";
 import { useLanguage } from "@/context/LanguageContext";
 import { useCurrency } from "@/context/CurrencyContext";
 
@@ -578,6 +584,36 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* ==============================================================
+            FEATURED: QATAR CITY TOURS & EXPERIENCES CATALOG SECTION
+            ============================================================== */}
+        <QatarCityCatalogSection className="bg-[#0b0e14] border-t border-white/10" />
+
+        {/* ==============================================================
+            FEATURED: MUSEUM & CULTURAL TOURS CATALOG SECTION
+            ============================================================== */}
+        <MuseumCulturalCatalogSection className="bg-[#0b0e14] border-t border-white/10" />
+
+        {/* ==============================================================
+            FEATURED: COMBO TOURS & PACKAGES CATALOG SECTION
+            ============================================================== */}
+        <ComboToursCatalogSection className="bg-[#0b0e14] border-t border-white/10" />
+
+        {/* ==============================================================
+            FEATURED: BEYOND DOHA TOURS CATALOG SECTION
+            ============================================================== */}
+        <BeyondDohaCatalogSection className="bg-[#0b0e14] border-t border-white/10" />
+
+        {/* ==============================================================
+            FEATURED: ADVENTURE & WATER PARK TOURS CATALOG SECTION
+            ============================================================== */}
+        <AdventureWaterparkCatalogSection className="bg-[#0b0e14] border-t border-white/10" />
+
+        {/* ==============================================================
+            FEATURED: DESERT SAFARI TOURS CATALOG SECTION
+            ============================================================== */}
+        <DesertSafariCatalogSection className="bg-[#0b0e14] border-y border-white/10" />
 
         {/* ==============================================================
             SECTION 4: WATCH FIRST, THEN BOOK (5 VIDEO REEL CARDS)

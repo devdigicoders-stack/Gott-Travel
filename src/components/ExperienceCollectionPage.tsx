@@ -295,9 +295,39 @@ const MORE_EXPERIENCES = [
     href: "/experiences/abu-dhabi-desert-safari",
   },
   {
+    title: "Qatar City Tours",
+    titleAr: "جولات وتجارب مدينة قطر",
+    image: "/brand/logo-blue.png",
+    href: "/experiences/doha-city-tours",
+  },
+  {
+    title: "Museum & Cultural Tours",
+    titleAr: "جولات المتاحف والتراث الثقافي",
+    image: "/brand/logo-blue.png",
+    href: "/experiences?destination=Doha&category=Cultural",
+  },
+  {
+    title: "Combo Tours",
+    titleAr: "باقات الجولات المشتركة",
+    image: "/images/combo_dhow_cruise.jpg",
+    href: "/experiences?destination=Doha",
+  },
+  {
+    title: "Beyond Doha Tours",
+    titleAr: "جولات ما وراء الدوحة",
+    image: "/images/beyond_panda_house.jpg",
+    href: "/experiences?destination=Doha",
+  },
+  {
+    title: "Adventure & Water Park Tours",
+    titleAr: "جولات المغامرات والحدائق المائية",
+    image: "/images/adventure_meryal_waterpark.jpg",
+    href: "/experiences?destination=Doha&category=Adventure",
+  },
+  {
     title: "Doha Desert Safari",
     titleAr: "سفاري صحراء الدوحة",
-    image: "/images/dest_doha.jpg",
+    image: "/images/desert_safari_sunset.jpg",
     href: "/experiences/doha-desert-safari",
   },
 ];

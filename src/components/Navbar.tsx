@@ -73,6 +73,31 @@ const EXPERIENCES_DROPDOWN_SECTIONS = [
     titleAr: "الدوحة",
     items: [
       {
+        label: "Qatar City Tours & Experiences",
+        labelAr: "جولات وتجارب مدينة قطر",
+        href: "/experiences/doha-city-tours",
+      },
+      {
+        label: "Museum & Cultural Tours",
+        labelAr: "جولات المتاحف والتراث",
+        href: "/experiences?destination=Doha&category=Cultural",
+      },
+      {
+        label: "Combo Tours & Packages",
+        labelAr: "باقات الجولات المشتركة",
+        href: "/experiences?destination=Doha",
+      },
+      {
+        label: "Beyond Doha Tours",
+        labelAr: "جولات ما وراء الدوحة",
+        href: "/experiences?destination=Doha",
+      },
+      {
+        label: "Adventure & Water Park Tours",
+        labelAr: "جولات المغامرات والحدائق المائية",
+        href: "/experiences?destination=Doha&category=Adventure",
+      },
+      {
         label: "Doha Desert Safari",
         labelAr: "سفاري صحراء الدوحة",
         href: "/experiences/doha-desert-safari",
