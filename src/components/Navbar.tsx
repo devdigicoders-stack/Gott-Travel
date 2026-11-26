@@ -20,124 +20,62 @@ import {
 } from "lucide-react";
 import { Language } from "@/translations";
 
-// Exactly the 10 destinations requested by the user
+// Exactly the destination of Gott Qatar
 const DESTINATION_LIST = [
-  { name: "Dubai", nameAr: "دبي", slug: "dubai", destinationParam: "Dubai" },
-  { name: "Abu Dhabi", nameAr: "أبوظبي", slug: "abu-dhabi", destinationParam: "Abu Dhabi" },
-  { name: "Doha", nameAr: "الدوحة", slug: "doha", destinationParam: "Doha" },
-  { name: "Cairo", nameAr: "القاهرة", slug: "cairo", destinationParam: "Cairo" },
-  { name: "Sharm El Sheikh", nameAr: "شرم الشيخ", slug: "sharm-el-sheikh", destinationParam: "Sharm El Sheikh" },
-  { name: "Alexandria", nameAr: "الإسكندرية", slug: "alexandria", destinationParam: "Alexandria" },
-  { name: "Dubrovnik", nameAr: "دوبروفنيك", slug: "dubrovnik", destinationParam: "Dubrovnik" },
-  { name: "Hurghada", nameAr: "الغردقة", slug: "hurghada", destinationParam: "Hurghada" },
-  { name: "Luxor", nameAr: "الأقصر", slug: "luxor", destinationParam: "Luxor" },
-  { name: "Marrakech", nameAr: "مراكش", slug: "marrakech", destinationParam: "Marrakech" },
+  { name: "Doha & Qatar", nameAr: "الدوحة وقطر", slug: "doha", destinationParam: "Doha" },
 ];
 
-// Experiences dropdown sections & items exactly as specified by the user
+// Experiences dropdown sections & items mapped to Gott Qatar's 27 packages
 const EXPERIENCES_DROPDOWN_SECTIONS = [
   {
-    title: "Dubai",
-    titleAr: "دبي",
+    title: "Desert Safari Tours",
+    titleAr: "سفاري صحراء الدوحة",
     items: [
-      {
-        label: "Dubai Desert Safari",
-        labelAr: "سفاري صحراء دبي",
-        href: "/experiences/dubai-desert-safari",
-      },
-      {
-        label: "Dubai City Tours",
-        labelAr: "جولات مدينة دبي",
-        href: "/experiences/dubai-city-tours",
-      },
+      { label: "Overnight Desert Safari", labelAr: "سفاري المبيت في الصحراء", href: "/experiences/overnight-desert-safari-qatar" },
+      { label: "Sunrise Desert Safari", labelAr: "سفاري شروق الشمس", href: "/experiences/sunrise-desert-safari" },
+      { label: "Sunset Desert Safari", labelAr: "سفاري غروب الشمس", href: "/experiences/sunset-desert-safari" },
+      { label: "Full Day Desert Safari & ATV", labelAr: "سفاري يوم كامل والدبابات", href: "/experiences/full-day-desert-safari-with-quad-bike-inland-sea" },
+      { label: "Half Day Desert Safari", labelAr: "سفاري نصف يوم وخور العديد", href: "/experiences/half-day-desert-safari-inland-sea-qatar" },
+      { label: "Doha City & Desert Safari", labelAr: "جولة المدينة وسفاري الصحراء", href: "/experiences/doha-city-tour-with-desert-safari-7-hours" },
     ],
   },
   {
-    title: "Abu Dhabi",
-    titleAr: "أبوظبي",
+    title: "City & Sightseeing",
+    titleAr: "جولات وتجارب المدينة",
     items: [
-      {
-        label: "Abu Dhabi City Tours",
-        labelAr: "جولات مدينة أبوظبي",
-        href: "/experiences/abu-dhabi-city-tours",
-      },
-      {
-        label: "Abu Dhabi Desert Safari",
-        labelAr: "سفاري صحراء أبوظبي",
-        href: "/experiences/abu-dhabi-desert-safari",
-      },
+      { label: "Lusail City Tour", labelAr: "جولة مدينة لوسيل الحديثة", href: "/experiences/lusail-city-tour-4-hours" },
+      { label: "Full Day Doha City Tour", labelAr: "جولة مدينة الدوحة يوم كامل", href: "/experiences/full-day-doha-city-tour-6-hours" },
+      { label: "Doha Express City Tour", labelAr: "جولة الدوحة السريعة", href: "/experiences/doha-express-city-tour-4-hours" },
+      { label: "FIFA World Cup Stadiums", labelAr: "جولة ملاعب المونديال", href: "/experiences/fifa-stadiums-tour-4-hours" },
+      { label: "Exclusive Shopping Tour", labelAr: "جولة التسوق الفاخرة", href: "/experiences/exclusive-shopping-tour-4-hours" },
+      { label: "Banana Island Day Tour", labelAr: "رحلة جزيرة البنانا الفاخرة", href: "/experiences/banana-island-day-tour-doha" },
+      { label: "Katara Cultural Tour", labelAr: "جولة قرية كتارا الثقافية", href: "/experiences/katara-cultural-tour-2-hours" },
     ],
   },
   {
-    title: "Doha",
-    titleAr: "الدوحة",
+    title: "Adventure & Water Parks",
+    titleAr: "المغامرات والحدائق المائية",
     items: [
-      {
-        label: "Qatar City Tours & Experiences",
-        labelAr: "جولات وتجارب مدينة قطر",
-        href: "/experiences/doha-city-tours",
-      },
-      {
-        label: "Museum & Cultural Tours",
-        labelAr: "جولات المتاحف والتراث",
-        href: "/experiences?destination=Doha&category=Cultural",
-      },
-      {
-        label: "Combo Tours & Packages",
-        labelAr: "باقات الجولات المشتركة",
-        href: "/experiences?destination=Doha",
-      },
-      {
-        label: "Beyond Doha Tours",
-        labelAr: "جولات ما وراء الدوحة",
-        href: "/experiences?destination=Doha",
-      },
-      {
-        label: "Adventure & Water Park Tours",
-        labelAr: "جولات المغامرات والحدائق المائية",
-        href: "/experiences?destination=Doha&category=Adventure",
-      },
-      {
-        label: "Doha Desert Safari",
-        labelAr: "سفاري صحراء الدوحة",
-        href: "/experiences/doha-desert-safari",
-      },
+      { label: "Doha Fishing Tour (10h)", labelAr: "رحلة صيد الأسماك بالدوحة", href: "/experiences/doha-fishing-tour-10-hours" },
+      { label: "Meryal Waterpark Adventure", labelAr: "حديقة مريال المائية", href: "/experiences/meryal-waterpark-ultimate-water-adventure" },
+      { label: "Desert Falls Water & Adventure", labelAr: "شلالات الصحراء المائية", href: "/experiences/desert-falls-water-adventure-park" },
+      { label: "Jet Ski Adventure in Doha", labelAr: "جيت سكي في مياه الدوحة", href: "/experiences/jet-ski-adventure-in-doha" },
+      { label: "Parasailing Experience in Doha", labelAr: "باراشوت مائي في الدوحة", href: "/experiences/parasailing-experience-in-doha" },
+      { label: "Snow Theme Park (Snow Dunes)", labelAr: "مدينة الثلج سنودونز", href: "/experiences/snow-theme-park-qatar-snow-dunes" },
+      { label: "Doha City Tour & Dhow Cruise", labelAr: "جولة المدينة ورحلة البوم", href: "/experiences/doha-city-tour-with-dhow-cruise-4-5-hours" },
     ],
   },
   {
-    title: "Categories",
-    titleAr: "الفئات",
+    title: "Culture & Beyond Doha",
+    titleAr: "التراث وجولات خارج الدوحة",
     items: [
-      {
-        label: "Desert",
-        labelAr: "صحراء",
-        href: "/experiences?category=Desert",
-      },
-      {
-        label: "Historical",
-        labelAr: "تاريخية",
-        href: "/experiences?category=Historical",
-      },
-      {
-        label: "Adventure",
-        labelAr: "مغامرة",
-        href: "/experiences?category=Adventure",
-      },
-      {
-        label: "City Tours",
-        labelAr: "جولات المدينة",
-        href: "/experiences?category=City",
-      },
-      {
-        label: "Multiday",
-        labelAr: "رحلات متعددة الأيام",
-        href: "/multiday",
-      },
-      {
-        label: "Cultural",
-        labelAr: "ثقافية",
-        href: "/experiences?category=Cultural",
-      },
+      { label: "Sheikh Faisal Museum & Camel Track", labelAr: "متحف الشيخ فيصل وسباق الهجن", href: "/experiences/sheikh-faisal-museum-camel-track-tour" },
+      { label: "Full Day Museum Tour", labelAr: "جولة متاحف قطر الكاملة", href: "/experiences/full-day-museum-tour-6-hours" },
+      { label: "Museum of Illusions Doha", labelAr: "متحف الغموض بالدوحة", href: "/experiences/museum-of-illusions-doha" },
+      { label: "Zubara North Coast & Kayaking", labelAr: "قلعة الزبارة والتجديف", href: "/experiences/zubara-north-coast-tour-with-kayaking-7-hours" },
+      { label: "Dukhan West Coast Tour", labelAr: "جولة ساحل دخان وزكريت", href: "/experiences/dukhan-west-coast-tour-4-hours" },
+      { label: "Panda House & Al Khor Zoo", labelAr: "بيت الباندا وحديقة الخور", href: "/experiences/panda-house-al-khor-with-zoo-tour-4-hours" },
+      { label: "Purple Island Kayaking", labelAr: "تجديف جزيرة بن غنام", href: "/experiences/purple-island-kayaking-tour-4-hours" },
     ],
   },
 ];
@@ -220,7 +158,7 @@ export function Navbar() {
             : "bg-white/85 backdrop-blur-2xl border-b border-[#E5E9EE] shadow-[0_4px_20px_rgba(0,0,0,0.06)] py-2.5 sm:py-3 text-black"
         }`}
       >
-        <div className="max-w-[1280px] mx-auto px-3 sm:px-6 lg:px-10 flex items-center justify-between gap-2">
+        <div className="max-w-[1280px] mx-auto px-3 sm:px-6 lg:px-10 flex items-center justify-between gap-2 relative">
           {/* 1. LEFT: Brand Logo */}
           <Link href="/" className="shrink-0 flex items-center gap-2 group">
             <div className="relative h-8 sm:h-12 md:h-12 lg:h-14 w-36 sm:w-44 md:w-56 lg:w-64">
@@ -262,7 +200,7 @@ export function Navbar() {
             {/* Menu 1: Experiences (with Mega-Dropdown) */}
             <div
               ref={expRef}
-              className="relative"
+              className="static"
               onMouseEnter={() => setExpDropdownOpen(true)}
               onMouseLeave={() => setExpDropdownOpen(false)}
             >
@@ -286,21 +224,16 @@ export function Navbar() {
 
               {expDropdownOpen && (
                 <div
-                  className="absolute top-full left-0 rtl:left-auto rtl:right-0 pt-3 z-50 animate-in fade-in slide-in-from-top-2 duration-150"
-                  style={{ width: "min(780px, 92vw)" }}
+                  className="absolute top-full left-1/2 -translate-x-1/2 pt-2.5 z-50 animate-in fade-in slide-in-from-top-2 duration-150 w-[1060px] max-w-[calc(100vw-32px)]"
                 >
-                  <div className="bg-white/95 backdrop-blur-2xl rounded-2xl shadow-[0_24px_60px_rgba(0,0,0,0.16)] border border-gray-200/80 p-4 sm:p-5 text-black max-h-[82vh] overflow-y-auto">
-                    {/* 4 Column Layout: Dubai, Abu Dhabi, Doha, Categories */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                  <div className="bg-white/95 backdrop-blur-2xl rounded-2xl shadow-[0_24px_60px_rgba(0,0,0,0.18)] border border-gray-200/90 p-5 sm:p-6 text-black max-h-[82vh] overflow-y-auto">
+                    {/* 4 Column Layout: Qatar Experiences */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
                       {EXPERIENCES_DROPDOWN_SECTIONS.map((sec) => (
-                        <div key={sec.title} className="space-y-1.5">
-                          <div className="text-[11px] font-bold uppercase tracking-wider text-[#0097CA] pb-2 border-b border-gray-100 flex items-center gap-1.5">
-                            {sec.title === "Categories" ? (
-                              <Compass className="w-3.5 h-3.5" />
-                            ) : (
-                              <MapPin className="w-3.5 h-3.5" />
-                            )}
-                            <span>{language === "ar" ? sec.titleAr : sec.title}</span>
+                        <div key={sec.title} className="space-y-1.5 min-w-0">
+                          <div className="text-[11px] font-bold uppercase tracking-wider text-[#0097CA] pb-2 border-b border-gray-100 flex items-center gap-1.5 whitespace-normal">
+                            <MapPin className="w-3.5 h-3.5 shrink-0 text-[#0097CA]" />
+                            <span className="truncate">{language === "ar" ? sec.titleAr : sec.title}</span>
                           </div>
                           <ul className="space-y-0.5">
                             {sec.items.map((item) => (
@@ -308,7 +241,7 @@ export function Navbar() {
                                 <Link
                                   href={item.href}
                                   onClick={() => setExpDropdownOpen(false)}
-                                  className="block px-2.5 py-1.5 rounded-lg text-xs font-semibold text-black hover:bg-black/[0.04] hover:text-[#0097CA] transition-colors leading-relaxed"
+                                  className="block px-2.5 py-1.5 rounded-lg text-xs font-semibold text-black hover:bg-black/[0.04] hover:text-[#0097CA] transition-colors leading-snug break-words"
                                 >
                                   {language === "ar" ? item.labelAr : item.label}
                                 </Link>
@@ -321,10 +254,10 @@ export function Navbar() {
 
                     {/* Bottom Action Footer */}
                     <div className="mt-4 pt-3.5 border-t border-gray-100 flex items-center justify-between">
-                      <span className="text-[11px] text-[#808283] font-medium hidden sm:inline">
+                      <span className="text-xs text-[#808283] font-medium hidden sm:inline">
                         {language === "ar"
-                          ? "أكثر من 90 تجربة منسقة وموثوقة"
-                          : "90+ handcrafted, verified experiences"}
+                          ? "27 تجربة قطرية منسقة ومعتمدة رسمياً"
+                          : "27 official curated Qatar tours & experiences"}
                       </span>
                       <Link
                         href="/experiences"
@@ -333,8 +266,8 @@ export function Navbar() {
                       >
                         <span>
                           {language === "ar"
-                            ? "عرض جميع التجارب"
-                            : "View all experiences"}
+                            ? "عرض جميع الـ 27 جولة"
+                            : "View all 27 experiences"}
                         </span>
                         <span className="transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1">
                           →

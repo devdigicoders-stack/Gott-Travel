@@ -9,11 +9,11 @@
   "email": "support@gottqatar.com",
   "whatsapp": "+974 50 123 4567",
   "currencies": [
-    { "code": "QAR", "symbol": "QAR", "rate": 3.92 },
-    { "code": "EUR", "symbol": "€", "rate": 1.0 },
-    { "code": "AED", "symbol": "AED", "rate": 3.96 },
-    { "code": "USD", "symbol": "$", "rate": 1.08 },
-    { "code": "GBP", "symbol": "£", "rate": 0.85 }
+    { "code": "QAR", "symbol": "QAR", "rate": 1.0 },
+    { "code": "USD", "symbol": "$", "rate": 0.2747 },
+    { "code": "EUR", "symbol": "€", "rate": 0.2551 },
+    { "code": "AED", "symbol": "AED", "rate": 1.01 },
+    { "code": "GBP", "symbol": "£", "rate": 0.2174 }
   ],
   "languages": [
     { "code": "en", "label": "English" },

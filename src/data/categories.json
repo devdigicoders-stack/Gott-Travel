@@ -2,55 +2,55 @@
   {
     "id": "desert",
     "slug": "desert",
-    "name": "Desert tours",
+    "name": "Desert Safari Tours",
     "nameAr": "رحلات السفاري الصحراوية",
     "icon": "Compass",
-    "count": 45,
+    "count": 5,
     "image": "/images/cat_desert.jpg"
   },
   {
     "id": "city-tours",
     "slug": "city-tours",
-    "name": "City tours",
-    "nameAr": "جولات المدينة والمعالم",
+    "name": "Qatar City Tours",
+    "nameAr": "جولات وتجارب مدينة قطر",
     "icon": "Building2",
-    "count": 53,
+    "count": 7,
     "image": "/images/cat_city-tours.jpg"
-  },
-  {
-    "id": "cultural",
-    "slug": "cultural",
-    "name": "Cultural",
-    "nameAr": "الثقافة والتراث",
-    "icon": "Landmark",
-    "count": 28,
-    "image": "/images/cat_cultural.jpg"
-  },
-  {
-    "id": "historical",
-    "slug": "historical",
-    "name": "Historical",
-    "nameAr": "التاريخ والآثار",
-    "icon": "Landmark",
-    "count": 22,
-    "image": "/images/cat_historical.jpg"
   },
   {
     "id": "adventure",
     "slug": "adventure",
-    "name": "Adventure",
-    "nameAr": "المغامرات والأنشطة",
+    "name": "Adventure & Water Parks",
+    "nameAr": "المغامرات والحدائق المائية",
     "icon": "Flame",
-    "count": 19,
+    "count": 6,
     "image": "/images/cat_adventure.jpg"
   },
   {
-    "id": "multiday",
-    "slug": "multiday",
-    "name": "Multi-day",
-    "nameAr": "رحلات متعددة الأيام",
+    "id": "cultural",
+    "slug": "cultural",
+    "name": "Museum & Cultural Tours",
+    "nameAr": "المتاحف والتراث الثقافي",
+    "icon": "Landmark",
+    "count": 3,
+    "image": "/images/cat_cultural.jpg"
+  },
+  {
+    "id": "combo",
+    "slug": "combo",
+    "name": "Combo Tours & Packages",
+    "nameAr": "باقات الجولات المشتركة",
     "icon": "CalendarRange",
-    "count": 12,
-    "image": "/images/cat_multiday.jpg"
+    "count": 3,
+    "image": "/images/combo_dhow_cruise.jpg"
+  },
+  {
+    "id": "beyond-doha",
+    "slug": "beyond-doha",
+    "name": "Beyond Doha Tours",
+    "nameAr": "جولات ما وراء الدوحة",
+    "icon": "Landmark",
+    "count": 3,
+    "image": "/images/beyond_panda_house.jpg"
   }
 ]

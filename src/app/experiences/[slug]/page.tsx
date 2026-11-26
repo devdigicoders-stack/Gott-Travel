@@ -7,8 +7,6 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ExperienceCard } from "@/components/ExperienceCard";
-import { ExperienceCollectionPage } from "@/components/ExperienceCollectionPage";
-import { ExperienceDetailPageComponent } from "@/components/ExperienceDetailPageComponent";
 import experiencesData from "@/data/experiences.json";
 import catalogExperiencesData from "@/data/catalog_experiences.json";
 import { Experience, CatalogExperience } from "@/types";
@@ -526,93 +524,6 @@ export default function ExperienceDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const resolvedParams = use(params);
-
-  // Check if requested slug is an Experience Collection / Subcategory
-  if (resolvedParams.slug === "dubai-desert-safari") {
-    return (
-      <ExperienceCollectionPage
-        destinationName="Dubai"
-        destinationNameAr="دبي"
-        collectionTitle="Dubai Desert Safari."
-        collectionTitleAr="سفاري صحراء دبي."
-        collectionSubtitle="Dune bashing, camel rides and desert camps across Dubai."
-        collectionSubtitleAr="قيادة الكثبان الرملية وركوب الجمال والمخيمات الصحراوية التراثية في دبي."
-        heroImage="/brand/hero/home-hero.jpg"
-        toursCount={10}
-        averageRating={4.8}
-        lowestPrice={31.62}
-      />
-    );
-  }
-  if (resolvedParams.slug === "dubai-city-tours") {
-    return (
-      <ExperienceCollectionPage
-        destinationName="Dubai"
-        destinationNameAr="دبي"
-        collectionTitle="Dubai City Tours."
-        collectionTitleAr="جولات مدينة دبي."
-        collectionSubtitle="Modern skyline marvels, historic creek abra rides and vibrant souks."
-        collectionSubtitleAr="روائع العمارة الحديثة، وجولات العبرة التراثية في خور دبي، وأسواق الذهب والتوابل العريقة."
-        heroImage="/images/exp_alfahidi_walking.jpg"
-        toursCount={8}
-        averageRating={4.8}
-        lowestPrice={18.02}
-      />
-    );
-  }
-  if (resolvedParams.slug === "abu-dhabi-city-tours") {
-    return (
-      <ExperienceCollectionPage
-        destinationName="Abu Dhabi"
-        destinationNameAr="أبوظبي"
-        collectionTitle="Abu Dhabi City Tours."
-        collectionTitleAr="جولات مدينة أبوظبي."
-        collectionSubtitle="Sheikh Zayed Grand Mosque, Louvre Abu Dhabi and cultural palaces."
-        collectionSubtitleAr="جامع الشيخ زايد الكبير المهيب، ومتحف اللوفر أبوظبي، والقصور الثقافية والتراثية."
-        heroImage="/images/dest_abu_dhabi.jpg"
-        toursCount={8}
-        averageRating={4.8}
-        lowestPrice={22.72}
-      />
-    );
-  }
-  if (resolvedParams.slug === "abu-dhabi-desert-safari") {
-    return (
-      <ExperienceCollectionPage
-        destinationName="Abu Dhabi"
-        destinationNameAr="أبوظبي"
-        collectionTitle="Abu Dhabi Desert Safari."
-        collectionTitleAr="سفاري صحراء أبوظبي."
-        collectionSubtitle="Golden dune driving, camel rides and Bedouin desert hospitality."
-        collectionSubtitleAr="قيادة الكثبان الرملية الذهبية، وركوب الجمال، وكرم الضيافة البدوية في قلب الصحراء."
-        heroImage="/images/exp_abu_dhabi_safari.jpg"
-        toursCount={6}
-        averageRating={4.9}
-        lowestPrice={44.89}
-      />
-    );
-  }
-  if (resolvedParams.slug === "doha-desert-safari") {
-    return (
-      <ExperienceCollectionPage
-        destinationName="Doha"
-        destinationNameAr="الدوحة"
-        collectionTitle="Doha Desert Safari."
-        collectionTitleAr="سفاري صحراء الدوحة."
-        collectionSubtitle="Thrilling dune bashing to the Inland Sea (Khor Al Adaid) and sunset camel rides."
-        collectionSubtitleAr="مغامرات الكثبان الرملية نحو خور العديد (البحر الداخلي) وركوب الجمال وقت الغروب."
-        heroImage="/images/dest_doha.jpg"
-        toursCount={6}
-        averageRating={4.9}
-        lowestPrice={49.0}
-      />
-    );
-  }
-
-  // Specific experience plan matching experiencespecificplanmodelcomponent.png
-  if (resolvedParams.slug === "dubai-premium-safari-camel-ride-al-khayma-camp-3-buffets") {
-    return <ExperienceDetailPageComponent />;
-  }
 
   const experience = getExperience(resolvedParams.slug);
   if (!experience) {

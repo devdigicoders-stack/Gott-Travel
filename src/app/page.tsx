@@ -30,11 +30,11 @@ import {
 // ============================================================================
 
 const SEARCH_CHIPS = [
-  { label: "Premium Safari Dubai", labelAr: "سفاري دبي الفاخر", term: "Premium Safari" },
-  { label: "Premium Abu Dhabi Tour", labelAr: "جولة أبوظبي المتميزة", term: "Abu Dhabi" },
-  { label: "Grand Mosque", labelAr: "جامع الشيخ زايد", term: "Mosque" },
-  { label: "Old Souqs", labelAr: "الأسواق القديمة", term: "Souk" },
-  { label: "Dubai Horse-riding", labelAr: "ركوب الخيل في دبي", term: "Horse" }
+  { label: "Doha Desert Safari", labelAr: "سفاري صحراء الدوحة", term: "Desert Safari" },
+  { label: "Inland Sea Khor Al Adaid", labelAr: "خور العديد والبحر الداخلي", term: "Inland Sea" },
+  { label: "Lusail City Tour", labelAr: "جولة مدينة لوسيل", term: "Lusail" },
+  { label: "Souq Waqif & Dhow Cruise", labelAr: "سوق واقف والرحلة البحرية", term: "Dhow Cruise" },
+  { label: "Meryal & Waterparks", labelAr: "حدائق مريال والمدن المائية", term: "Waterpark" }
 ];
 
 const CATEGORIES = [
@@ -83,110 +83,107 @@ const CATEGORIES = [
 ];
 
 const WHERE_TO_DESTINATIONS = [
-  { id: "Dubai", label: "Dubai", labelAr: "دبي" },
-  { id: "Cairo", label: "Cairo", labelAr: "القاهرة" },
-  { id: "Abu Dhabi", label: "Abu Dhabi", labelAr: "أبوظبي" },
-  { id: "Dubrovnik", label: "Dubrovnik", labelAr: "دوبروفنيك" },
-  { id: "Marrakech", label: "Marrakech", labelAr: "مراكش" },
-  { id: "Hurghada", label: "Hurghada", labelAr: "الغردقة" },
-  { id: "Doha", label: "Doha", labelAr: "الدوحة" },
-  { id: "Sharm El Sheikh", label: "Sharm El Sheikh", labelAr: "شرم الشيخ" },
-  { id: "Alexandria", label: "Alexandria", labelAr: "الإسكندرية" }
+  { id: "all", label: "All Qatar Tours", labelAr: "جميع جولات قطر" },
+  { id: "desert", label: "Desert Safari", labelAr: "رحلات السفاري الصحراوية" },
+  { id: "city", label: "City & Lusail", labelAr: "جولات المدينة ولوسيل" },
+  { id: "adventure", label: "Adventure & Parks", labelAr: "المغامرات والمدن المائية" },
+  { id: "culture", label: "Culture & Museums", labelAr: "الثقافة والمتاحف" },
+  { id: "beyond", label: "Beyond Doha", labelAr: "رحلات خارج الدوحة" }
 ];
 
 const VIDEO_REELS = [
   {
     id: "reel-1",
-    title: "Sheikh Zayed Grand Mosque Walking Tour",
-    titleAr: "جولة جامع الشيخ زايد الكبير الإرشادية",
-    poster: "/images/exp_abu_dhabi_morning.jpg",
-    href: "/experiences/sheikh-zayed-grand-mosque-guided-walking-tour"
+    title: "Doha Inland Sea & Sunset Desert Safari",
+    titleAr: "سفاري صحراء خور العديد وغروب الشمس في قطر",
+    poster: "/images/desert_safari_sunset.jpg",
+    href: "/experiences/sunset-desert-safari"
   },
   {
     id: "reel-2",
-    title: "Dubai Desert Safari & Dune Bashing",
-    titleAr: "سفاري دبي وكثبان الرمال الذهبية",
-    poster: "/brand/signature-standard-poster.jpg",
-    href: "/experiences/dubai-evening-desert-safari-bbq-dinner-falcon"
+    title: "Lusail City & Katara Towers Tour",
+    titleAr: "جولة مدينة لوسيل وأبراج كتارا الأيقونية",
+    poster: "/images/tour_lusail_city.jpg",
+    href: "/experiences/lusail-city-tour-4-hours"
   },
   {
     id: "reel-3",
-    title: "Camel Ride & Arabian Sunset",
-    titleAr: "ركوب الجمال وغروب الشمس الساحر",
-    poster: "/images/exp_safari_alkhayma.jpg",
-    href: "/experiences/dubai-desert-safari-quad-bike-camel-ride-sandboarding"
+    title: "Traditional Dhow Cruise with Doha Skyline",
+    titleAr: "رحلة بحرية بالمركب التقليدي مع أفق الدوحة",
+    poster: "/images/combo_dhow_cruise.jpg",
+    href: "/experiences/doha-city-tour-with-dhow-cruise-4-5-hours"
   },
   {
     id: "reel-4",
-    title: "Al Marmoom Desert Dome & Dinner",
-    titleAr: "قباب المرموم الفاخرة والعشاء البدوي",
-    poster: "/images/exp_alkhayma_bbq.jpg",
-    href: "/experiences/al-marmoom-oasis-luxury-experiential-desert-domes"
+    title: "Meryal Waterpark & Desert Falls Adventures",
+    titleAr: "مغامرات حديقة مريال المائية وشلالات الصحراء",
+    poster: "/images/adventure_meryal_waterpark.jpg",
+    href: "/experiences/meryal-waterpark-ultimate-water-adventure"
   },
   {
     id: "reel-5",
-    title: "Old Dubai Heritage Walking Tour",
-    titleAr: "جولة تراث دبي القديمة في الفهيدي",
-    poster: "/images/exp_alfahidi_walking.jpg",
-    href: "/experiences/04-hours-short-dubai-city-tour"
+    title: "Purple Island Mangroves Kayaking",
+    titleAr: "تجديف قوارب الكاياك في غابات القرم بجزيرة بن غنام",
+    poster: "/images/beyond_purple_island.jpg",
+    href: "/experiences/purple-island-kayaking-tour-4-hours"
   }
 ];
 
 const WHERE_WE_GO_DESTINATIONS = [
   {
-    id: "dubai",
-    slug: "dubai",
-    name: "Dubai",
-    nameAr: "دبي",
-    experienceCount: "27 experiences",
-    experienceCountAr: "27 تجربة",
-    tagline: "The Pearl of the Middle East",
-    taglineAr: "لؤلؤة الشرق الأوسط",
-    image: "/images/dest_dubai.jpg"
-  },
-  {
-    id: "abu-dhabi",
-    slug: "abu-dhabi",
-    name: "Abu Dhabi",
-    nameAr: "أبوظبي",
-    experienceCount: "16 experiences",
-    experienceCountAr: "16 تجربة",
-    tagline: "The Capital of UAE",
-    taglineAr: "عاصمة دولة الإمارات",
-    image: "/images/dest_abu_dhabi.jpg"
-  },
-  {
     id: "doha",
     slug: "doha",
-    name: "Doha",
-    nameAr: "الدوحة",
-    experienceCount: "8 experiences",
-    experienceCountAr: "8 تجارب",
-    tagline: "Adventures in the desert",
-    taglineAr: "مغامرات في قلب الصحراء والبحر",
+    name: "Doha City & Lusail",
+    nameAr: "مدينة الدوحة ولوسيل",
+    experienceCount: "10 experiences",
+    experienceCountAr: "10 تجارب",
+    tagline: "Futuristic skyscrapers, Souq Waqif & Katara",
+    taglineAr: "أبراج عصرية، سوق واقف، والقرية الثقافية كتارا",
     image: "/images/dest_doha.jpg"
   },
   {
-    id: "cairo",
-    slug: "cairo",
-    name: "Cairo",
-    nameAr: "القاهرة",
-    experienceCount: "19 experiences",
-    experienceCountAr: "19 تجربة",
-    tagline: "The ancient Nile civilization",
-    taglineAr: "حضارة النيل الخالدة",
-    image: "/images/dest_cairo.jpg"
+    id: "inland-sea",
+    slug: "doha",
+    name: "Inland Sea & Sealine Desert",
+    nameAr: "خور العديد وصحراء سيلين",
+    experienceCount: "5 experiences",
+    experienceCountAr: "5 تجارب",
+    tagline: "UNESCO recognized dunes meeting the turquoise sea",
+    taglineAr: "كثبان رملية ساحرة تعانق مياه الخليج الفيروزية",
+    image: "/images/hero_desert_safari.jpg"
   },
   {
-    id: "sharm",
-    slug: "sharm-el-sheikh",
-    name: "Sharm El Sheikh",
-    nameAr: "شرم الشيخ",
-    experienceCount: "12 experiences",
-    experienceCountAr: "12 تجربة",
-    tagline: "Crystal clear waters and sandy beaches",
-    taglineAr: "مياه فيروزية صافية وشواطئ خلابة",
-    image: "/images/dest_sharm.jpg"
+    id: "al-khor",
+    slug: "doha",
+    name: "Al Khor & Purple Island",
+    nameAr: "الخور وجزيرة بن غنام (الأرجوانية)",
+    experienceCount: "4 experiences",
+    experienceCountAr: "4 تجارب",
+    tagline: "Mangrove kayaking, Panda House & Al Thakhira",
+    taglineAr: "تجديف قوارب الكاياك بين أشجار القرم وبيت الباندا",
+    image: "/images/beyond_purple_island.jpg"
+  },
+  {
+    id: "west-coast",
+    slug: "doha",
+    name: "Zekreet & Dukhan West Coast",
+    nameAr: "دخان والساحل الغربي وزكريت",
+    experienceCount: "3 experiences",
+    experienceCountAr: "3 تجارب",
+    tagline: "Limestone rock formations, untouched beaches & art",
+    taglineAr: "تشكيلات صخرية ساحرة وشواطئ هادئة وفنون صحراوية",
+    image: "/images/beyond_dukhan_west_coast.jpg"
+  },
+  {
+    id: "banana-island",
+    slug: "doha",
+    name: "Banana Island & Waterparks",
+    nameAr: "جزيرة البنانا والمدن المائية",
+    experienceCount: "5 experiences",
+    experienceCountAr: "5 تجارب",
+    tagline: "Luxury island day trip, Meryal & Desert Falls",
+    taglineAr: "منتجع البنانا الفاخر ومريال ومدينة شلالات الصحراء",
+    image: "/images/tour_banana_island.jpg"
   }
 ];
 
@@ -204,45 +201,45 @@ const MOODS = [
 const MULTIDAY_JOURNEYS = [
   {
     id: "multi-1",
-    slug: "cairo-2-day-bahariya-oasis-camp-and-desert-tour",
-    title: "Cairo: 2-Day Bahariya Oasis Camp and Desert Tour",
-    titleAr: "القاهرة: رحلة يومين لمخيم واحة البحرية والصحراء البيضاء",
-    destination: "Cairo",
-    destinationAr: "القاهرة",
-    nextDate: "NEXT: NOV 18",
-    nextDateAr: "الرحلة القادمة: 18 نوفمبر",
-    rating: 4.8,
-    reviews: 903,
-    price: 225.67,
-    image: "/images/multiday_1.jpg"
+    slug: "overnight-desert-safari-qatar",
+    title: "Overnight Desert Safari Experience Qatar",
+    titleAr: "تجربة سفاري صحراوي مبيت في قطر",
+    destination: "Inland Sea & Sealine",
+    destinationAr: "خور العديد وسيلين",
+    nextDate: "DAILY DEPARTURES",
+    nextDateAr: "انطلاق يومي",
+    rating: 4.95,
+    reviews: 1420,
+    price: 1800,
+    image: "/images/desert_safari_overnight.jpg"
   },
   {
     id: "multi-2",
-    slug: "09-days-egypt-tour-cairo-pyramids-luxor-aswan-nile-cruise",
-    title: "09-Days Egypt Tour: Cairo Pyramids, Luxor, Aswan & Nile Cruise",
-    titleAr: "جولة مصر 9 أيام: أهرامات القاهرة، الأقصر، أسوان والرحلة النيلية",
-    destination: "Cairo",
-    destinationAr: "القاهرة",
-    nextDate: "NEXT: NOV 18",
-    nextDateAr: "الرحلة القادمة: 18 نوفمبر",
-    rating: 4.8,
-    reviews: 992,
-    price: 1618.47,
-    image: "/images/multiday_2.jpg"
+    slug: "full-day-desert-safari-with-quad-bike-inland-sea",
+    title: "Full Day Desert Safari with Quad Bike Inland Sea",
+    titleAr: "سفاري صحراوي يوم كامل مع دراجات الدفع الرباعي والبحر الداخلي",
+    destination: "Khor Al Adaid",
+    destinationAr: "خور العديد",
+    nextDate: "DAILY DEPARTURES",
+    nextDateAr: "انطلاق يومي",
+    rating: 4.92,
+    reviews: 1180,
+    price: 1000,
+    image: "/images/desert_safari_fullday_atv.jpg"
   },
   {
     id: "multi-3",
-    slug: "cairo-3-day-siwa-oasis-tour-safari-camp-historical-site",
-    title: "Cairo: 3-Day Siwa Oasis Tour, Safari, Camp & Historical Site",
-    titleAr: "القاهرة: رحلة 3 أيام لواحة سيوة الأسطورية والسفاري والينابيع الكبريتية",
-    destination: "Cairo",
-    destinationAr: "القاهرة",
-    nextDate: "NEXT: NOV 18",
-    nextDateAr: "الرحلة القادمة: 18 نوفمبر",
-    rating: 4.8,
-    reviews: 1073,
-    price: 635.78,
-    image: "/images/multiday_3.jpg"
+    slug: "doha-fishing-tour-10-hours",
+    title: "Doha Fishing Tour – 10 Hours Deep Sea Expedition",
+    titleAr: "رحلة صيد الأسماك في الدوحة – 10 ساعات في أعماق الخليج",
+    destination: "Doha Marine Coast",
+    destinationAr: "سواحل الدوحة البحرية",
+    nextDate: "DAILY DEPARTURES",
+    nextDateAr: "انطلاق يومي",
+    rating: 4.90,
+    reviews: 840,
+    price: 2000,
+    image: "/images/adventure_doha_fishing.jpg"
   }
 ];
 
@@ -255,7 +252,7 @@ export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
 
   // Section 3: "Where to, first?" Filter State
-  const [selectedWhereToDest, setSelectedWhereToDest] = useState("Dubai");
+  const [selectedWhereToDest, setSelectedWhereToDest] = useState("all");
 
   // Section 8: "Pick a mood" Filter State
   const [selectedMood, setSelectedMood] = useState("family");
@@ -277,29 +274,25 @@ export default function HomePage() {
   // Section 3: Tours for "Where to, first?"
   const whereToTours = useMemo(() => {
     const list = catalogData as CatalogExperience[];
-    const matched = list.filter((item) =>
-      item.destination.toLowerCase().includes(selectedWhereToDest.toLowerCase())
-    );
-    return matched.slice(0, 4);
+    if (selectedWhereToDest === "all") {
+      return list.slice(0, 8);
+    }
+    const matched = list.filter((item) => {
+      const cat = ((item as any).categoryName || (item as any).category || "").toLowerCase();
+      const slug = item.slug.toLowerCase();
+      if (selectedWhereToDest === "desert") return cat.includes("desert") || slug.includes("desert");
+      if (selectedWhereToDest === "city") return cat.includes("city") || slug.includes("city") || slug.includes("lusail");
+      if (selectedWhereToDest === "adventure") return cat.includes("adventure") || slug.includes("water") || slug.includes("ski") || slug.includes("fishing");
+      if (selectedWhereToDest === "culture") return cat.includes("cultural") || cat.includes("historical") || slug.includes("museum");
+      if (selectedWhereToDest === "beyond") return slug.includes("panda") || slug.includes("dukhan") || slug.includes("purple") || slug.includes("zubara");
+      return true;
+    });
+    return (matched.length > 0 ? matched : list).slice(0, 8);
   }, [selectedWhereToDest]);
 
   // Section 8: Tours for "Pick a mood, we'll pick the tour."
   const moodTours = useMemo(() => {
     const list = catalogData as CatalogExperience[];
-    // Hand-curated 8 tours matching homepagefinal.png exact order
-    const ids = [
-      "exp-2", // Dubai: Half-Day Desert Safari, Quad Bike, Camels & Sandboarding (31.55)
-      "exp-13", // Abu Dhabi: Desert Safari with Camel Ride, Sandboarding & BBQ (77.55)
-      "exp-3", // Dubai City Tour with Frame Ticket, Creek, Souks & Blue Mosque (54.32)
-      "exp-44", // Private Dubai City Tour with Burj Khalifa (517.27)
-      "exp-31", // Abu Dhabi: Guided Walking Tour at Sheikh Zayed (or Louvre) (15.31 / 22.72)
-      "exp-5", // Dubai: Al Marmoom Oasis Horse Riding Experience (27.16)
-      "exp-8", // Dubai: Al Khayma Camp Experience with BBQ Dinner (62.66)
-      "exp-14" // Dubai: Evening Heritage Safari in Vintage G-Class at Al Marmoom (145.67)
-    ];
-
-    const found = ids.map((id) => list.find((item) => item.id === id)).filter(Boolean) as CatalogExperience[];
-    if (found.length >= 8) return found;
     return list.slice(0, 8);
   }, []);
 
@@ -330,8 +323,8 @@ export default function HomePage() {
             {/* Kicker / Eyebrow */}
             <p className="t-eyebrow text-white/85 tracking-[0.16em] sm:tracking-[0.2em] text-[9.5px] sm:text-xs">
               {language === "ar"
-                ? "دبي وقطر · خبرة منذ عام 2010"
-                : "DUBAI BASED · SINCE 2010"}
+                ? "الدوحة، قطر · تنظيم الرحلات السياحية منذ 2010"
+                : "DOHA, QATAR · OPERATING SINCE 2010"}
             </p>
 
             {/* Main H1 Headline */}
@@ -344,8 +337,8 @@ export default function HomePage() {
             {/* Subtitle */}
             <p className="text-xs sm:text-sm md:text-base text-white/90 max-w-2xl font-normal leading-relaxed">
               {language === "ar"
-                ? "رحلات السفاري الصحراوية، الجولات البحرية، والرحلات متعددة الأيام عبر قطر، الإمارات، مصر، والمزيد."
-                : "Desert safaris, sea cruises, and multi-day journeys across the UAE, Egypt, Croatia, Morocco, and Oman."}
+                ? "رحلات السفاري الصحراوية لخور العديد، جولات مدينة لوسيل، الرحلات البحرية بالداو، وتجارب قطر الأصيلة."
+                : "Desert safaris to the Inland Sea, futuristic Lusail tours, traditional dhow cruises, and curated experiences across Qatar."}
             </p>
 
             {/* WHAT CAN WE PLAN FOR YOU? Search Glass Capsule */}
@@ -734,16 +727,16 @@ export default function HomePage() {
         </section>
 
         {/* ==============================================================
-            SECTION 6: DESTINATION SPOTLIGHT (EGYPT IN OCTOBER)
+            SECTION 6: DESTINATION SPOTLIGHT (KHOR AL ADAID INLAND SEA)
             ============================================================== */}
         <section className="relative bg-[#091D2C] text-white py-14 lg:py-20 overflow-hidden">
           {/* Subtle Silhouette Background */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-40">
             <Image
-              src="/images/dest_cairo.jpg"
-              alt="Egypt Silhouette"
+              src="/images/hero_desert_safari.jpg"
+              alt="Qatar Inland Sea Dunes"
               fill
-              className="object-cover object-center filter saturate-50"
+              className="object-cover object-center filter saturate-75"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#091D2C] via-[#091D2C]/80 to-[#091D2C]/90" />
           </div>
@@ -753,24 +746,24 @@ export default function HomePage() {
               {/* Left Column: Editorial Headline & Action */}
               <div className="space-y-4">
                 <p className="t-eyebrow text-cyan-300 tracking-wider">
-                  {language === "ar" ? "تسليط الضوء على وجهة" : "DESTINATION SPOTLIGHT"}
+                  {language === "ar" ? "تسليط الضوء على وجهة استثنائية" : "DESTINATION SPOTLIGHT"}
                 </p>
                 <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-bold text-white leading-[1.12] tracking-tight">
                   {language === "ar"
-                    ? "مصر في الخريف. النيل دون حشود."
-                    : "Egypt in October. The Nile, with no crowds."}
+                    ? "خور العديد. حيث تعانق كثبان الصحراء مياه البحر."
+                    : "Khor Al Adaid. Where golden dunes meet the sea."}
                 </h2>
                 <p className="text-sm sm:text-base text-white/85 max-w-xl font-normal leading-relaxed">
                   {language === "ar"
-                    ? "هواء عليل، ضوء ذهبي، ومسارات الفلوكة النيلية التي يفضلها المرشدون حقاً."
-                    : "Cooler air, golden light, and the felucca routes guides actually want to run."}
+                    ? "أحد الأماكن النادرة في العالم المعترف بها من اليونسكو، انطلق في مغامرة دفع رباعي أصيلة مع مرشدينا المحليين المحترفين."
+                    : "One of the few places on earth where towering dunes plunge directly into turquoise waters. UNESCO recognized."}
                 </p>
                 <div className="pt-2">
                   <Link
-                    href="/destinations/cairo"
+                    href="/experiences/half-day-desert-safari-inland-sea-qatar"
                     className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white hover:bg-gray-100 text-black text-xs sm:text-sm font-bold shadow-lg transition-all cursor-pointer"
                   >
-                    <span>{language === "ar" ? "استكشف رحلات مصر" : "See Egypt journeys"}</span>
+                    <span>{language === "ar" ? "استكشف رحلات السفاري" : "Explore Inland Sea Safari"}</span>
                     <span>→</span>
                   </Link>
                 </div>
@@ -779,30 +772,30 @@ export default function HomePage() {
               {/* Right Column: 2x2 Stat Widgets */}
               <div className="grid grid-cols-2 gap-3 sm:gap-4">
                 <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 sm:p-5 border border-white/15">
-                  <div className="text-2xl sm:text-3xl font-extrabold text-white">22°C</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-white">100%</div>
                   <p className="text-[11px] sm:text-xs text-white/75 mt-1 leading-snug">
-                    {language === "ar" ? "متوسط حرارة أكتوبر على النيل" : "Average October temperature on the Nile"}
+                    {language === "ar" ? "طبيعة بكر معترف بها عالمياً" : "Untouched UNESCO recognized nature"}
                   </p>
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 sm:p-5 border border-white/15">
-                  <div className="text-2xl sm:text-3xl font-extrabold text-white">68%</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-white">4x4</div>
                   <p className="text-[11px] sm:text-xs text-white/75 mt-1 leading-snug">
-                    {language === "ar" ? "أكثر هدوءاً من موسم الذروة" : "Quieter than peak Dec-Feb season"}
+                    {language === "ar" ? "سائقون محترفون ومركبات حديثة" : "Expert licensed 4x4 desert drivers"}
                   </p>
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 sm:p-5 border border-white/15">
-                  <div className="text-2xl sm:text-3xl font-extrabold text-white">9</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-white">27</div>
                   <p className="text-[11px] sm:text-xs text-white/75 mt-1 leading-snug">
-                    {language === "ar" ? "رحلات منسقة (2 إلى 14 يوماً)" : "Curated Egypt journeys, 2-14 days"}
+                    {language === "ar" ? "جولات قطر المنسقة رسمياً" : "Official curated Qatar tours"}
                   </p>
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 sm:p-5 border border-white/15">
-                  <div className="text-2xl sm:text-3xl font-extrabold text-amber-300">★ 4.9</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-amber-300">★ 4.95</div>
                   <p className="text-[11px] sm:text-xs text-white/75 mt-1 leading-snug">
-                    {language === "ar" ? "186 تقييماً موثقاً من عام 2025" : "186 verified reviews from 2025"}
+                    {language === "ar" ? "أكثر من 50,000 مسافر راضٍ" : "50,000+ satisfied adventurers"}
                   </p>
                 </div>
               </div>
@@ -818,7 +811,7 @@ export default function HomePage() {
         </section>
 
         {/* ==============================================================
-            SECTION 7: THE OCEANAIR STANDARD (SMALL DETAILS)
+            SECTION 7: THE GOTT QATAR STANDARD (SMALL DETAILS)
             ============================================================== */}
         <section className="bg-white py-16 lg:py-24 border-b border-gray-100">
           <div className="max-w-[1280px] mx-auto px-4 md:px-6 lg:px-10">
@@ -827,7 +820,7 @@ export default function HomePage() {
               <div className="space-y-6">
                 <div>
                   <p className="t-eyebrow text-[#0097CA] mb-2 tracking-wider">
-                    {language === "ar" ? "معايير جوّ قطر العالية" : "THE OCEANAIR STANDARD"}
+                    {language === "ar" ? "معايير جوّ قطر العالية" : "THE GOTT QATAR STANDARD"}
                   </p>
                   <h2 className="text-2xl sm:text-3xl lg:text-[34px] font-bold text-black leading-tight tracking-tight">
                     {language === "ar"
@@ -883,7 +876,7 @@ export default function HomePage() {
               <div className="relative rounded-3xl overflow-hidden aspect-[4/3] sm:aspect-[16/11] shadow-2xl border border-gray-200/80 bg-gray-100 group">
                 <Image
                   src="/brand/signature-standard-poster.jpg"
-                  alt="OceanAir Safari Guide Team Briefing"
+                  alt="Gott Qatar Safari Guide Team Briefing"
                   fill
                   className="object-cover group-hover:scale-104 transition-transform duration-700"
                 />
@@ -1049,8 +1042,8 @@ export default function HomePage() {
                 </h2>
                 <p className="text-xs sm:text-sm text-gray-500 mt-1">
                   {language === "ar"
-                    ? "رحلات غامرة وممتدة عبر قطر، الإمارات، مصر، والخليج — بإرشاد متكامل."
-                    : "Immersive trips across the UAE, Egypt, Croatia and Oman — guided end to end."}
+                    ? "رحلات غامرة وممتدة تشمل التخييم في الصحراء والرحلات البحرية في قطر."
+                    : "Immersive desert safaris, coastal journeys, and extended tours across Qatar."}
                 </p>
               </div>
               <Link
@@ -1083,7 +1076,7 @@ export default function HomePage() {
                       {/* Top Left Badge */}
                       <div className="absolute top-2.5 left-2.5 rtl:left-auto rtl:right-2.5 z-10">
                         <span className="bg-black/80 backdrop-blur-xs text-white text-[9.5px] font-extrabold uppercase px-2.5 py-1 rounded-full shadow-xs">
-                          MULTI-DAY
+                          FEATURED
                         </span>
                       </div>
                       {/* Bottom Date Pill */}
@@ -1151,8 +1144,8 @@ export default function HomePage() {
                 </p>
                 <h2 className="text-xl sm:text-2xl font-bold text-black leading-snug">
                   {language === "ar"
-                    ? "فريق عمل متمرس يقود هذه التجارب منذ عام 2010."
-                    : "A Dubai-based team that’s been running these tours since 2010."}
+                    ? "فريق عمل محلي متمرس في قطر يقود هذه التجارب منذ عام 2010."
+                    : "A Doha-based expert team operating curated Qatar tours since 2010."}
                 </h2>
                 <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                   {language === "ar"
@@ -1170,32 +1163,32 @@ export default function HomePage() {
                   </div>
                   <p className="text-[11px] text-gray-500 leading-snug">
                     {language === "ar"
-                      ? "فريق محلي متخصص: تتحدث مباشرة مع من يدير رحلتك."
-                      : "Dubai-based: you talk to the team that runs the tour."}
+                      ? "فريق محلي متخصص: تتحدث مباشرة مع من يدير رحلتك في قطر."
+                      : "Doha-based: you talk directly to the team that runs your tour."}
                   </p>
                 </div>
 
                 <div className="space-y-1 border-l sm:border-l-0 sm:border-r rtl:border-l-0 rtl:border-r-0 rtl:sm:border-l border-gray-200 px-3">
-                  <div className="text-3xl font-extrabold text-black">20k+</div>
+                  <div className="text-3xl font-extrabold text-black">27</div>
                   <div className="text-xs font-semibold text-gray-700">
-                    {language === "ar" ? "حجز كل شهر" : "Bookings every month"}
+                    {language === "ar" ? "جولة منسقة ومضمونة" : "Curated Qatar tours"}
                   </div>
                   <p className="text-[11px] text-gray-500 leading-snug">
                     {language === "ar"
-                      ? "عبر قطر، الإمارات، مصر، السعودية، وسلطنة عمان."
-                      : "Across UAE, Egypt, Croatia, Saudi Arabia, and Oman."}
+                      ? "تغطي الدوحة، سيلين، خور العديد، لوسيل، والساحل الغربي."
+                      : "Across Doha, Inland Sea, Lusail, Al Khor, and Zekreet."}
                   </p>
                 </div>
 
                 <div className="space-y-1 px-3">
-                  <div className="text-3xl font-extrabold text-amber-500">★ 4.9</div>
+                  <div className="text-3xl font-extrabold text-amber-500">★ 4.95</div>
                   <div className="text-xs font-semibold text-gray-700">
-                    {language === "ar" ? "عبر 80 ألف تقييم" : "Across 80K+ reviews"}
+                    {language === "ar" ? "عبر 50 ألف تقييم" : "Across 50K+ reviews"}
                   </div>
                   <p className="text-[11px] text-gray-500 leading-snug">
                     {language === "ar"
-                      ? "تقييمات مجمعة من كبرى منصات السفر العالمية."
-                      : "Blended from several top partner platforms."}
+                      ? "تقييمات موثقة من مسافرين حول العالم."
+                      : "Verified reviews from international travelers."}
                   </p>
                 </div>
               </div>

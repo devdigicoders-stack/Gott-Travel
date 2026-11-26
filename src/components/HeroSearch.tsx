@@ -34,7 +34,7 @@ export function HeroSearch({ onSearch }: HeroSearchProps) {
       className="relative bg-[#07152B] min-h-[88svh] md:min-h-[96svh] flex flex-col justify-center overflow-hidden"
       aria-labelledby="home-hero-title"
     >
-      {/* Background Image & OceanAir Vignette Overlay */}
+      {/* Background Image & Vignette Overlay */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute inset-x-0 -inset-y-[8%]">
           <Image
@@ -45,7 +45,7 @@ export function HeroSearch({ onSearch }: HeroSearchProps) {
             sizes="100vw"
             className="object-cover"
           />
-          {/* Radial & linear gradient overlay matching OceanAir */}
+          {/* Radial & linear gradient overlay */}
           <div
             className="absolute inset-0 pointer-events-none"
             style={{

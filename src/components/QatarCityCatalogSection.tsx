@@ -16,15 +16,15 @@ interface QatarCityCatalogProps {
   showHeading?: boolean;
 }
 
-const QATAR_CATALOG_PRICES: Record<string, string> = {
-  "lusail-city-tour-4-hours": "QAR 485.00",
-  "full-day-doha-city-tour-6-hours": "QAR 600.00",
-  "doha-express-city-tour-4-hours": "QAR 446.00",
-  "fifa-stadiums-tour-4-hours": "QAR 350.00",
-  "exclusive-shopping-tour-4-hours": "QAR 200.00",
-  "banana-island-day-tour-doha": "QAR 300.00",
-  "katara-cultural-tour-2-hours": "QAR 200.00",
-};
+const CATALOG_CATEGORIES = [
+  { id: "city", labelEn: "City Tours & Highlights", labelAr: "جولات المدينة والمعالم", filter: ["lusail-city-tour-4-hours", "full-day-doha-city-tour-6-hours", "doha-express-city-tour-4-hours", "fifa-stadiums-tour-4-hours", "exclusive-shopping-tour-4-hours", "banana-island-day-tour-doha", "katara-cultural-tour-2-hours"] },
+  { id: "desert", labelEn: "Desert Safari", labelAr: "رحلات السفاري الصحراوية", filter: ["overnight-desert-safari-qatar", "sunrise-desert-safari", "sunset-desert-safari", "full-day-desert-safari-with-quad-bike-inland-sea", "half-day-desert-safari-inland-sea-qatar"] },
+  { id: "adventure", labelEn: "Adventure & Water Parks", labelAr: "المغامرات والمدن المائية", filter: ["doha-fishing-tour-10-hours", "meryal-waterpark-ultimate-water-adventure", "jet-ski-adventure-in-doha", "parasailing-experience-in-doha", "desert-falls-water-adventure-park", "snow-theme-park-qatar-snow-dunes"] },
+  { id: "museum", labelEn: "Museums & Culture", labelAr: "المتاحف والثقافة", filter: ["sheikh-faisal-museum-camel-track-tour", "full-day-museum-tour-6-hours", "museum-of-illusions-doha"] },
+  { id: "combo", labelEn: "Combo Tours", labelAr: "الجولات المدمجة", filter: ["doha-city-tour-with-dhow-cruise-4-5-hours", "zubara-north-coast-tour-with-kayaking-7-hours", "doha-city-tour-with-desert-safari-7-hours"] },
+  { id: "beyond", labelEn: "Beyond Doha", labelAr: "خارج الدوحة", filter: ["panda-house-al-khor-with-zoo-tour-4-hours", "dukhan-west-coast-tour-4-hours", "purple-island-kayaking-tour-4-hours"] },
+  { id: "all", labelEn: "All 27 Tours", labelAr: "جميع الـ 27 جولة", filter: [] }
+];
 
 export function QatarCityCatalogSection({
   className = "",
@@ -32,21 +32,17 @@ export function QatarCityCatalogSection({
 }: QatarCityCatalogProps) {
   const router = useRouter();
   const { language } = useLanguage();
+  const { formatPrice } = useCurrency();
   const { addItem } = useCart();
+  const [activeTab, setActiveTab] = useState<string>("city");
   const [addedSlug, setAddedSlug] = useState<string | null>(null);
 
-  // Qatar City & Highlights catalog tours
-  const catalogTours = (experiencesData as unknown as Experience[]).filter((exp) =>
-    [
-      "lusail-city-tour-4-hours",
-      "full-day-doha-city-tour-6-hours",
-      "doha-express-city-tour-4-hours",
-      "fifa-stadiums-tour-4-hours",
-      "exclusive-shopping-tour-4-hours",
-      "banana-island-day-tour-doha",
-      "katara-cultural-tour-2-hours",
-    ].includes(exp.slug)
-  );
+  const allTours = experiencesData as unknown as Experience[];
+  const currentCategory = CATALOG_CATEGORIES.find((c) => c.id === activeTab) || CATALOG_CATEGORIES[0];
+
+  const filteredTours = activeTab === "all"
+    ? allTours
+    : allTours.filter((t) => currentCategory.filter.includes(t.slug));
 
   const handleQuickAdd = (e: React.MouseEvent, exp: Experience) => {
     e.preventDefault();
@@ -58,7 +54,7 @@ export function QatarCityCatalogSection({
       id: bookingId,
       experience: exp,
       date: todayStr,
-      timeSlot: exp.itinerary[0]?.time || "09:00 AM",
+      timeSlot: exp.itinerary?.[0]?.time || "09:00 AM",
       adults: 1,
       children: 0,
       totalPrice: exp.price,
@@ -74,48 +70,74 @@ export function QatarCityCatalogSection({
     <section className={`w-full py-8 sm:py-12 ${className}`}>
       <div className="max-w-[1280px] mx-auto px-4 md:px-6 lg:px-10">
         <div className="bg-[#121417] text-white rounded-3xl p-5 sm:p-7 md:p-9 shadow-2xl border border-white/10">
-          {/* Header matching screenshot: QATAR CITY TOURS & EXPERIENCES | See all */}
+          {/* Header matching WhatsApp Catalog style */}
           {showHeading && (
-            <div className="flex items-center justify-between gap-4 mb-5 sm:mb-6 border-b border-white/10 pb-4">
-              <h2 className="text-base sm:text-lg md:text-xl font-extrabold tracking-wider uppercase text-white font-sans">
-                {language === "ar"
-                  ? "جولات وتجارب مدينة قطر"
-                  : "QATAR CITY TOURS & EXPERIENCES"}
-              </h2>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-5 sm:mb-6 border-b border-white/10 pb-4">
+              <div>
+                <span className="text-xs uppercase font-bold tracking-widest text-emerald-400">
+                  {language === "ar" ? "كتالوج واتساب الرسمي" : "Official Qatar WhatsApp Catalog"}
+                </span>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-extrabold tracking-wider uppercase text-white font-sans mt-0.5">
+                  {language === "ar" ? "كتالوج جولات قطر الرسمية" : "QATAR TOURS & EXPERIENCES"}
+                </h2>
+              </div>
               <Link
-                href="/experiences?destination=Doha&category=City"
-                className="text-sm sm:text-base font-bold text-[#22c55e] hover:text-[#16a34a] transition-colors flex items-center gap-1 shrink-0"
+                href="/experiences"
+                className="text-sm sm:text-base font-bold text-[#22c55e] hover:text-[#16a34a] transition-colors flex items-center gap-1 shrink-0 self-start sm:self-auto"
               >
-                <span>{language === "ar" ? "عرض الكل" : "See all"}</span>
+                <span>{language === "ar" ? "عرض كل الـ 27 جولة" : "See all 27 tours"}</span>
                 <span className="text-xs">→</span>
               </Link>
             </div>
           )}
 
-          {/* 3 Catalog Cards matching screenshot layout */}
+          {/* Catalog Category Pills */}
+          <div className="flex items-center gap-2 overflow-x-auto pb-3 mb-6 scrollbar-none border-b border-white/5">
+            {CATALOG_CATEGORIES.map((cat) => {
+              const isActive = activeTab === cat.id;
+              const label = language === "ar" ? cat.labelAr : cat.labelEn;
+              return (
+                <button
+                  key={cat.id}
+                  type="button"
+                  onClick={() => setActiveTab(cat.id)}
+                  className={`px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all shrink-0 cursor-pointer ${
+                    isActive
+                      ? "bg-white text-gray-900 shadow-md font-bold scale-[1.02]"
+                      : "bg-white/10 text-gray-300 hover:bg-white/20 hover:text-white"
+                  }`}
+                >
+                  {label}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Catalog Cards matching screenshot layout */}
           <div className="space-y-3 sm:space-y-4">
-            {catalogTours.map((tour) => {
+            {filteredTours.map((tour) => {
               const isAdded = addedSlug === tour.slug;
               const title = language === "ar" && tour.titleAr ? tour.titleAr : tour.title;
               const snippet =
                 language === "ar" && tour.shortDescriptionAr
                   ? tour.shortDescriptionAr
                   : tour.shortDescription;
+              const tourImage = (tour as any).image || tour.images?.[0] || "/images/dest_doha.jpg";
 
               return (
                 <div
                   key={tour.id}
                   onClick={() => router.push(`/experiences/${tour.slug}`)}
-                  className="group relative bg-[#1c1f24] hover:bg-[#23272e] border border-white/10 hover:border-white/20 rounded-2xl sm:rounded-2xl p-3 sm:p-4.5 transition-all duration-300 flex items-center justify-between gap-3 sm:gap-5 cursor-pointer shadow-md hover:shadow-xl"
+                  className="group relative bg-[#1c1f24] hover:bg-[#23272e] border border-white/10 hover:border-white/20 rounded-2xl p-3 sm:p-4.5 transition-all duration-300 flex items-center justify-between gap-3 sm:gap-5 cursor-pointer shadow-md hover:shadow-xl"
                 >
-                  {/* Left: White rounded square with Gott Qatar logo */}
-                  <div className="relative w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-2xl p-1.5 flex items-center justify-center shrink-0 shadow-sm overflow-hidden border border-gray-100">
+                  {/* Left: Real HD Tour Thumbnail */}
+                  <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden shrink-0 shadow-sm border border-white/10 bg-black/40">
                     <Image
-                      src="/brand/logo-blue.png"
+                      src={tourImage}
                       alt={title}
                       fill
                       sizes="80px"
-                      className="object-contain p-1.5 group-hover:scale-105 transition-transform"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
 
@@ -129,9 +151,17 @@ export function QatarCityCatalogSection({
                       {snippet}
                     </p>
 
-                    <div className="mt-1.5 sm:mt-2">
-                      <span className="text-sm sm:text-base font-bold text-white tracking-tight">
-                        {QATAR_CATALOG_PRICES[tour.slug] || "QAR 485.00"}
+                    <div className="mt-1.5 sm:mt-2 flex items-center gap-2">
+                      <span className="text-sm sm:text-base font-extrabold text-white tracking-tight">
+                        {formatPrice(tour.price)}
+                      </span>
+                      {tour.originalPrice && tour.originalPrice > tour.price && (
+                        <span className="text-xs text-gray-500 line-through">
+                          {formatPrice(tour.originalPrice)}
+                        </span>
+                      )}
+                      <span className="text-[11px] font-medium text-gray-400 bg-white/5 px-2 py-0.5 rounded">
+                        {tour.duration}
                       </span>
                     </div>
                   </div>
@@ -163,14 +193,14 @@ export function QatarCityCatalogSection({
             <span className="flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               {language === "ar"
-                ? "تأكيد فوري ودفع آمن بالريال القطري"
+                ? "تأكيد فوري ودفع آمن بالريال القطري (QAR)"
                 : "Instant confirmation & secure checkout in QAR"}
             </span>
             <Link
-              href="/destinations/doha"
+              href="/experiences"
               className="text-[#38bdf8] hover:underline font-semibold flex items-center gap-1"
             >
-              <span>{language === "ar" ? "استكشف دليل الدوحة" : "Explore Doha Destination Guide"}</span>
+              <span>{language === "ar" ? "تصفح جميع الجولات" : "Browse all Qatar Tours"}</span>
               <ArrowRight className="w-3.5 h-3.5 rtl:rotate-180" />
             </Link>
           </div>

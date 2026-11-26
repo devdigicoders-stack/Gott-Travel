@@ -41,20 +41,23 @@ export function CurrencyProvider({ children }: { children: React.ReactNode }) {
     window.dispatchEvent(new Event("gottqatar_curr_change"));
   };
 
-  const formatPrice = (priceInEur: number): string => {
+  const formatPrice = (priceInQar: number): string => {
+    if (!priceInQar && priceInQar !== 0) return "QAR 0.00";
     if (currentCurrency.code === "QAR") {
-      const converted = Math.round(priceInEur * currentCurrency.rate);
-      return `QAR ${converted}.00`;
+      return `QAR ${Math.round(priceInQar).toLocaleString()}.00`;
     }
-    if (currentCurrency.code === "EUR") {
-      return `EUR ${priceInEur.toFixed(2)}`;
-    }
-    const converted = Math.round(priceInEur * currentCurrency.rate);
+    const converted = Math.round(priceInQar * currentCurrency.rate);
     if (currentCurrency.code === "USD") {
       return `$${converted.toLocaleString()}`;
     }
+    if (currentCurrency.code === "EUR") {
+      return `€${converted.toLocaleString()}`;
+    }
     if (currentCurrency.code === "GBP") {
       return `£${converted.toLocaleString()}`;
+    }
+    if (currentCurrency.code === "AED") {
+      return `AED ${converted.toLocaleString()}`;
     }
     return `${currentCurrency.code} ${converted.toLocaleString()}`;
   };

@@ -22,18 +22,7 @@ import {
 
 // Static Filter Definitions
 const DESTINATIONS = [
-  { id: "Dubai", label: "Dubai", labelAr: "دبي" },
-  { id: "Abu Dhabi", label: "Abu Dhabi", labelAr: "أبوظبي" },
-  { id: "Doha", label: "Doha", labelAr: "الدوحة" },
-  { id: "Cairo", label: "Cairo", labelAr: "القاهرة" },
-  { id: "Sharm El Sheikh", label: "Sharm El Sheikh", labelAr: "شرم الشيخ" },
-  { id: "Alexandria", label: "Alexandria", labelAr: "الإسكندرية" },
-  { id: "Dubrovnik", label: "Dubrovnik", labelAr: "دوبروفنيك" },
-  { id: "Hurghada", label: "Hurghada", labelAr: "الغردقة" },
-  { id: "Luxor", label: "Luxor", labelAr: "الأقصر" },
-  { id: "Marrakech", label: "Marrakech", labelAr: "مراكش" },
-  { id: "Sarajevo", label: "Sarajevo", labelAr: "سراييفو" },
-  { id: "Split", label: "Split", labelAr: "سبليت" }
+  { id: "Doha", label: "Doha & Qatar", labelAr: "الدوحة وقطر" },
 ];
 
 const DESTINATION_ALIASES: Record<string, string> = {
@@ -41,44 +30,14 @@ const DESTINATION_ALIASES: Record<string, string> = {
   doha: "Doha",
   "الدوحة": "Doha",
   "قطر": "Doha",
-  dubai: "Dubai",
-  "دبي": "Dubai",
-  "abu-dhabi": "Abu Dhabi",
-  "abu dhabi": "Abu Dhabi",
-  abudhabi: "Abu Dhabi",
-  "أبوظبي": "Abu Dhabi",
-  cairo: "Cairo",
-  "القاهرة": "Cairo",
-  alexandria: "Alexandria",
-  "الإسكندرية": "Alexandria",
-  "sharm-el-sheikh": "Sharm El Sheikh",
-  "sharm el sheikh": "Sharm El Sheikh",
-  sharm: "Sharm El Sheikh",
-  "شرم الشيخ": "Sharm El Sheikh",
-  hurghada: "Hurghada",
-  "الغردقة": "Hurghada",
-  luxor: "Luxor",
-  "الأقصر": "Luxor",
-  marrakech: "Marrakech",
-  "مراكش": "Marrakech",
-  sarajevo: "Sarajevo",
-  "سراييفو": "Sarajevo",
-  split: "Split",
-  "سبليت": "Split",
-  dubrovnik: "Dubrovnik",
-  "دوبروفنيك": "Dubrovnik"
 };
 
 const CATEGORIES = [
-  { id: "Desert", label: "Desert", labelAr: "صحراء" },
-  { id: "Historical", label: "Historical", labelAr: "تاريخية" },
-  { id: "Adventure", label: "Adventure", labelAr: "مغامرة" },
+  { id: "Desert", label: "Desert Safari", labelAr: "سفاري الصحراء" },
   { id: "City", label: "City Tours", labelAr: "جولات المدينة" },
-  { id: "Multiday", label: "Multiday", labelAr: "رحلات متعددة الأيام" },
-  { id: "Cultural", label: "Cultural", labelAr: "ثقافية" },
-  { id: "Sea", label: "Sea", labelAr: "بحرية" },
-  { id: "Family", label: "Family", labelAr: "عائلية" },
-  { id: "Luxury", label: "Luxury", labelAr: "فاخرة" }
+  { id: "Adventure", label: "Adventure & Water Parks", labelAr: "مغامرات وحدائق مائية" },
+  { id: "Cultural", label: "Museum & Cultural", labelAr: "متاحف وتراث" },
+  { id: "Family", label: "Family & Wildlife", labelAr: "عائلية وحياة برية" },
 ];
 
 const CATEGORY_ALIASES: Record<string, string> = {

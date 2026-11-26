@@ -35,9 +35,7 @@ export interface MultidayTour {
 }
 
 const DESTINATIONS = [
-  { id: "Cairo", label: "Cairo", labelAr: "القاهرة" },
-  { id: "Hurghada", label: "Hurghada", labelAr: "الغردقة" },
-  { id: "Abu Dhabi", label: "Abu Dhabi", labelAr: "أبوظبي" },
+  { id: "Doha", label: "Doha & Qatar", labelAr: "الدوحة وقطر" },
 ];
 
 const CATEGORIES = [
